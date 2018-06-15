@@ -58,7 +58,8 @@ Thumbs.db
 .sass-cache
 
 # Other stuff #
-user.ini
+wp-config.php
+.user.ini
 blogs/
 tmp/
 wp-snapshots/
