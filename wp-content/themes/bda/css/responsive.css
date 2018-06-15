@@ -1,0 +1,753 @@
+/*  Media Queries
+--------------------------- */
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1030px;
+	}
+	.col-sm-5.left-part {
+		width: 43%;
+	}
+	.col-sm-7.right-part {
+		width: 57%;
+	}
+	.col-sm-10.primary-part {
+		width: 80%
+	}
+	.col-sm-2.secondary-part {
+		width: 20%
+	}
+}
+ @media only screen and (max-width:1199px) {
+	.main-navigation ul li.menu-item-has-children a {
+		padding-left: 20px;
+	}
+	.mem-directory.sidebar-cta a {
+		font-size: 13px;
+	}
+	.mem-directory a, .become-member a, .member-benifits a {
+		font-size: 10px;
+	}
+	.footer .col-sm-2 {
+		padding: 0 2px 0 0;
+		width: 105px;
+	}
+}
+
+/* Tablet Portrait size to standard 1024 (devices and browsers) */
+
+@media only screen and (max-width:1023px) {
+	.container {
+		width: 95%;
+	}
+	.main-navigation ul li a {
+		font-size: 17px;
+		padding: 12px 14%;
+	}
+	.main-navigation ul ul a {
+		font-size: 11px;
+		padding: 6px 12px;
+	}
+	.top-nav ul li a {
+		font-size: 12px;
+	}
+	nav.main-navigation .menu-item li.menu-item-object-event_category a {
+		font-size: 11.5px;
+	}
+	.recent-bda {
+		font-size: 40px;
+	}
+	.top-nav ul li {
+		padding: 10px 10px 7px;
+	}
+	.main-navigation ul li > a {
+		font-size: 16px;
+	}
+	.main-navigation ul ul a {
+		font-size: 10px;
+		padding: 6px 10px;
+	}
+	.main-navigation ul li.menu-item-has-children a {
+		padding-left: 20px;
+	}
+	.custom-row .content {
+		height: 750px;
+	}
+	.header-block span:first-child {
+		font-size: 15px;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.custom-row-premium .membership-block .content {
+		height: 380px;
+	}
+	.sign-up, .custom-row-premium .sign-up {
+		float: left;
+		margin: 0 10%;
+		left: 0;
+		padding: 15px 0;
+		width: 80%;
+	}
+}
+@media only screen and (max-width:985px) {
+	.header-block span:first-child {
+		font-size: 20px;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	span.membership-title {
+		min-height: 50px;
+	}
+	.main-navigation ul ul {
+		margin-top: -10px;
+	}
+	.membership-condition {
+		height: 55px;
+	}
+	.sidebar-cta {
+		line-height: 25px;
+	}
+	.mem-directory.sidebar-cta a {
+		font-size: 10px;
+		line-height: 25px;
+		padding: 0;
+	}
+	/*.widget_pippin_cpt_calendar h3, .widget_categories h3, .browse-event h3, .list-custom-taxonomy-widget h3.widget-title, .secondary-part h3.widget-title {
+		font-size: 7px;
+		line-height: 12px;
+	}*/
+	.browse-event ul > li > a {
+		font-size: 7px;
+	}
+	.ui-widget-content .ui-state-default {
+		font-size: 7px !important;
+	}
+	.ui-datepicker-title {
+		font-size: 11.5px;
+	}
+	.ui-datepicker .ui-datepicker-next span, .ui-datepicker .ui-datepicker-prev span {
+		top: 6px;
+	}
+	.footer .col-sm-2 {
+		padding: 0 5px;
+		width: 19% !important;
+		min-height: 150px;
+	}
+	.widget-5.widget-odd {
+		padding-left: 15px;
+	}
+}
+@media only screen and (max-width:897px) {
+	.ui-widget-content .ui-state-default, .ui-datepicker th {
+		font-size: 6.5px !important;
+	}
+	.main-navigation ul li.menu-item-has-children a {
+		padding-left: 15px;
+	}
+	.header-block span:nth-child(3) {
+		font-size: 12px;
+	}
+	.custom-row-premium .membership-block .content {
+		height: 410px;
+	}
+}
+@media only screen and (max-width:860px) {
+	.main-navigation ul li.menu-item-has-children a {
+		padding-left: 5px;
+	}
+	.mem-directory a, .become-member a, .member-benifits a {
+		font-size: 9px;
+	}
+}
+@media only screen and (max-width:768px) {
+	.main-navigation ul li a {
+		padding-left: 15px !important;
+		font-size: 13px;
+	}
+	.top-nav.mean-container {
+		position: relative;
+		margin-top: 20px;
+	}
+	.mean-container .mean-bar {
+		min-height: 55px;
+	}
+	.mean-container .mean-nav {
+		margin-top: 15px;
+	}
+	.site-header.header {
+		margin-bottom: 20px;
+		/*height: 90px;*/
+	}
+	.glyphicon-search {
+		float: left;
+		float: left;
+		margin: 15px 0 0 15px;
+		color: white;
+		font-size: 20px
+	}
+	.search-field {
+		display: block;
+		z-index: 989999999;
+	}
+	.top-nav {
+		width: 100%;
+		height: 46px;
+	}
+	.bda_excerpt {
+		padding-left: 15px;
+	}
+	.post-image {
+		margin-bottom: 20px;
+	}
+	.top-nav ul li {
+		padding: 0;
+	}
+	.glyphicon-search {
+		margin: 0;
+		height: inherit;
+		font-size: 24px;
+	}
+	.mem-directory a, .become-member a, .member-benifits a {
+		font-size: 10px;
+		line-height: 13px;
+	}
+	.mem-directory, .become-member, .member-benifits {
+		margin-bottom: 8px;
+	}
+	#sidebar-search button.search-submit {
+		width: 18%;
+	}
+	.membership-block .content {
+		min-height: 300px;
+	}
+	.ui-datepicker th, .ui-widget-content .ui-state-default {
+		font-size: 5px !important;
+		padding: 0 inherit;
+	}
+	.ui-datepicker td span, .ui-datepicker td a {
+		padding: 0;
+	}
+	.ui-datepicker-title {
+		font-size: 8.5px;
+	}
+	.top-nav ul li {
+		padding: 10px 17px 7px 0;
+		font-size: 13px;
+		line-height: 10px;
+	}
+	.ui-datepicker th, .ui-widget-content .ui-state-default {
+		font-size: 6.65px !important;
+		line-height: normal;
+	}
+	.ui-datepicker td {
+		line-height: 0;
+	}
+	.ui-datepicker .ui-datepicker-next span {
+		left: 10px;
+		top: 6px;
+	}
+	.ui-datepicker .ui-datepicker-prev span {
+		top: 6px;
+	}
+	.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+		height: 0;
+	}
+	.top-nav ul li .glyphicon {
+		font-size: 10px;
+		padding-left: 10px;
+	}
+	.custom-row .content {
+		height: 800px;
+	}
+	#sidebar-search input.search-field,
+	#sidebar-search button.search-submit,
+	.widget_archive select, select.month-archive,
+	aside.widget-month:after, aside.widget_archive:after, .widget-even.select-month.widget.widget_text:after{
+		font-size:8px;
+	}
+	.mem-directory.sidebar-cta a {
+		font-size: 8px;
+	}
+	.mem-directory, .become-member, .member-benifits {
+		margin-bottom: 20px;
+	}
+	.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content{
+		width:85%;
+	}
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px) {
+	.ui-datepicker td {
+		line-height: 15px;
+	}
+	.left-part img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.event-holder {
+		padding-left: 15px;
+	}
+	.holder-caption h2 {
+		text-align: center;
+	}
+	.top-nav ul li, .top-nav ul li:last-child {
+		border: none !important;
+	}
+	.top-nav ul li {
+	/*padding:10px 10px 7px;*/
+	}
+	.recent-bda {
+		font-size: 25px;
+	}
+	.name h3 {
+		font-size: 15px;
+	}
+	span.audition-venue, span.audition-time, span.audition-date, span.date {
+		font-size: 12px;
+	}
+	.details p {
+		font-size: 11px;
+	}
+	form#searchform {
+		z-index: 999999;
+		width: 85%;
+		top: 75px;
+		left: 16px;
+	}
+	.menu-top-menu-container, header .social-icon {
+		display: none;
+	}
+	.glyphicon-search {
+		font-size: 16px;
+		margin: 15px 0 0 10px
+	}
+	.section-wrapper .row .col-sm-2:first-child img {
+		width: 80%;
+	}
+	.footer .col-sm-2 {
+		min-height: 160px;
+		width: 33% !important;
+		float: left;
+	}
+	.widget-6.widget-even.footer-widget, .widget-3.widget-odd.footer-widget {
+		padding-left: 15px;
+	}
+	.widget-5.widget-odd.footer-widget {
+		padding-left: 0;
+	}
+	.copyright {
+		clear: both;
+		width: 100%;
+	}
+	.acf-field .acf-input {
+		width: 100%;
+	}
+	.top-nav ul li:nth-last-child(2) {
+		padding-right: 0;
+	}
+	.custom-row .content {
+		height: 370px;
+	}
+	.header-block span:first-child {
+		font-size: 13px;
+		height: 40px;
+		padding: 0 15px;
+	}
+	.custom-row-premium .header-block {
+		min-height: 160px;
+	}
+	.custom-row-premium .membership-block .content {
+		height: 350px;
+	}
+	.membership-block p {
+		font-size: 12px;
+	}
+	.site-main .sign-up a {
+		font-size: 10px;
+	}
+	.sign-up, .custom-row-premium .sign-up {
+		padding: 5px 0;
+	}
+	.image.col-sm-6.event-holder {
+		width: 50%;
+		float: left;
+		
+	}
+	.color.col-sm-6.event-holder {
+		width: 50%;
+		float: left;
+		margin-bottom:30px;
+	}
+}
+@media only screen and (max-width:736px) {
+	.custom-row .content {
+		height: 540px;
+	}
+	.custom-row-premium .membership-block .content {
+		height: 300px;
+	}
+	.details{
+		min-height: 133px;
+	}
+}
+@media only screen and (max-width:667px) {
+	.custom-row .content {
+		height: 590px;
+	}
+}
+@media only screen and (max-width:668px) {
+	.custom-row .content {
+		height: 715px;
+	}
+}
+@media only screen and (max-width:568px) {
+	.custom-row-premium .membership-block .content {
+		height: 340px;
+	}
+	.membership-block .content {
+		min-height: auto !important;
+	}
+	.details{
+		min-height: inherit;
+	}
+}
+@media only screen and (max-width:567px) {
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, 	.col-xs-12 {
+		width: 100%;
+	}
+	input[type="text"], input[type="password"], textarea, input[type="email"], input[type="tel"], select {
+		width: 100%;
+	}
+	.site-header.header {
+		margin-bottom: 0px;
+	}
+	.prev-next, .back-all-events {
+		text-align: center;
+	}
+	.back-all-events {
+		margin-top: 15px;
+	}
+	.back-all-events:after {
+		float: left;
+		display: inline-block;
+		margin-left: 10px;
+		right: inherit;
+		top: 3px;
+	}
+	.name h3 {
+		height: inherit;
+	}
+	.custom-row .content, .membership-block .content, .custom-row-premium .membership-block .content {
+		height: auto;
+		min-height: inherit;
+	}
+	.custom-row-premium .header-block, .membership-condition {
+		min-height: inherit;
+		height: auto;
+	}
+	.banner {
+		margin-top: 0;
+	}
+}
+@media only screen and (min-width:568px) {
+	.mobile-footer {
+		display: none;
+	}
+}
+@media only screen and (max-width:568px) {
+	.upcoming-events .details {
+		margin-bottom: 20px;
+	}
+	.name h3 {
+		font-size: 14.5px;
+		line-height: 18px;
+		margin-bottom: 5px;
+	}
+	span.audition-venue, span.audition-time, span.audition-date, span.date {
+		font-size: 9.7px;
+		line-height: 13px;
+	}
+	.upcoming-events {
+		padding: 20px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.mob-deg {
+		border-top: 5px #000 solid;
+		border-bottom: 5px #000 solid;
+		padding-bottom: 25px;
+		padding-top: 15px;
+	}
+	section.section-wrapper.recent-news-section {
+		margin-bottom: 0;
+	}
+	.right-part {
+		margin-top: 15px;
+	}
+	.right-part .row {
+		padding-left: 15px;
+	}
+	.desktop-footer {
+		display: none;
+	}
+	.section-wrapper.footer {
+		margin-top: 0;
+	}
+	.overlay-element.color {
+		height: 75px;
+	}
+	.event-holder {
+		height: auto;
+		padding-left: 0;
+	}
+	.overlay-element.color {
+		font-size: 22px;
+		line-height: 28px;
+		width: 100%;
+	}
+	.holder-caption {
+		width: 100%;
+	}
+	.holder-caption h2 {
+		width: 99%;
+		font-size: 24.8px;
+		line-height: 26.5px;
+	}
+	.color .overlay-toggle:hover .overlay-area {
+		opacity: 1;
+	}
+	.top-menu {
+		display: none;
+	}
+	.mean-container .mean-bar {
+		min-height: 50px;
+	}
+	.address {
+		float: left;
+		margin-left: 0;
+		padding-left: 5px;
+	}
+	.mobile-footer address {
+		float: left;
+		width: 46%;
+		padding-left: 15px;
+	}
+	.mobile-footer .textwidget > ul {
+		clear: none;
+		float: left;
+		width: 24%;
+		margin-left: 4%;
+	}
+	.mobile-footer .footer-widget {
+		float: right;
+		width: 23%;
+	}
+	.mobile-footer .textwidget > ul li a {
+		font-size: 7px;
+		padding: 5px 0;
+		color: #fff;
+	}
+	.mobile-footer .address span {
+		font-size: 9px;
+		line-height: 18px;
+		text-align: left;
+	}
+	.mobile-footer .textwidget > ul li {
+		width: 100%;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	.mobile-footer .footer-widget img {
+		margin: 0;
+		width: 100%;
+	}
+	.alignleft img {
+		max-width: 45%;
+	}
+	.header-block span:first-child, span.membership-title {
+		font-size: 13px;
+		min-height: auto;
+		height: auto;
+		padding: 5px 15px;
+	}
+	.image.col-sm-6.event-holder {
+		width: 100%;
+		float: left;
+		
+	}
+	.color.col-sm-6.event-holder {
+		width: 100%;
+		margin-bottom:15px;
+		float: left;
+	}
+	div#secondary:last-child {
+		margin-bottom: 50px;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px) {
+	.mem-directory a, .become-member a, .member-benifits a {
+		font-size: 15px;
+	}
+	.mem-directory, .become-member, .member-benifits {
+		margin-bottom: 10px;
+	}
+	.mean-container .mean-bar {
+		min-height: 30px;
+	}
+	.alignleft figure {
+		width: 100% !important;
+	}
+	.alignleft figure a img {
+		width: 100%;
+	}
+	.ui-datepicker th, .ui-widget-content .ui-state-default {
+		font-size: 18px !important;
+		line-height: 22px;
+	}
+	.secondary-part {
+		width: 100%;
+	}
+	.browse-event ul > li > a {
+		font-size: 12px;
+	}
+	.ui-datepicker-title {
+		font-size: 18px;
+	}
+	.widget_pippin_cpt_calendar h3, .widget_categories h3, .browse-event h3, .list-custom-taxonomy-widget h3.widget-title, .secondary-part h3.widget-title {
+		line-height: 30px;
+		font-size: 18px;
+	}
+	.mean-container .mean-nav ul li {
+		padding-left: 0;
+	}
+	.mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
+		width: 90%;
+		margin: 5%;
+	}
+	.mobile-footer .social-icon {
+		height: 50px;
+		margin-top: 15px;
+		text-align: center;
+		width: 100%;
+	}
+	.mobile-footer .social-icon ul {
+		text-align: center;
+		display: inline-block;
+		margin-bottom: 25px;
+	}
+	.mobile-footer .social-icon ul li {
+		width: 30px;
+		height: 30px;
+		background: #979a9b none repeat scroll 0 0;
+		float: left;
+		display: block;
+		margin: 0 5px;
+	}
+	.mobile-footer .social-icon ul li a {
+		font-size: 15px;
+		line-height: 30px;
+		margin: 0;
+		padding: 0;
+	}
+	.mobile-footer .social-icon .textwidget, .mobile-footer .address {
+		float: left;
+		width: 100%;
+	}
+	.mobile-footer .textwidget > ul {
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+	.mobile-footer .textwidget > ul li {
+		margin-bottom: 20px;
+		display: inline-block;
+		width: 65%;
+	}
+	.mobile-footer .textwidget > ul li a {
+		color: #fff;
+		display: block;
+		font-size: 12px;
+		padding: 10px 0;
+		text-align: center;
+		display: inline-block;
+		font-family: "Montserrat", sans-serif;
+	}
+	.mobile-footer .footer {
+		padding: 15px;
+	}
+	.mobile-footer {
+		text-align: center;
+	}
+	.mobile-footer .footer-widget img {
+		width: 65%;
+		height: auto;
+		margin: 25px auto 0 auto;
+	}
+	.mobile-footer .address {
+		margin-bottom: 20px;
+	}
+	.mobile-footer .address span {
+		text-align: center;
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.mobile-footer .copyright {
+		display: none;
+	}
+	.mobile-footer address {
+		float: left;
+		width: 100%;
+	}
+	.mobile-footer .textwidget > ul {
+		clear: none;
+		float: left;
+		width: 100%;
+	}
+	.mobile-footer .footer-widget {
+		float: left;
+		width: 100%;
+	}
+	.textwidget a img {
+		max-width: 45%;
+		margin-bottom: 15px;
+	}
+	.mobile-footer .textwidget > ul {
+		margin-left:0;
+	}
+	.mobile-footer address {
+		padding-left:0;
+	}
+	.name h3 {
+		font-size: 12.5px;
+		line-height: 14px;
+		margin-bottom: 0;
+	}
+	h3 {
+    	font-size: 18px;
+	}
+	.blogs-content-excerpt h3 {
+		font-size: 18px;
+		margin-bottom: 0px;
+	}
+	.blogs-content-excerpt p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.blogs .blog {
+    	padding: 40px 0 25px 0;
+	}
+		#sidebar-search input.search-field, #sidebar-search button.search-submit {
+		font-size: 15px;
+		height:40px;
+	}
+	.mem-directory, .become-member, .member-benifits {
+		margin-bottom: 45px;
+	}
+	.mem-directory.sidebar-cta a {
+    	font-size: 20px;
+		line-height:40px;
+	}
+}

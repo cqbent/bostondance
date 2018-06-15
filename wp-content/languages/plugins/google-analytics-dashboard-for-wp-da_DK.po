@@ -1,0 +1,1061 @@
+# Translation of Plugins - Google Analytics Dashboard for WP (GADWP) - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Google Analytics Dashboard for WP (GADWP) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-12-17 16:19:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Google Analytics Dashboard for WP (GADWP) - Stable (latest release)\n"
+
+#: admin/setup.php:362
+msgid "the release notes"
+msgstr "Udgivelses noter"
+
+#: admin/settings.php:870
+msgid "enable Google AMP Client Id API"
+msgstr "aktiver Google AMP Client Id API"
+
+#: admin/settings.php:784
+msgid "enable Force SSL"
+msgstr "aktiver Gennemtving af SSL"
+
+#: admin/settings.php:772
+msgid "use hitCallback to increase event tracking accuracy"
+msgstr "brug hitCallback for at øge nøjagtighed af event tracking"
+
+#: tools/tools.php:235
+msgid "DOM is disabled or libxml PHP extension is missing. Contact your hosting provider. Automatic tracking of events for AMP pages is not possible."
+msgstr "DOM er deaktiveret eller libxml PHP extension mangler. Kontakt din hosting udbyder.  Automatisk tracking af events for AMP sider er ikke mulig."
+
+#: admin/settings.php:748
+msgid "exclude events from bounce-rate and time on page calculation"
+msgstr "udelad events fra bounce-rate og tid på side beregning"
+
+#. translators: Developer debugging message. 1: PHP function name, 2:
+#. Explanatory message, 3: Version information message
+#: tools/tools.php:219
+msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
+msgstr "%1$s blev kaldt <strong>forkert</strong>. %2$s %3$s"
+
+#. translators: %s: version number
+#: tools/tools.php:215
+msgid "This message was added in version %s."
+msgstr "Denne besked blev tilføjet i version %s."
+
+#: front/tracking.php:33
+msgid "This method is deprecated, read the documentation!"
+msgstr "Denne metode er forældet, læs dokumentationen!"
+
+#: admin/setup.php:193 admin/setup.php:293 front/setup.php:101
+msgid "No Data"
+msgstr "Ingen data"
+
+#: admin/settings.php:707
+msgid "User Sample Rate:"
+msgstr "Bruger eksempel frekvens"
+
+#: admin/settings.php:697
+msgid "Speed Sample Rate:"
+msgstr "Test rate hastighed"
+
+#. Plugin Name of the plugin/theme
+msgid "Google Analytics Dashboard for WP (GADWP)"
+msgstr "Google Analytics Kontrolpanel til WP (GADWP)"
+
+#: front/setup.php:118
+msgid "Precision: "
+msgstr "Præcision:"
+
+#: admin/settings.php:1249 admin/settings.php:1581
+msgid "developer mode (requires advanced API knowledge)"
+msgstr "udvikler-tilstand (kræver avanceret API-kendskab)"
+
+#: admin/settings.php:1083
+msgid "Sessions ratio: %s."
+msgstr "Sessionsforhold: %s."
+
+#: admin/settings.php:1081
+msgid "The report was based on %s of sessions."
+msgstr "Rapporten var baseret på %s sessioner."
+
+#: admin/settings.php:1079
+msgid "Last Detected on %s."
+msgstr "Sidst fundet den %s."
+
+#: admin/settings.php:1072
+msgid "Sampled Data"
+msgstr "Opsamlet data"
+
+#: admin/settings.php:1065
+msgid "Error Details: "
+msgstr "Fejl detaljer:"
+
+#: admin/settings.php:1056
+msgid "Last Error: "
+msgstr "Seneste fejl:"
+
+#: admin/settings.php:946
+msgid "AMP Container ID:"
+msgstr "AMP blok ID:"
+
+#: admin/settings.php:918
+msgid "Container ID:"
+msgstr "Beholder-ID:"
+
+#: admin/settings.php:913
+msgid "enable Page Hiding support"
+msgstr "aktiver sideskjul understøttelse"
+
+#: admin/settings.php:901
+msgid "enable Optimize tracking"
+msgstr "aktiver optimeret sporing"
+
+#: admin/settings.php:890
+msgid "Optimize"
+msgstr "Optimer"
+
+#: admin/settings.php:885
+msgid "Enhanced Ecommerce Plugin"
+msgstr "Forbedret E-handels plugin"
+
+#: admin/settings.php:884
+msgid "Ecommerce Plugin"
+msgstr "E-handels plugin"
+
+#: admin/settings.php:878
+msgid "Ecommerce Tracking:"
+msgstr "E-handels sporing:"
+
+#: admin/settings.php:874
+msgid "Ecommerce"
+msgstr "E-handel"
+
+#: admin/settings.php:858 admin/settings.php:941
+msgid "enable tracking for Accelerated Mobile Pages (AMP)"
+msgstr "aktiver sporing for accelerede mobilsider (AMP)"
+
+#: admin/settings.php:847 admin/settings.php:930
+msgid "Accelerated Mobile Pages (AMP)"
+msgstr "Accelerede mobilsider (AMP)"
+
+#: admin/settings.php:839
+msgid "seconds"
+msgstr "sekunder"
+
+#: admin/settings.php:685
+msgid "enable page scrolling depth variables: "
+msgstr "aktiver siderulnings-dybdevariabler:"
+
+#: admin/settings.php:674
+msgid "Page Scrolling Depth Variables"
+msgstr "Siderulnings-dybdevariabler"
+
+#: admin/settings.php:599
+msgid "Main Variables"
+msgstr "Hoved-variabler"
+
+#: admin/settings.php:514
+msgid "Custom Dimensions"
+msgstr "Brugerdefinerede dimensioner"
+
+#: admin/settings.php:476
+msgid "track page scrolling depth"
+msgstr "spor side-rulningsdybde"
+
+#: admin/settings.php:464
+msgid "track form submit actions"
+msgstr "spor handlinger ved formularindsendelse"
+
+#: admin/settings.php:440
+msgid "track affiliate links"
+msgstr "Spor affiliate-links"
+
+#: admin/settings.php:428
+msgid "track downloads, mailto, telephone and outbound links"
+msgstr "spor downloads, mailto, telephone og udgående links"
+
+#: admin/settings.php:408 admin/settings.php:505
+msgid "HTML Body"
+msgstr "HTML-body"
+
+#: admin/settings.php:407 admin/settings.php:504
+msgid "HTML Head"
+msgstr "HTML-Head"
+
+#: admin/settings.php:402 admin/settings.php:499
+msgid "Code Placement:"
+msgstr "Kode-placering:"
+
+#: admin/settings.php:392
+msgid "Web Container ID:"
+msgstr "Web beholder-ID:"
+
+#: admin/settings.php:376
+msgid "Tag Manager"
+msgstr "Tag-håndtering"
+
+#: admin/settings.php:355
+msgid "DataLayer Variables"
+msgstr "Datalags-variabler"
+
+#: admin/settings.php:353 admin/settings.php:355
+msgid "Integration"
+msgstr "Integration"
+
+#: admin/setup.php:309 front/setup.php:117
+msgid "Exit Rate"
+msgstr "Exit Rate"
+
+#: admin/setup.php:301 admin/setup.php:302 admin/setup.php:303
+#: admin/setup.php:304 admin/setup.php:305 admin/setup.php:306
+#: front/setup.php:109 front/setup.php:110 front/setup.php:111
+#: front/setup.php:112 front/setup.php:113 front/setup.php:114
+msgid "Future Use"
+msgstr "Fremtidigt brug"
+
+#: admin/setup.php:209
+msgid "Session Duration"
+msgstr "Sessionsvarighed"
+
+#: admin/setup.php:208 admin/setup.php:308 front/setup.php:116
+msgid "Page Load Time"
+msgstr "Tid for sideindlæsning"
+
+#: admin/setup.php:207 admin/setup.php:307 front/setup.php:115
+msgid "Time on Page"
+msgstr "Tid på side"
+
+#: tools/gapi.php:509
+msgid "Source:"
+msgstr "Kilde:"
+
+#: tools/gapi.php:509
+msgid "URI:"
+msgstr "URl:"
+
+#: admin/setup.php:178 tools/gapi.php:505
+msgid "404 Errors"
+msgstr "404-Fejl"
+
+#: admin/settings.php:544 admin/settings.php:627
+msgid "Publication Month:"
+msgstr "Måned for offentliggørelse:"
+
+#: admin/settings.php:304
+msgid "404 Page Title contains:"
+msgstr "404-Sidetitel indeholder:"
+
+#: admin/settings.php:300
+msgid "404 Errors Report"
+msgstr "404-Fejlrapport"
+
+#: admin/settings.php:294
+msgid "Maps API Key:"
+msgstr "Map API-nøgle:"
+
+#: admin/setup.php:192 admin/setup.php:292 front/setup.php:100
+msgid "Invalid response"
+msgstr "Ugyldig respons"
+
+#: admin/settings.php:583 admin/settings.php:663
+msgid "Tags:"
+msgstr "Tags:"
+
+#: tools/gapi.php:734
+msgid "Other"
+msgstr "Øvrige"
+
+#: tools/gapi.php:671
+msgid "Devices"
+msgstr "Enheder"
+
+#: admin/setup.php:200 admin/setup.php:300 front/setup.php:108
+msgid "Mobile Brand"
+msgstr "Mobil Mærke"
+
+#: admin/setup.php:199 admin/setup.php:299 front/setup.php:107
+msgid "Screen Resolution"
+msgstr "Skærm Opløsning"
+
+#: admin/setup.php:198 admin/setup.php:298 front/setup.php:106
+msgid "Operating System"
+msgstr "Styresystem"
+
+#: admin/setup.php:197 admin/setup.php:297 front/setup.php:105
+msgid "Browser"
+msgstr "Browser"
+
+#: admin/setup.php:177 admin/setup.php:278 front/setup.php:86
+msgid "Technology"
+msgstr "Teknologi"
+
+#: admin/setup.php:176 admin/setup.php:277 front/setup.php:85
+msgid "Traffic"
+msgstr "Trafik"
+
+#. translators: Example: 'l, F j, Y' will become 'Thusday, November 17, 2015'
+#. For details see:
+#. http://php.net/manual/en/function.date.php#refsect1-function.date-parameters
+#: tools/gapi.php:396 tools/gapi.php:771
+msgid "l, F j, Y"
+msgstr "l, F j, Y"
+
+#. translators: Example: 'F, Y' will become 'November, 2015' For details see:
+#. http://php.net/manual/en/function.date.php#refsect1-function.date-parameters
+#: tools/gapi.php:387
+msgid "F, Y"
+msgstr "F Y"
+
+#: admin/settings.php:788
+msgid "Cross-domain Tracking"
+msgstr "Tværs af domæner Sporing"
+
+#: admin/settings.php:812
+msgid "Cookie Customization"
+msgstr "Cookie Tilpasning"
+
+#: admin/settings.php:834
+msgid "Cookie Expires:"
+msgstr "Cookie Udløber:"
+
+#: admin/settings.php:825
+msgid "Cookie Name:"
+msgstr "Cookie Navn:"
+
+#: admin/settings.php:816
+msgid "Cookie Domain:"
+msgstr "Cookie Domæne:"
+
+#. Author of the plugin/theme
+msgid "Alin Marcu"
+msgstr "Alin Marcu"
+
+#. Description of the plugin/theme
+msgid "Displays Google Analytics Reports and Real-Time Statistics in your Dashboard. Automatically inserts the tracking code in every page of your website."
+msgstr "Viser Google Analyserapporter og realtids-statistikker på dit dashboard. Indsætter automatisk sporingskoden på hver side på dit website."
+
+#. #-#-#-#-#  google-analytics-dashboard-for-wp-code.pot (Google Analytics
+#. Dashboard for WP (GADWP) 5.1.2.5)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  google-analytics-dashboard-for-wp-code.pot (Google Analytics
+#. Dashboard for WP (GADWP) 5.1.2.5)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://deconf.com"
+msgstr "https://deconf.com"
+
+#: tools/gapi.php:719
+msgid "Type"
+msgstr "Type"
+
+#: tools/gapi.php:671
+msgid "Channels"
+msgstr "Kanaler"
+
+#: tools/gapi.php:609
+msgid "Cities from"
+msgstr "Byer fra"
+
+#: tools/gapi.php:599
+msgid "Countries"
+msgstr "Lande"
+
+#: tools/gapi.php:357 tools/gapi.php:360 tools/gapi.php:762
+msgid "Date"
+msgstr "Dato"
+
+#: tools/gapi.php:354
+msgid "Hour"
+msgstr "Time"
+
+#: tools/gapi.php:346
+msgid "Unique Page Views"
+msgstr "Unikke sidevisninger"
+
+#: tools/gapi.php:343
+msgid "Organic Searches"
+msgstr "Organiske søgninger"
+
+#: admin/views/access-code.php:32
+msgid "Save Access Code"
+msgstr "Gem autorisations-kode"
+
+#: admin/views/access-code.php:19
+msgid "Access Code:"
+msgstr "Autorisations-kode:"
+
+#: admin/views/access-code.php:19 admin/views/access-code.php:22
+msgid "Use the red link to get your access code!"
+msgstr "Brug det røde link for at få din autorisations-kode!"
+
+#: admin/views/access-code.php:14
+msgid "Get Access Code"
+msgstr "Få autorisations-kode"
+
+#: admin/views/access-code.php:14
+msgid "Use this link to get your access code:"
+msgstr "Brug dette link for at få din autorisations-kode:"
+
+#: gadwp.php:55 gadwp.php:63 gadwp.php:70
+msgid "This is not allowed, read the documentation!"
+msgstr "Dette er ikke tilladt, læs dokumentationen!"
+
+#: front/widgets.php:179
+msgid "Give credits:"
+msgstr "Giv støtte:"
+
+#: front/widgets.php:172
+msgid "Stats for:"
+msgstr "Stats for:"
+
+#: front/widgets.php:169
+msgid "Anonymize stats:"
+msgstr "Anonymiser statistik:"
+
+#: front/widgets.php:165
+msgid "Totals"
+msgstr "Totaler"
+
+#: front/widgets.php:164
+msgid "Chart"
+msgstr "Topliste"
+
+#: front/widgets.php:163
+msgid "Chart & Totals"
+msgstr "Topliste og totaler"
+
+#: front/widgets.php:162
+msgid "Display:"
+msgstr "Vis:"
+
+#: front/widgets.php:159
+msgid "Title:"
+msgstr "Titel:"
+
+#: front/widgets.php:151
+msgid "Google Analytics Stats"
+msgstr "Google Analytics Statistik"
+
+#: front/widgets.php:136
+msgid "generated by"
+msgstr "genereret af"
+
+#: front/widgets.php:130
+msgid "Sessions:"
+msgstr "Sessioner:"
+
+#: front/widgets.php:130
+msgid "Period:"
+msgstr "Periode:"
+
+#: front/widgets.php:21
+msgid "Will display your google analytics stats in a widget"
+msgstr "Vil vise dine Google Analytics statistikker i en widget"
+
+#: admin/setup.php:202
+msgid "KEYWORDS"
+msgstr "NØGLEORD"
+
+#: admin/setup.php:201
+msgid "REFERRALS"
+msgstr "REFERENCER"
+
+#: admin/setup.php:206
+msgid "NEW"
+msgstr "NY"
+
+#: admin/setup.php:205
+msgid "DIRECT"
+msgstr "DIREKTE"
+
+#: admin/setup.php:204
+msgid "CAMPAIGN"
+msgstr "KAMPAGNE"
+
+#: admin/setup.php:203
+msgid "SOCIAL"
+msgstr "SOCIAL"
+
+#: admin/setup.php:173 tools/gapi.php:477
+msgid "Pages"
+msgstr "Sider"
+
+#: admin/setup.php:167 admin/setup.php:186 front/widgets.php:40
+#: tools/gapi.php:349 tools/gapi.php:762
+msgid "Sessions"
+msgstr "Sessioner"
+
+#: admin/setup.php:156
+msgid "Real-Time"
+msgstr "Realtid"
+
+#: admin/widgets.php:56
+msgid "Find out more!"
+msgstr "Find ud af mere!"
+
+#: admin/widgets.php:56
+msgid "Something went wrong while retrieving property data. You need to create and properly configure a Google Analytics account:"
+msgstr "Noget gik galt ved modtagelse af ejendomsdata. Du er nødt til at oprette og korrekt konfigurere en Google Analytics-konto:"
+
+#: admin/widgets.php:43 admin/widgets.php:50
+msgid "Select Domain"
+msgstr "Vælg domæne"
+
+#: admin/widgets.php:43 admin/widgets.php:50
+msgid "An admin should asign a default Google Analytics Profile."
+msgstr "En administrator bør tildele en standard Google Analytics-profil."
+
+#: admin/widgets.php:28 front/widgets.php:21
+msgid "Google Analytics Dashboard"
+msgstr "Google Analytics Kontrolpanel"
+
+#: admin/setup.php:362
+msgid "the plugin&#39;s settings page"
+msgstr "pluginnets indstillings-side"
+
+#: admin/setup.php:362
+msgid "For details, check out %1$s and %2$s."
+msgstr "For detaljer, se %1$s og %2$s."
+
+#: admin/setup.php:362
+msgid "Google Analytics Dashboard for WP has been updated to version %s."
+msgstr "Google Analytics Kontrolpanel til WP er blevet opdateret til version %s."
+
+#: admin/setup.php:344
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: admin/setup.php:196 admin/setup.php:296 admin/widgets.php:35
+#: front/setup.php:104
+msgid "This plugin needs an authorization:"
+msgstr "Dette plugin behøver en autorisation:"
+
+#: admin/setup.php:195 admin/setup.php:295 front/setup.php:103
+msgid "report generated by"
+msgstr "rapport generet af"
+
+#: admin/setup.php:194 admin/setup.php:294 front/setup.php:102
+#: front/widgets.php:107
+msgid "This report is unavailable"
+msgstr "Denne rapport er utilgængelig"
+
+#: admin/setup.php:191 admin/setup.php:291 front/setup.php:99
+msgid "Pages/Session"
+msgstr "Sider/Session"
+
+#: admin/setup.php:190 admin/setup.php:290 front/setup.php:98
+msgid "Organic Search"
+msgstr "Organisk søgning"
+
+#: admin/setup.php:184 admin/setup.php:285 front/setup.php:92
+msgid "Search Engines"
+msgstr "Søgemaskiner"
+
+#: admin/setup.php:185 admin/setup.php:284 front/setup.php:93
+msgid "Social Networks"
+msgstr "Sociale netværk"
+
+#: admin/setup.php:183 admin/setup.php:283 front/setup.php:91
+msgid "Visitor Type"
+msgstr "Besøgstype"
+
+#: admin/setup.php:182 admin/setup.php:282 front/setup.php:90
+msgid "Traffic Mediums"
+msgstr "Trafikmedier"
+
+#: admin/setup.php:181 admin/setup.php:281 front/setup.php:89
+msgid "A JavaScript Error is blocking plugin resources!"
+msgstr "En JavaScript-fejl blokerer plugin ressourcerne."
+
+#: admin/setup.php:175 admin/setup.php:276 front/setup.php:84
+#: tools/gapi.php:576
+msgid "Searches"
+msgstr "Søgninger"
+
+#: admin/setup.php:174 admin/setup.php:275 front/setup.php:83
+#: tools/gapi.php:541
+msgid "Referrers"
+msgstr "Referencer"
+
+#: admin/setup.php:172 admin/setup.php:274 front/setup.php:82
+msgid "Location"
+msgstr "Lokation"
+
+#: admin/setup.php:171 admin/setup.php:189 admin/setup.php:273
+#: admin/setup.php:289 front/setup.php:81 front/setup.php:97 tools/gapi.php:340
+msgid "Bounce Rate"
+msgstr "Afvisningsgrad"
+
+#: admin/setup.php:170 admin/setup.php:188 admin/setup.php:272
+#: admin/setup.php:288 front/setup.php:80 front/setup.php:96 tools/gapi.php:337
+msgid "Page Views"
+msgstr "Sidevisninger"
+
+#: admin/setup.php:169 admin/setup.php:271 front/setup.php:79
+msgid "Organic"
+msgstr "Organisk"
+
+#: admin/setup.php:168 admin/setup.php:187 admin/setup.php:270
+#: admin/setup.php:287 front/setup.php:78 front/setup.php:95 tools/gapi.php:334
+msgid "Users"
+msgstr "Brugere"
+
+#: admin/setup.php:269 admin/setup.php:286 front/setup.php:77
+#: front/setup.php:94
+msgid "Unique Views"
+msgstr "Unikke visninger"
+
+#: admin/setup.php:164 admin/setup.php:266 front/setup.php:74
+msgid "Three"
+msgstr "Tre"
+
+#: admin/setup.php:163 admin/setup.php:265 front/setup.php:73
+msgid "One"
+msgstr "En"
+
+#: admin/setup.php:163 admin/setup.php:164 admin/setup.php:265
+#: admin/setup.php:266 front/setup.php:73 front/setup.php:74
+msgid "%s Year"
+msgid_plural "%s Years"
+msgstr[0] "%s År"
+msgstr[1] "%s År"
+
+#: admin/setup.php:159 admin/setup.php:160 admin/setup.php:161
+#: admin/setup.php:162 admin/setup.php:261 admin/setup.php:262
+#: admin/setup.php:263 admin/setup.php:264 front/setup.php:69
+#: front/setup.php:70 front/setup.php:71 front/setup.php:72
+#: front/widgets.php:68 front/widgets.php:71 front/widgets.php:74
+#: front/widgets.php:173 front/widgets.php:174 front/widgets.php:175
+msgid "Last %d Days"
+msgstr "Sidste %d dage"
+
+#: admin/setup.php:158 admin/setup.php:260 front/setup.php:68
+msgid "Yesterday"
+msgstr "I går"
+
+#: admin/setup.php:157 admin/setup.php:259 front/setup.php:67
+msgid "Today"
+msgstr "I dag"
+
+#: admin/setup.php:46
+msgid "Tracking Code"
+msgstr "Sporings-kode"
+
+#: admin/setup.php:45
+msgid "Frontend Settings"
+msgstr "Frontend-indstillinger"
+
+#: admin/setup.php:44
+msgid "Backend Settings"
+msgstr "Backend-indstillinger"
+
+#: admin/setup.php:42 admin/setup.php:58
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: admin/settings.php:1786
+msgid "Web Analytics"
+msgstr "Web Analytics"
+
+#: admin/settings.php:1786
+msgid "%s service with users tracking at IP level."
+msgstr "%s tjeneste med brugersporing på IP-niveau."
+
+#: admin/settings.php:1800
+msgid "WordPress Plugins"
+msgstr "Wordpress-plugins"
+
+#: admin/settings.php:1800
+msgid "Other %s written by the same author"
+msgstr "Andre %s skrevet af samme forfatter"
+
+#: admin/settings.php:1793
+msgid "Improve search rankings"
+msgstr "Forbedre søge-rangeringer"
+
+#: admin/settings.php:1793
+msgid "%s by moving your website to HTTPS/SSL."
+msgstr "%s ved at flytte dit website til HTTPS/SSL."
+
+#: admin/settings.php:1779
+msgid "Further Reading"
+msgstr "Videre læsning"
+
+#: admin/settings.php:1773
+msgid "rate this plugin"
+msgstr "vurder dette plugin"
+
+#: admin/settings.php:1773
+msgid "Your feedback and review are both important, %s!"
+msgstr "Både din tilbagemelding og anmeldelse er vigtig, %s!"
+
+#: admin/settings.php:1748
+msgid "Follow & Review"
+msgstr "Følg og anmeld"
+
+#: admin/settings.php:1740
+msgid "Setup Tutorial & Demo"
+msgstr "Installationsvejledning og Demo"
+
+#: admin/settings.php:1684
+msgid "exclude Super Admin tracking for the entire network"
+msgstr "ekskluder sporing af super-admins for hele netværket"
+
+#: admin/settings.php:1622
+msgid "Properties/Views Settings"
+msgstr "Præferencer/Visnings-indstillinger"
+
+#: admin/settings.php:1612
+msgid "Refresh Properties"
+msgstr "Opdater præferencer"
+
+#: admin/settings.php:1561
+msgid "use a single Google Analytics account for the entire network"
+msgstr "brug en enkelt Google Analytics-konto til hele netværket"
+
+#: admin/settings.php:1549
+msgid "Network Setup"
+msgstr "Netværksopsætning"
+
+#: admin/settings.php:1463
+msgid "Properties refreshed."
+msgstr "Præferencer opdateret."
+
+#: admin/settings.php:1369 admin/settings.php:1705 admin/widgets.php:35
+msgid "Authorize Plugin"
+msgstr "Autoriser plugin"
+
+#: admin/settings.php:1347 admin/settings.php:1668
+msgid "automatic updates for minor versions (security and maintenance releases only)"
+msgstr "automatiske opdateringer for mindre versioner (kun sikkerhed og vedligeholdelses-udgivelser)"
+
+#: admin/settings.php:1336 admin/settings.php:1656
+msgid "Automatic Updates"
+msgstr "Automatiske opdateringer"
+
+#: admin/settings.php:1323
+msgid "Theme Color:"
+msgstr "Tema-farve:"
+
+#: admin/settings.php:1308
+msgid "Lock Selection"
+msgstr "Lås valgte"
+
+#: admin/settings.php:1304 admin/settings.php:1646
+msgid "Property not found"
+msgstr "Ejendom ikke fundet"
+
+#: admin/settings.php:1291
+msgid "Select View:"
+msgstr "Vælg visning:"
+
+#: admin/settings.php:1287 admin/setup.php:43 admin/setup.php:59
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: admin/settings.php:1278
+msgid "Reset Errors"
+msgstr "Nulstil fejl"
+
+#: admin/settings.php:1277 admin/settings.php:1370 admin/settings.php:1611
+#: admin/settings.php:1706
+msgid "Clear Cache"
+msgstr "Fjern cache"
+
+#: admin/settings.php:1276 admin/settings.php:1610
+msgid "Clear Authorization"
+msgstr "Fjern autorisation"
+
+#: admin/settings.php:1264 admin/settings.php:1597
+msgid "Client Secret:"
+msgstr "Klient-hemmeligheder:"
+
+#: admin/settings.php:1256 admin/settings.php:1588
+msgid "Client ID:"
+msgstr "Klient-ID:"
+
+#: admin/settings.php:1243 admin/settings.php:1575
+msgid "tutorial"
+msgstr "vejledning"
+
+#: admin/settings.php:1243 admin/settings.php:1575
+msgid "video"
+msgstr "video"
+
+#: admin/settings.php:1243 admin/settings.php:1575
+msgid "You should watch the %1$s and read this %2$s before proceeding to authorization. This plugin requires a properly configured Google Analytics account!"
+msgstr "Du bør se denne %1$s og læse denne %2$s før du fortsætter med autorisationen. Dette plugin kræver en korrekt konfigureret Google Analytics-konto!"
+
+#: admin/settings.php:1238 admin/settings.php:1571
+msgid "Plugin Authorization"
+msgstr "Plugin-autorisation"
+
+#: admin/settings.php:1226 admin/settings.php:1537
+msgid "Use the red link (see below) to generate and get your access code!"
+msgstr "Brug det røde link (se herunder) for at generere og få din autorisations-kode!"
+
+#: admin/settings.php:1211 admin/settings.php:1522
+msgid "Google Analytics Settings"
+msgstr "Google Analytics indstillinger"
+
+#: admin/settings.php:1201 admin/settings.php:1512
+msgid "All other domains/properties were removed."
+msgstr "Alle andre domæner/ejendomme blev fjernet."
+
+#: admin/settings.php:1188
+msgid "All errors reseted."
+msgstr "Alle fejl nulstillet."
+
+#: admin/settings.php:1178 admin/settings.php:1498
+msgid "Token Reseted and Revoked."
+msgstr "Token nulstillet og tilbagetrukket."
+
+#: admin/settings.php:1169 admin/settings.php:1489
+msgid "Cleared Cache."
+msgstr "Renset cache."
+
+#: admin/settings.php:1163 admin/settings.php:1457
+msgid "The access code is <strong>NOT</strong> your <strong>Tracking ID</strong> (UA-XXXXX-X). Try again, and use the red link to get your access code"
+msgstr "Autorisations-koden er <strong>IKKE</strong> dit <strong>Sporings-ID</strong> (UA-XXXXX-X). Prøv igen, og brug det røde link for at få din autorisations-kode"
+
+#: admin/settings.php:1131 admin/settings.php:1418
+msgid "Plugin authorization succeeded."
+msgstr "Plugin succesfuldt autoriseret."
+
+#: admin/settings.php:1118
+msgid "Library conflicts between WordPress plugins"
+msgstr "Bibliotekskonflikter mellem Wordpress-plugins"
+
+#: admin/settings.php:1118 admin/settings.php:1403
+msgid "Loading the required libraries. If this results in a blank screen or a fatal error, try this solution:"
+msgstr "Indlæser de krævede biblioteker. Hvis dette resulterer i en blank skærm eller en alvorlig fejl, prøv denne løsning:"
+
+#: admin/settings.php:1094
+msgid "Plugin Configuration"
+msgstr "Plugin-konfiguration"
+
+#: admin/settings.php:1061
+msgid "Error Details"
+msgstr "Fejl-detaljer"
+
+#: admin/settings.php:1055 admin/settings.php:1065 admin/settings.php:1085
+msgid "None"
+msgstr "Ingen"
+
+#: admin/settings.php:1050
+msgid "Last Error detected"
+msgstr "Sidste fejl fundet"
+
+#: admin/settings.php:1044
+msgid "Plugin Settings"
+msgstr "Plugin-indstillinger"
+
+#: admin/settings.php:1044
+msgid "Errors & Details"
+msgstr "Fejl og detaljer"
+
+#: admin/settings.php:1036
+msgid "Google Analytics Errors & Debugging"
+msgstr "Google Analytics fejl og fejlfinding"
+
+#: admin/settings.php:962
+msgid "Exclude tracking for:"
+msgstr "Ekskluder sporing for:"
+
+#: admin/settings.php:804
+msgid "Cross Domains:"
+msgstr "Kryds-domæner:"
+
+#: admin/settings.php:799
+msgid "enable cross domain tracking"
+msgstr "aktiver kryds-domænesporing"
+
+#: admin/settings.php:760
+msgid "enable enhanced link attribution"
+msgstr "aktiver forbedret link-attributter"
+
+#: admin/settings.php:693
+msgid "Advanced Tracking"
+msgstr "Avanceret sporing"
+
+#: admin/settings.php:570 admin/settings.php:651
+msgid "User Type:"
+msgstr "Bruger-type:"
+
+#: admin/settings.php:557 admin/settings.php:639
+msgid "Categories:"
+msgstr "Kategorier:"
+
+#: admin/settings.php:531 admin/settings.php:615
+msgid "Publication Year:"
+msgstr "År for offentliggørelse:"
+
+#: admin/settings.php:518 admin/settings.php:603
+msgid "Authors:"
+msgstr "Forfattere:"
+
+#: admin/settings.php:452
+msgid "track fragment identifiers, hashmarks (#) in URI links"
+msgstr "spor fragment-identifikatorer, hashmarks (#) i URl-links"
+
+#: admin/settings.php:490
+msgid "Affiliates Regex:"
+msgstr "Affiliates Regex:"
+
+#: admin/settings.php:481
+msgid "Downloads Regex:"
+msgstr "Downloads Regex:"
+
+#: admin/settings.php:736
+msgid "enable remarketing, demographics and interests reports"
+msgstr "aktiver remarketings-, demografi- og interesser-rapporter"
+
+#: admin/settings.php:724
+msgid "anonymize IPs while tracking"
+msgstr "Anonymiser IP'er ved sporing"
+
+#: admin/settings.php:370
+msgid "Tracking Type:"
+msgstr "Sporings-type:"
+
+#: admin/settings.php:386 admin/settings.php:1317
+msgid "Time Zone:"
+msgstr "Tidszone:"
+
+#: admin/settings.php:386 admin/settings.php:1317
+msgid "Default URL:"
+msgstr "Standard-URL:"
+
+#: admin/settings.php:386 admin/settings.php:1317
+msgid "Tracking ID:"
+msgstr "Sporings-ID:"
+
+#: admin/settings.php:386 admin/settings.php:1298 admin/settings.php:1317
+#: admin/settings.php:1639
+msgid "View Name:"
+msgstr "Vis navn:"
+
+#: admin/settings.php:377 admin/settings.php:609 admin/settings.php:621
+#: admin/settings.php:633 admin/settings.php:645 admin/settings.php:657
+#: admin/settings.php:669 admin/settings.php:883
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: admin/settings.php:366
+msgid "Tracking Settings"
+msgstr "Sporings-indstillinger"
+
+#: admin/settings.php:353
+msgid "Advanced Settings"
+msgstr "Avancerede indstillinger"
+
+#: admin/settings.php:353 admin/settings.php:355 admin/settings.php:958
+#: admin/settings.php:1673
+msgid "Exclude Tracking"
+msgstr "Ekskluder sporing"
+
+#: admin/settings.php:353
+msgid "Custom Definitions"
+msgstr "Brugerdefinerede definitioner"
+
+#: admin/settings.php:353 admin/settings.php:417
+msgid "Events Tracking"
+msgstr "Begivenheds-sporing"
+
+#: admin/settings.php:353 admin/settings.php:355 admin/settings.php:357
+msgid "Basic Settings"
+msgstr "Grundlæggende indstillinger"
+
+#: admin/settings.php:345
+msgid "Google Analytics Tracking Code"
+msgstr "Google Analytics sporings-kode"
+
+#: admin/settings.php:288
+msgid "Target Geo Map to country:"
+msgstr "Målret Geo-kort til land:"
+
+#: admin/settings.php:284
+msgid "Location Settings"
+msgstr "Lokations-indstillinger"
+
+#: admin/settings.php:278
+msgid "Maximum number of pages to display on real-time tab:"
+msgstr "Maksimalt antal sider til visning på realtidsfanen:"
+
+#: admin/settings.php:275
+msgid "Real-Time Settings"
+msgstr "Realtids-indstillinger"
+
+#: admin/settings.php:270
+msgid "enable the main Dashboard Widget"
+msgstr "aktiver hoved-dashboard widgeten"
+
+#: admin/settings.php:258
+msgid "enable reports on Posts List and Pages List"
+msgstr "aktiver rapporter på listerne for indlæg og sider"
+
+#: admin/settings.php:246
+msgid "enable Switch View functionality"
+msgstr "aktiver skiftevisnings-funktionalitet"
+
+#: admin/settings.php:196
+msgid "Google Analytics Backend Settings"
+msgstr "Google Analytics Backend-indstillinger"
+
+#: admin/settings.php:167 admin/settings.php:315 admin/settings.php:998
+#: admin/settings.php:1358 admin/settings.php:1694
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: admin/settings.php:157
+msgid "enable web page reports on frontend"
+msgstr "aktiver webside-rapporter i frontend"
+
+#: admin/settings.php:121 admin/settings.php:210
+msgid "Show stats to:"
+msgstr "Vis stats til:"
+
+#: admin/settings.php:117 admin/settings.php:206
+msgid "Permissions"
+msgstr "TIlladelser"
+
+#: admin/settings.php:107
+msgid "Google Analytics Frontend Settings"
+msgstr "Google Analytics Frontend-indstillinger"
+
+#: admin/settings.php:102 admin/settings.php:191 admin/settings.php:340
+#: admin/settings.php:1032 admin/settings.php:1220 admin/settings.php:1531
+#: admin/setup.php:196 admin/setup.php:296 front/setup.php:104
+msgid "authorize the plugin"
+msgstr "autoriser dette plugin"
+
+#: admin/settings.php:102 admin/settings.php:191 admin/settings.php:340
+#: admin/settings.php:1032 admin/settings.php:1220 admin/settings.php:1531
+#: admin/setup.php:47 admin/setup.php:60
+msgid "Errors & Debug"
+msgstr "Fejl og fejlfinding"
+
+#: admin/settings.php:102 admin/settings.php:191 admin/settings.php:340
+#: admin/settings.php:1032 admin/settings.php:1220 admin/settings.php:1531
+msgid "Something went wrong, check %1$s or %2$s."
+msgstr "Noget gik galt, se %1$s eller %2$s."
+
+#: admin/settings.php:98 admin/settings.php:187 admin/settings.php:336
+#: admin/settings.php:1171 admin/settings.php:1181 admin/settings.php:1190
+#: admin/settings.php:1196 admin/settings.php:1206 admin/settings.php:1483
+#: admin/settings.php:1491 admin/settings.php:1501 admin/settings.php:1507
+#: admin/settings.php:1517
+msgid "Cheating Huh?"
+msgstr "Snyder du, hva?"
+
+#: admin/settings.php:96 admin/settings.php:185 admin/settings.php:334
+#: admin/settings.php:1194 admin/settings.php:1505
+msgid "Settings saved."
+msgstr "Indstillinger gemt."
+
+#: admin/item-reports.php:53 admin/settings.php:375 front/item-reports.php:30
+msgid "Analytics"
+msgstr "Analyse"

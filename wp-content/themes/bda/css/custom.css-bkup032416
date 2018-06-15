@@ -1,0 +1,63 @@
+.browse-event ul > li > a {
+	font-size: 12px;
+    line-height: 22px;
+    color: #FFF;
+    background-color: #8b8b8b;
+    display: block;
+    padding-left: 3%;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    margin-top: 5px;
+    width: 100%;
+}
+.event-meta, .audition-meta {
+    margin-bottom: 8px;
+}
+.event-meta div, .audition-meta div {
+    display: table-cell;
+    vertical-align: top;
+}
+.audition-meta-label{
+    width: 155px;
+    text-transform: uppercase;
+    padding-right: 10px;
+}
+
+.event-meta-label {
+    width: 90px;
+    text-transform: uppercase;
+}
+
+.full-width-meta .event-meta-label {
+    width: auto !important;
+    padding-right: 10px;
+}
+span.audition-venue.nobold {
+    font-weight: normal;
+}
+span.date > span {
+    font-weight: normal;
+}
+.sponsors-left,
+.sponsors-right {
+    float: left;
+    font-size: 12px;
+    width: 49%;
+}
+.sponsors-left p,
+.sponsors-right p {
+    font-size: 12px;
+}
+.sponsors-right {
+    margin-left: 1%;
+}
+
+@media all and (min-width: 800px) {
+    .flexNav-touch .item-with-ul:hover > ul  { 
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+        display: block;     
+        margin-top: -2px;
+    }
+}

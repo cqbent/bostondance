@@ -1,0 +1,4480 @@
+# Translation of Stable (latest release) in Finnish
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-05-03 04:15:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: includes/class-mla-settings.php:2425
+#: includes/class-mla-wpml-support.php:1747
+#: includes/class-mla-wpml-support.php:1749
+msgid "WARNING:"
+msgstr "VAROITUS:"
+
+#: includes/class-mla-view-list-table.php:172
+msgctxt "list_table_column"
+msgid "Slug"
+msgstr "Polkutunnus"
+
+#: includes/class-mla-wpml-support.php:1597
+msgid "Make media available in all languages"
+msgstr "Aseta media saataville kaikilla kielillä"
+
+#: includes/class-mla-wpml-support.php:1747
+msgid " WPML Media is not installed."
+msgstr " WPML-mediaa ei ole asennettu."
+
+#: includes/class-mla-wpml-support.php:1749
+msgid " WPML Media is not active."
+msgstr "WPML-mediaa ei ole otettu käyttöön."
+
+#: includes/class-mla-core-options.php:1283
+msgid "PHP Reporting"
+msgstr "PHP-raportointi"
+
+#: includes/class-mla-core-options.php:1287
+msgid "Enter a numeric error_reporting value, e.g., 0x7FFF or 32767; leave blank to use the existing PHP error_reporting value."
+msgstr "Kirjoita numeerinen error_reporting -arvo (\"virheiden tiedotus\") esim. 0x7FFF tai 32767; jätä tyhjäksi käyttääksesi PHP:n oletus error_reporting -arvoa."
+
+#: includes/class-mla-core-options.php:1291
+msgid "MLA Reporting"
+msgstr "MLA-raportointi"
+
+#: includes/class-mla-core-options.php:1295
+msgid "Enter a numeric MLA_DEBUG_LEVEL value, e.g., 0x0003 or 3; leave blank to use the existing MLA_DEBUG_LEVEL value."
+msgstr "Kirjoita numeerinen MLA_DEBUG_LEVEL -arvo (\"MLA-testaustaso\"), esim. 0x0003 tai 3; jätä tyhjäksi käyttääksesi oletus MLA_DEBUG_LEVEL -arvoa."
+
+#: includes/class-mla-core-options.php:679
+msgid "&quot;bulk edit&quot; area on top"
+msgstr "&quot;massamuokkausalue&quot; yläpuolella"
+
+#: includes/class-mla-core-options.php:683
+msgid "Check this option to move the \"Bulk Edit area\" to the top of the Media/Add New screen."
+msgstr "Valitse tämä sijoittaaksesi \"massamuokkausalueen\" Media/Lisää uusi näyttö\" -valikon yläpuolelle."
+
+#: includes/class-mla-core-options.php:1276
+msgid "Replace PHP error_log file"
+msgstr "Korvaa PHP:n error_log -tiedosto."
+
+#: includes/class-mla-core-options.php:1279
+msgid "Check this option to replace the PHP error_log file with the MLA Debug File.<br>&nbsp;&nbsp;allows capture of PHP messages in the MLA Debug File."
+msgstr "Valitse tämä korvataksesi PHP:n error_log -tiedosto MLA:n omalla testauslokitiedostolla. <br>&nbsp;&nbsp;mahdollistaa PHP-viestien tallentamisen MLA:n testauslokitiedostoon."
+
+#. Author URI of the plugin/theme
+msgid "http://fairtradejudaica.org/our-story/staff/"
+msgstr "http://fairtradejudaica.org/our-story/staff/"
+
+#: includes/class-mla-settings.php:1565 includes/class-mla-settings.php:1822
+msgid "Plural Label"
+msgstr "Tunnus monikossa"
+
+#: includes/class-mla-settings.php:1566 includes/class-mla-settings.php:1823
+msgid "The labels, e.g., &#8220;Image&#8221; and &#8220;Images&#8221; are used for column headers and other display purposes."
+msgstr "Tunnuksia, ts. &#8220;Kuva&#8221; ja &#8220;Kuvaa&#8221; käytetään sarakkeiden otsikoissa ja muissa näyttötarkoituksissa."
+
+#: includes/class-mla-settings.php:1567 includes/class-mla-settings.php:1824
+msgid "Specification"
+msgstr "Määritykset"
+
+#: includes/class-mla-settings.php:1568 includes/class-mla-settings.php:1825
+msgid "If the MIME type specification differs from the slug, enter it here. You may include multiple MIME types, e.g., &#8220;audio,video&#8221; and/or wildcard specs, e.g.,  &#8220;*/*ms*&#8221;. This field will be ignored if the Post MIME Type box is checked."
+msgstr "Mikäli MIME-lajimääritelmä eroaa polkutunnuksesta, syötä se tähän. Voit lisätä useita MIME-lajeja esim. &#8220;audio,video&#8221; ja tai jokerimerkkejä  &#8220;*/*ms*&#8221;. Tämä kenttä sivuutetaan, mikäli viestin MIME-laji -kenttä on valittuna."
+
+#: includes/class-mla-settings.php:1569 includes/class-mla-settings.php:1826
+msgid "Post MIME Type"
+msgstr "Viestin MIME-tyyppi"
+
+#: includes/class-mla-settings.php:1570 includes/class-mla-settings.php:1827
+msgid "Check this box if you want to add this entry to the list of MIME types returned by wp_get_mime_types()."
+msgstr "Valitse, mikäli haluat lisätä tämän kohdan wp_get_mime_types() -kutsun palauttamiin MIME-lajeihin."
+
+#: includes/class-mla-settings.php:1571 includes/class-mla-settings.php:1828
+msgid "Table View"
+msgstr "Taulukkonäkymä"
+
+#: includes/class-mla-settings.php:1572 includes/class-mla-settings.php:1829
+msgid "Check this box if you want to add this entry to the list of Media/Assistant table views."
+msgstr "Valitse, jos haluat lisätä tämän kohteen Media/assistentin taulukkonäkymään."
+
+#: includes/class-mla-settings.php:1574 includes/class-mla-settings.php:1831
+msgid "You can choose your own table view order by entering a number (1 for first, etc.) in this field."
+msgstr "Voit valita oman taulukkonäkymäjärjestyksesi syöttämällä numeron (1 on ensimmäinen) tähän kenttään."
+
+#: includes/class-mla-settings.php:1576 includes/class-mla-settings.php:1833
+#: includes/class-mla-settings.php:1931 includes/class-mla-settings.php:2295
+msgid "The description can contain any documentation or notes you need to understand or use the item."
+msgstr "Kuvaus voi sisältää ohjeita tai kommentteja, jotka pitää tietää kohdetta käytettäessä."
+
+#. translators: 1: bulk_action, e.g., delete, edit, restore, trash
+#: includes/class-mla-settings.php:1687 includes/class-mla-settings.php:2153
+msgid "Unknown bulk action %1$s"
+msgstr "%1$s on tuntematon massatoiminto"
+
+#. translators: 1: view name/slug
+#: includes/class-mla-settings.php:1726 includes/class-mla-settings.php:2195
+msgid "Edit view \"%1$s\" cancelled."
+msgstr "Näkymän \"%1$s\" muokkaus peruutettu."
+
+#: includes/class-mla-settings.php:1760
+msgid "View and Post MIME Type Support is disabled"
+msgstr "Näkymän ja viestin MIME-lajien muokkaus on poissa käytöstä"
+
+#: includes/class-mla-settings.php:1805 includes/class-mla-settings.php:1808
+msgid "Library Views/Post MIME Type Processing"
+msgstr "Kirjaston näkymien/viestien MIME-lajien käsittely"
+
+#: includes/class-mla-settings.php:1806
+msgid "In this tab you can manage the list of \"Post MIME Types\", which are used by WordPress to define the views for the <em><strong>Media/Library</strong></em> screen and the <em><strong>Media Manager/Add Media</strong></em> \"media items\" drop down list. MLA&rsquo;s <em><strong>Media/Assistant</strong></em> screen uses an enhanced version of the list, <em>Table Views</em>, to support views with multiple MIME Types (e.g., \"audio,video\") and wildcard specifications (e.g. \"*/*ms*\")."
+msgstr "Tässä välilehdessä voit hallita \"viestin MIME-lajeja\", joita WordPress käyttää <em><strong>Mediakirjasto-</strong></em>  ja <em><strong>Median lisäämisnäkymän</strong></em> tiedostolistauksen luomiseen. MLA <em><strong>Media/assistentti</strong></em> käyttää parannettua versiota tästä listauksesta nimeltä <em>Table Views</em> tukeakseen samanaikaisesti useita MIME-lajeja (esim. \"audio,video\") ja jokerimerkkiejä (esim. \"*/*ms*\")."
+
+#. translators: 1: Documentation hyperlink
+#: includes/class-mla-settings.php:1808
+msgid "You can find more information about library views, Post MIME types and how MLA and WordPress use them in the %1$s section of the Documentation or by clicking the <strong>\"Help\"</strong> tab in the upper-right corner of this screen."
+msgstr "Ohjeiden %1$s kohdasta voit löytää lisätietoja kirjastonäkymästä, viestien MIME-lajeista ja miten MLA ja WordPress käyttävät niitä. Voit myös klikata <strong>\"Ohjeet\"</strong> välilehteä tämän näkymän oikeassa ylälaidassa."
+
+#: includes/class-mla-settings.php:1808
+msgid "Library View Processing documentation"
+msgstr "Kirjastonäkymän tietojenkäsittelyn dokumentaatio"
+
+#: includes/class-mla-settings.php:1812 includes/class-mla-settings.php:2001
+#: includes/class-mla-settings.php:2307
+msgid "Displaying search results for"
+msgstr "Näytä haun tulokset kohteelle"
+
+#: includes/class-mla-settings.php:1813
+msgid "Search Views"
+msgstr "Hae näkymiä"
+
+#: includes/class-mla-settings.php:1834
+msgid "Add View"
+msgstr "Lisää näkymä"
+
+#: includes/class-mla-settings.php:1836 includes/class-mla-settings.php:2300
+msgid "<strong>Quick Edit</strong>"
+msgstr "<strong>Nopea editointi</strong>"
+
+#: includes/class-mla-settings.php:1916
+msgid "Edit Upload MIME Type"
+msgstr "Muokkaa palvelimelle siirtämisen MIME-lajia"
+
+#: includes/class-mla-settings.php:1922
+msgid "The &#8220;extension&#8221; is the file extension for this type, and a unique key for the item. It must be all lowercase and contain only letters and numbers."
+msgstr "&#8220;Tiedostopääte&#8221; on tälle lajille varattu tiedostopääte ja ainutkertainen tunniste. Se saa sisältää vain pieniä kirjaimia (a-z) ja numeroita."
+
+#: includes/class-mla-settings.php:1924 includes/class-mla-settings.php:2289
+msgid "The MIME Type must be all lowercase and contain only letters, numbers, periods (.), slashes (/) and hyphens (-). It <strong>must be a valid MIME</strong> type, e.g., &#8220;image&#8221; or &#8220;image/jpeg&#8221;."
+msgstr "MIME-lajin on oltava pienillä kirjaimilla ja sisällettävä vain kirjaimia, numeroita, pisteitä (.), kenoviivoja (/) ja lyhyitä väliviivoja (-). Sen on oltava <strong>sallittu MIME-laji</strong>, esim. &#8220;image&#8221; tai &#8220;image/jpeg&#8221;."
+
+#: includes/class-mla-settings.php:1925 includes/class-mla-settings.php:2290
+msgid "Icon Type"
+msgstr "Kuvakkeen laji"
+
+#: includes/class-mla-settings.php:1927 includes/class-mla-settings.php:2291
+msgid "The Icon Type selects a thumbnail image displayed for non-image file types, such as PDF documents."
+msgstr "Kuvakkeen laji valitsee pikkukuvan, joka näytetään tiedostolajeille, jotka eivät ole kuvia. Yleisin näistä lienee PDF."
+
+#: includes/class-mla-settings.php:1928 includes/class-mla-settings.php:2292
+#: includes/class-mla-upload-list-table.php:515
+msgid "Inactive"
+msgstr "Ei käytössä"
+
+#: includes/class-mla-settings.php:1929 includes/class-mla-settings.php:2293
+msgid "Check this box if you want to remove this entry from the list of Upload MIME Types returned by get_allowed_mime_types()."
+msgstr "Valitse, joska haluat poistaa tämän kohdan  get_allowed_mime_types() kutsun palauttamien MIME-lajien listasta."
+
+#: includes/class-mla-settings.php:2000
+msgid "Known File Extension/MIME Type Associations"
+msgstr "Tunnetut tiedostopääte/MIME-laji -yhtenevyydet."
+
+#: includes/class-mla-settings.php:2002
+msgid "Search Known MIME Types"
+msgstr "Hae tunnettuja MIME-lajeja"
+
+#: includes/class-mla-settings.php:2004 includes/class-mla-settings.php:2278
+msgid "To search by extension, use \".\", e.g., \".doc\""
+msgstr "Hakeaksesi tiedostopäätteen perusteella, käytä pistettä \".\", esim. \".doc\""
+
+#: includes/class-mla-settings.php:2229
+msgid "Upload MIME Type Support is disabled"
+msgstr "Palvelimelle siirtämisen MIME-lajituki ei ole käytössä"
+
+#: includes/class-mla-settings.php:2272 includes/class-mla-settings.php:2275
+msgid "File Extension and MIME Type Processing"
+msgstr "Tiedostopäätteiden ja MIME-tyyppien käsittely"
+
+#: includes/class-mla-settings.php:2273
+msgid "In this tab you can manage the list of file extension/MIME Type associations, which are used by WordPress to decide what kind of files can be uploaded to the Media Library and to fill in the <strong><em>post_mime_type</em></strong> value. To upload a file, the file extension must be in this list and be active."
+msgstr "Tästä välilehdestä voit hallita tiedostopääte - MIME-lajiassosiaatioita, joilla WordPress päättelee, minkälaisia tiedostoja mediakirjastoon voidaan siirtää, sekä <strong> miten <em>post_mime_type</em></strong> -muuttuja asetetaan. Jotta tiedosto voidaan siirtää palvelimelle, sen tiedostopäätteen on oltava tässä listassa ja käytössä."
+
+#. translators: 1: Documentation hyperlink
+#: includes/class-mla-settings.php:2275
+msgid "You can find more information about file extensions, MIME types and how WordPress uses them in the %1$s section of the Documentation or by clicking the <strong>\"Help\"</strong> tab in the upper-right corner of this screen."
+msgstr "Ohjeiden %1$s kohdasta voit löytää lisätietoja tiedostopäätteistä, MIME-lajeista ja kuinka WordPress käsittelee niitä. Voit myös klikata näkymän oikeassa yläkulmassa olevaa  <strong>\"Ohjeita\"</strong> -painiketta."
+
+#: includes/class-mla-settings.php:2275
+msgid "File Extension Processing documentation"
+msgstr "Tiedostopäätteen käsittelyn ohjeet"
+
+#: includes/class-mla-settings.php:2277
+msgid "Search Uploads"
+msgstr "Hae palvelimelle siirretyistä"
+
+#: includes/class-mla-settings.php:2284
+msgid "Upload MIME Type"
+msgstr "Palvelimelle siirron MIME-laji"
+
+#: includes/class-mla-settings.php:2285
+msgid "To search the database of over 1,500 known extension/type associations, click \"Search Known Types\" below the form."
+msgstr "Hakeaksesi oikeaa lajia yli 1500 tunnettua tiedostopääte/MIME-laji -yhtäläisyyttä sisältävästä tietokannasta, klikkaa lomakkeen alla olevaa  \"Hae tunnetuista lajeista\" -painiketta."
+
+#: includes/class-mla-settings.php:2287
+msgid "The &#8220;extension&#8221; is the file extension for this type, and unique key for the item. It must be all lowercase and contain only letters and numbers."
+msgstr "&#8220;Pääte&#8221; on tämän lajin tiedostopääte ja ainutkertainen tunnus kohteelle. Se saa sisältää vain pieniä kirjaimia (a-z) ja numeroita."
+
+#: includes/class-mla-settings.php:2296
+msgid "Add Upload MIME Type"
+msgstr "Lisää palvelimelle siirtämisen MIME-laji"
+
+#: includes/class-mla-settings.php:2298
+msgid "Search Known Types"
+msgstr "Hae tunnetuista lajeista"
+
+#: includes/class-mla-settings.php:2306
+#: includes/class-mla-upload-list-table.php:517
+msgid "Active"
+msgstr "Käytössä"
+
+#: includes/class-mla-settings.php:2375
+msgid "In this tab you can view the default style and markup templates. You can also define additional templates and use the <code>mla_style</code> and <code>mla_markup</code> parameters to apply them in your <code>[mla_gallery]</code> shortcodes. <strong>NOTE:</strong> template additions and changes will not be made permanent until you click \"Save Changes\" at the bottom of this page."
+msgstr "Tässä välilehdessä voit tarkastella oletustyyli- ja -merkkausmalleja. Voit myös määrittää lisämalleja ja ottaa ne käyttöön lisäämällä parametrit <code>mla_style</code> ja <code>mla_markup</code> lyhytkoodiin <code>[mla_gallery]</code>. <strong>HUOM:</strong> malleja ei lisätä ja muutoksia ei tallenneta pysyvästi, ennen kuin paina sivun alalaidassa olevaa \"Tallenna muutokset\" -painiketta."
+
+#: includes/class-mla-settings.php:2365 includes/class-mla-settings.php:2545
+msgid "Style Templates"
+msgstr "Tyylimallit"
+
+#: includes/class-mla-settings.php:2366 includes/class-mla-settings.php:2703
+msgid "Markup Templates"
+msgstr "Koodimallit"
+
+#: includes/class-mla-settings.php:2393
+msgid "Theme"
+msgstr "Teema"
+
+#: includes/class-mla-settings.php:2414
+msgid "Imagick support is not installed."
+msgstr "Imagick ei ole asennettu."
+
+#: includes/class-mla-settings.php:2421
+msgid "Ghostscript support is not installed."
+msgstr "Ghostscript ei ole asennettu."
+
+#: includes/class-mla-settings.php:2425
+msgid " MLA Viewer support may not be available"
+msgstr " MLA Viewer -tukea ei välttämättä ole."
+
+#: includes/class-mla-settings.php:2457
+msgid "This default template cannot be altered or deleted, but you can copy the styles."
+msgstr "Oletusmallia ei voida muuttaa tai poistaa, mutta sen tyylit voi kopioida."
+
+#: includes/class-mla-template-support.php:54
+#: includes/class-mla-template-support.php:60
+#: includes/class-mla-template-support.php:66
+msgid "Styles"
+msgstr "Tyylit"
+
+#: includes/class-mla-template-support.php:55
+#: includes/class-mla-template-support.php:61
+#: includes/class-mla-template-support.php:67
+msgid "List of substitution parameters, e.g., [+selector+], on Documentation tab."
+msgstr "Lista korvattavista parametreista ts.[+selector+], on nähtävissä Ohjeet -välilehdellä."
+
+#: includes/class-mla-settings.php:2489 includes/class-mla-settings.php:2639
+msgid "Delete this template"
+msgstr "Poista tämä malli."
+
+#: includes/class-mla-settings.php:2490 includes/class-mla-settings.php:2640
+msgid "Check the box to delete this template when you press Update at the bottom of the page."
+msgstr "Tämä malli poistetaan painettuasi sivun alaosassa olevaa \"Päivitä\" -painiketta."
+
+#: includes/class-mla-settings.php:2516
+msgid "Fill in a name and styles to add a new template."
+msgstr "Lisää uuteen malliin nimi ja tyylit."
+
+#: includes/class-mla-settings.php:2594
+msgid "This default template cannot be altered or deleted, but you can copy the markup."
+msgstr "Tätä oletusmalia ei voi muuttaa tai poistaa, mutta sen koodin voi kopioida."
+
+#: includes/class-mla-template-support.php:82
+#: includes/class-mla-template-support.php:88
+#: includes/class-mla-template-support.php:124
+#: includes/class-mla-template-support.php:130
+#: includes/class-mla-template-support.php:166
+#: includes/class-mla-template-support.php:184
+msgid "Open"
+msgstr "Avaa"
+
+#: includes/class-mla-template-support.php:90
+msgid "Markup for the beginning of the gallery. List of parameters, e.g., [+selector+], on Documentation tab."
+msgstr "Gallerian alun koodi. Lista parametreista, ts. [+selector+] Dokementaatio -välilehdellä."
+
+#: includes/class-mla-template-support.php:82
+#: includes/class-mla-template-support.php:100
+#: includes/class-mla-template-support.php:124
+#: includes/class-mla-template-support.php:142
+msgid "Row"
+msgstr "Rivi"
+
+#: includes/class-mla-template-support.php:84
+msgid "Markup for the beginning of each row in the gallery."
+msgstr "Gallerian jokaisen alkavan rivin koodi."
+
+#: includes/class-mla-template-support.php:94
+#: includes/class-mla-template-support.php:136
+#: includes/class-mla-template-support.php:172
+#: includes/class-mla-template-support.php:190
+msgid "Item"
+msgstr "Kohta"
+
+#: includes/class-mla-template-support.php:96
+msgid "Markup for each item/cell of the gallery."
+msgstr "Gallerian jokaisen kohdan/solun koodi."
+
+#: includes/class-mla-settings.php:2808 includes/class-mla-settings.php:2944
+#: includes/class-mla-template-support.php:100
+#: includes/class-mla-template-support.php:106
+#: includes/class-mla-template-support.php:142
+#: includes/class-mla-template-support.php:148
+#: includes/class-mla-template-support.php:178
+#: includes/class-mla-template-support.php:196
+msgid "Close"
+msgstr "Sulje"
+
+#: includes/class-mla-template-support.php:102
+msgid "Markup for the end of each row in the gallery."
+msgstr "Gallerian jokaisen rivin lopun koodi."
+
+#: includes/class-mla-template-support.php:108
+msgid "Markup for the end of the gallery."
+msgstr "Gallerian lopun koodi."
+
+#: includes/class-mla-settings.php:2663
+msgid "Fill in a name and markup to add a new template."
+msgstr "Lisää uuden mallin nimi ja koodi."
+
+#: includes/class-mla-settings.php:2800
+msgid "Custom Field Mapping Progress"
+msgstr "Mukautettujen kenttien järjestelyn eteneminen"
+
+#: includes/class-mla-settings.php:2801 includes/class-mla-settings.php:2937
+msgid "DO NOT DO THE FOLLOWING (they will cause mapping to fail)"
+msgstr "ÄLÄ TEE SEURAAVIA ASIOITA (tästä aiheutuu järjestelyn epäonnistuminen)"
+
+#: includes/class-mla-settings.php:2802 includes/class-mla-settings.php:2938
+msgid "Close the window"
+msgstr "Sulje ikkuna"
+
+#: includes/class-mla-settings.php:2803 includes/class-mla-settings.php:2939
+msgid "Reload the page"
+msgstr "Päivitä tämä sivu"
+
+#: includes/class-mla-settings.php:2804 includes/class-mla-settings.php:2940
+msgid "Click the browser&rsquo;s Stop, Back or forward buttons"
+msgstr "Klikkaa selaimen Pysäytä, Taaksepäin tai Eteenpäin -painikkeita."
+
+#: includes/class-mla-settings.php:2805 includes/class-mla-settings.php:2941
+msgid "Progress"
+msgstr "Eteneminen"
+
+#: includes/class-mla-settings.php:2807 includes/class-mla-settings.php:2943
+msgid "Resume"
+msgstr "Jatka"
+
+#: includes/class-mla-settings.php:2817 includes/class-mla-settings.php:2821
+msgid "Custom Field and Attachment Metadata Processing Options"
+msgstr "Mukautettujen kenttien ja liitteiden metatietojen käsittelyn asetukset"
+
+#. translators: 1: Documentation hyperlink
+#: includes/class-mla-settings.php:2819
+msgid "In this tab you can define the rules for mapping several types of image metadata to WordPress custom fields. You can also use this screen to define rules for adding or updating fields within the WordPress-supplied \"Attachment Metadata\", stored in the \"_wp_attachment_metadata\" custom field. See the %1$s section of the Documentation for details."
+msgstr "Tällä välilehdellä voit määrittää sääntöjä, jotka ohjaavat, miten miten erilaisten kuvien metatiedot kartoittuvat WordPres:in mukautettuihin kenttiin. Voit määrittää myös kenttien lisäämistä ja päivittämistä koskevia sääntöjä WordPres:in tarjoamassa  liitteiden metadataa hallitsevassa \"_wp_attachment_metadata\" mukautus-kentässä. Katso lisätietoja ohjeiden kohdasta %1$s."
+
+#: includes/class-mla-settings.php:2819
+msgid "Updating Attachment Metadata Documentation"
+msgstr "Liitteiden metatietojen ohjeiden päivittäminen"
+
+#: includes/class-mla-settings.php:2819
+msgid "Adding or changing Attachment Metadata"
+msgstr "Liitteiden metatietojen lisääminen tai muuttaminen"
+
+#. translators: 1: Documentation hyperlink
+#: includes/class-mla-settings.php:2821 includes/class-mla-settings.php:2956
+msgid "You can find more information about using the controls in this tab to define mapping rules and apply them in the %1$s section of the Documentation."
+msgstr "Löydät lisätietoja tämän välilehden kontrollien käytöstä ohjeiden %1$s kohdasta."
+
+#: includes/class-mla-settings.php:2821
+msgid "Custom Field Options documentation"
+msgstr "Mukautettujen kenttien asetusten ohjeet"
+
+#: includes/class-mla-settings.php:2825 includes/class-mla-settings.php:2966
+msgid "Custom field mapping"
+msgstr "Mukautettujen kenttien järjestely"
+
+#. translators: 1: "Save Changes"
+#: includes/class-mla-settings.php:2830
+msgid "Click %1$s to update the \"Enable custom field mapping...\" checkbox and/or all rule changes and additions at once. <strong>No rule mapping will be performed.</strong>"
+msgstr "Klikkaa %1$s painiketta päivittääksesi \"Mukautettujen kenttien kartoitus\" -valintaruudun tilan ja tai kaikki sääntölisäykset ja -muutokset samalla kertaa. <strong>Sääntöjen järjestelyä ei suoriteta.</strong>"
+
+#. translators: 1: "Map All Rules..."
+#: includes/class-mla-settings.php:2832
+msgid "Click %1$s to apply all the rules at once (rule changes will be applied but not saved)."
+msgstr "Klikkaa %1$s painiketta ottaaksesi kaikki säännöt käyttöön kerralla (sääntöjen muutos otetaan käyttöön, mutta ei tallenneta)."
+
+#: includes/class-mla-settings.php:2936
+msgid "IPTC &amp; EXIF Mapping Progress"
+msgstr "IPTC &amp; EXIF kartoituksen eteneminen"
+
+#: includes/class-mla-settings.php:2953 includes/class-mla-settings.php:2956
+msgid "IPTC &amp; EXIF Processing Options"
+msgstr "IPTC &amp; EXIF -käsittelyn asetukset"
+
+#: includes/class-mla-settings.php:2954
+msgid "In this tab you can define the rules for mapping IPTC (International Press Telecommunications Council) and EXIF (EXchangeable Image File) metadata to WordPress standard attachment fields, taxonomy terms and custom fields. <strong>NOTE:</strong> settings changes will not be made permanent until you click \"Save Changes\" at the bottom of this page."
+msgstr "Tässä välilehdessä voit määrittää IPTC (International Press Telecommunications Council = kansainvälinen lehdistön teleliikenneneuvosto) ja EXIF (EXchangeable Image File = vaihdettava kuvatiedosto) -formaattien metadatan kartoituksen WordPress:in standardeihin liitekenttiin, luokittelutermeihin ja mukautettuihin kenttiin. <strong>HUOM:</strong> asetusten muutos ei ole pysyvä, ennen kuin painat sivun alalaidassa olevaa \"Tallenna muutokset\" -painiketta."
+
+#: includes/class-mla-settings.php:2956
+msgid "IPTC/EXIF Options documentation"
+msgstr "IPTC/EXIF asetusten dokumentaatio"
+
+#: includes/class-mla-settings.php:2960
+msgid "Standard field mapping"
+msgstr "Standardikenttien kartoitus"
+
+#: includes/class-mla-settings.php:2963
+msgid "Taxonomy term mapping"
+msgstr "Luokittelutermien kartoitus"
+
+#. translators: 1: "Save Changes"
+#: includes/class-mla-settings.php:2971
+msgid "Click %1$s to update the \"Enable IPTC/EXIF mapping...\" checkbox and/or all rule changes and additions at once. <strong>No rule mapping will be performed.</strong>"
+msgstr "Klikkaa %1$s painiketta päivitääksesi \"Ota käyttöön IPTC/EXIF kartoitus...\" valintaruudin tilan ja tai kaikki sääntölisäykset- ja muutokset samalla kertaa.  <strong>Sääntöjen akrtoitusta ei suoriteta.</strong>"
+
+#: includes/class-mla-settings.php:3042
+msgid "Debug settings saved."
+msgstr "Testaustilan asetukset tallennettu."
+
+#. translators: 1: ERROR tag 2: file type 3: file name 4: error message
+#: includes/class-mla-settings.php:3138
+msgid "%1$s: Reseting the %2$s file ( %3$s ) \"%4$s\"."
+msgstr "%1$s: nollattaessa %2$s tiedostoa ( %3$s ) \"%4$s\"."
+
+#: includes/class-mla-settings.php:3138 includes/class-mla-settings.php:3189
+#: includes/class-mla-settings.php:3213 includes/class-mla-settings.php:3223
+#: includes/class-mla-settings.php:3249
+msgid "Error Log"
+msgstr "Virheloki"
+
+#. translators: 1: ERROR tag 2: file type 3: file name 4: error message
+#: includes/class-mla-settings.php:3189
+msgid "%1$s: Reading the %2$s file ( %3$s ) \"%4$s\"."
+msgstr "%1$s: luettaessa %2$s tiedostoa ( %3$s ) \"%4$s\"."
+
+#. translators: 1: file name
+#: includes/class-mla-settings.php:3199
+msgid "Error log file (%1$s) not found; click Reset to create it."
+msgstr "Virhelokitiedostoa (%1$s) ei löydy; klikkaa \"Palauta\" luodaksesi sen."
+
+#: includes/class-mla-edit-media.php:416 includes/class-mla-main.php:2051
+#: includes/class-mla-settings.php:3223
+msgid "Reset"
+msgstr "Tyhjennä"
+
+#: includes/class-mla-settings.php:3244 includes/class-mla-settings.php:3257
+msgid "Debug Options"
+msgstr "Testaustilan valinnat"
+
+#: includes/class-mla-settings.php:3247
+msgid "Debug Settings"
+msgstr "Testaustilan asetukset"
+
+#. translators: 1: "Save Changes"
+#: includes/class-mla-settings.php:3257
+msgid "Click %1$s to update the %2$s."
+msgstr "Klikkaa %1$s päivittääksesi %2$s."
+
+#: includes/class-mla-settings.php:3276
+msgid "You do not have permission to manage plugin settings."
+msgstr "Et voi muuttaa lisäosan asetuksia. Tarvitset laajemmat oikeudet."
+
+#: includes/class-mla-settings.php:3307
+msgid "Cannot render content tab"
+msgstr "Ei voi renderöidä sisältövälilehteä"
+
+#: includes/class-mla-settings.php:3310
+msgid "Unknown content tab"
+msgstr "Tuntematon sisältövälilehti"
+
+#. translators: 1: template type 2: template name
+#: includes/class-mla-settings.php:3408 includes/class-mla-settings.php:3503
+msgctxt "message_list"
+msgid "Deleting %1$s \"%2$s\"."
+msgstr "Poistetaan %1$s \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: template name 3: template type
+#: includes/class-mla-settings.php:3419 includes/class-mla-settings.php:3516
+msgid "%1$s: Reserved name \"%2$s\", new %3$s discarded."
+msgstr "%1$s: Nimi varattu \"%2$s\", uusi %3$s sivuutettu."
+
+#. translators: 1: ERROR tag 2: template name 3: template type
+#: includes/class-mla-settings.php:3425 includes/class-mla-settings.php:3522
+msgid "%1$s: Duplicate name \"%2$s\", new %3$s discarded."
+msgstr "%1$s: nimen kaksoiskappale \"%2$s\", uusi %3$s sivuutettu."
+
+#. translators: 1: template type 2: template name
+#: includes/class-mla-settings.php:3429 includes/class-mla-settings.php:3526
+msgctxt "message_list"
+msgid "Adding new %1$s \"%2$s\"."
+msgstr "Lisätään uusi %1$s \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: element name 3: old value
+#: includes/class-mla-settings.php:3439 includes/class-mla-settings.php:3536
+msgid "%1$s: Blank %2$s, reverting to \"%3$s\"."
+msgstr "%1$s: tyhjä %2$s, palataan vanhaan arvoon \"%3$s\"."
+
+#: includes/class-mla-settings.php:3439 includes/class-mla-settings.php:3446
+#: includes/class-mla-settings.php:3450 includes/class-mla-settings.php:3454
+msgid "style template name"
+msgstr "tyylin mallinimi"
+
+#. translators: 1: ERROR tag 2: element name 3: new value 4: old value
+#: includes/class-mla-settings.php:3446 includes/class-mla-settings.php:3543
+msgid "%1$s: Duplicate new %2$s \"%3$s\", reverting to \"%4$s\"."
+msgstr "%1$s: kaksoiskappale %2$s \"%3$s\", palataan vanhaan arvoon \"%4$s\"."
+
+#. translators: 1: element name 2: old_value 3: new_value
+#: includes/class-mla-settings.php:3454 includes/class-mla-settings.php:3551
+msgctxt "message_list"
+msgid "Changing %1$s from \"%2$s\" to \"%3$s\""
+msgstr "Muutetaan %1$s arvosta \"%2$s\" arvoon \"%3$s\""
+
+#. translators: 1: template type 2: template name
+#: includes/class-mla-settings.php:3461
+msgctxt "message_list"
+msgid "Updating contents of %1$s \"%2$s\"."
+msgstr "Päivitä mallin %1$s \"%2$s\" sisältö."
+
+#. translators: 1: ERROR tag 2: template type
+#: includes/class-mla-settings.php:3476 includes/class-mla-settings.php:3588
+msgid "%1$s: Update of %2$s failed."
+msgstr "%1$s: mallityypin %2$s päivitys epäonnistui."
+
+#: includes/class-mla-settings.php:3536 includes/class-mla-settings.php:3543
+#: includes/class-mla-settings.php:3547 includes/class-mla-settings.php:3551
+msgid "markup template name"
+msgstr "Merkintämallineen nimi"
+
+#. translators: 1: field type
+#: includes/class-mla-settings.php:3597
+msgid "%1$s no changes detected."
+msgstr "%1$s muutosta ei havaittu."
+
+#: includes/class-mla-settings.php:3632
+msgid "View settings saved."
+msgstr "Näytä tallannetut asetukset."
+
+#: includes/class-mla-settings.php:3666
+msgid "Upload MIME Type settings saved."
+msgstr "Palvelimell siirtämisen MIME-asetukset on tallennettu."
+
+#: includes/class-mla-settings.php:3709
+msgid "No custom field mapping rules to process."
+msgstr "Ei käsiteltäviä kenttien mukautettuja järjestelysääntöjä."
+
+#. translators: 1: field type 2: examined count 3: updated count
+#: includes/class-mla-settings.php:3742 includes/class-mla-settings.php:3884
+#: includes/class-mla-settings.php:3958 includes/class-mla-settings.php:4047
+msgid "%1$s mapping completed; %2$d attachment(s) examined, %3$d updated."
+msgstr "%1$s-kenttien järjestely valmis; %2$d liite(ttä) käsitelty, %3$d päivitetty."
+
+#. translators: 1: field type 2: examined count
+#: includes/class-mla-settings.php:3745 includes/class-mla-settings.php:3887
+#: includes/class-mla-settings.php:3961 includes/class-mla-settings.php:4050
+msgid "%1$s mapping completed; %2$d attachment(s) examined, no changes detected."
+msgstr "%1$s-kentän järjestely valmis; %2$d liite(ttä) käsitelty, muutoksia ei havaittu."
+
+#. translators: 1: number of attachments
+#: includes/class-mla-settings.php:3776
+msgid "%s attachment"
+msgid_plural "%s attachments"
+msgstr[0] "%s liite"
+msgstr[1] "%s liitettä"
+
+#. translators: 1: singular/plural number of attachments
+#: includes/class-mla-settings.php:3778
+msgid "Deleted custom field value from %1$s."
+msgstr "Mukautettu kenttä poistettu liitteestä %1$s."
+
+#: includes/class-mla-settings.php:3781
+msgid "No attachments contained this custom field."
+msgstr "Tämä mukautettu kenttä ei sisällä liitteitä."
+
+#. translators: 1: ERROR tag 2: field type
+#: includes/class-mla-settings.php:3842 includes/class-mla-settings.php:3916
+#: includes/class-mla-settings.php:4005
+msgid "%1$s: No %2$s settings to process."
+msgstr "%1$s: Kentässä %2$s ei käsiteltäviä asetuksia."
+
+#: includes/class-mla-settings.php:3875 includes/class-mla-settings.php:3949
+#: includes/class-mla-settings.php:4038
+msgid "updated."
+msgstr "päivitetty."
+
+#. translators: 1: reference type, e.g., Gallery in
+#: includes/class-mla-settings.php:4143 includes/class-mla-settings.php:4153
+msgctxt "message_list"
+msgid "%1$s - references updated."
+msgstr "%1$s - viittaukset päivitetty."
+
+#: includes/class-mla-settings.php:4196
+msgid "General settings saved."
+msgstr "Yleiset asetukset tallennettu."
+
+#: includes/class-mla-settings.php:4235
+msgid "General settings reset to default values."
+msgstr "Yleiset asetukset palautettu oletusarvoihin."
+
+#: includes/class-mla-settings.php:4277
+msgid "select settings"
+msgstr "valitse asetuksia"
+
+#: includes/class-mla-settings.php:4297
+msgid "Import ALL Settings"
+msgstr "Tuo KAIKKI asetukset"
+
+#: includes/class-mla-settings.php:4326 includes/class-mla-settings.php:4342
+msgctxt "message_list"
+msgid "exported"
+msgstr "viety"
+
+#: includes/class-mla-settings.php:4328 includes/class-mla-settings.php:4344
+msgctxt "message_list"
+msgid "skipped"
+msgstr "viety"
+
+#: includes/class-mla-settings.php:4351
+msgid "ALL settings exported."
+msgstr "KAIKKI asetukset viety"
+
+#. translators: 1: ERROR tag 2: backup directory name
+#: includes/class-mla-settings.php:4362
+msgid "%1$s: The settings directory ( %2$s ) cannot be created."
+msgstr "%1$s: asetuskansiota ( %2$s ) ei voida luoda."
+
+#. translators: 1: ERROR tag 2: backup directory name
+#: includes/class-mla-settings.php:4366
+msgid "%1$s: The settings directory ( %2$s ) is not writable."
+msgstr "%1$s: asetuskansioon ( %2$s ) ei ole kirjoitusoikeuksia."
+
+#. translators: 1: ERROR tag 2: backup file name
+#: includes/class-mla-settings.php:4377
+msgid "%1$s: The settings file ( %2$s ) could not be opened."
+msgstr "%1$s: asetustiedostoa ( %2$s ) ei voitu avata."
+
+#. translators: 1: ERROR tag 2: PHP error information
+#: includes/class-mla-settings.php:4384
+msgctxt "error_log"
+msgid "%1$s: _export_settings $error_info = \"%2$s\"."
+msgstr "%1$s: _export_settings $error_info = \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: backup file name 3: error message
+#: includes/class-mla-settings.php:4393
+msgid "%1$s: Writing the settings file ( %2$s ) \"%3$s\"."
+msgstr "%1$s: kirjoitettaessa asetustiedostoa ( %2$s ) \"%3$s\"."
+
+#. translators: 1: number of option settings
+#: includes/class-mla-settings.php:4399
+msgid "Settings exported; %1$s settings recorded."
+msgstr "Asetukset viety; %1$s asetusta tallennettu."
+
+#: includes/class-mla-settings.php:4417
+msgid "No settings imported."
+msgstr "Asetuksia ei tuotu."
+
+#: includes/class-mla-settings.php:4426
+msgid "Please select an import settings file from the dropdown list."
+msgstr "Valitse asetuksien tuomisen asetukset oheisesta pudotusvalikosta."
+
+#: includes/class-mla-settings.php:4430
+msgid "The import settings dropdown selection is missing."
+msgstr "Asetuksien tuomisen asetuksia ei ole valittu alasvetovalikosta."
+
+#. translators: 1: ERROR tag 2: PHP error information
+#: includes/class-mla-settings.php:4438
+msgctxt "error_log"
+msgid "%1$s: _import_settings $error_info = \"%2$s\"."
+msgstr "%1$s: _import_settings $error_info = \"%2$s\"."
+
+#: includes/class-mla-settings.php:4466 includes/class-mla-settings.php:4482
+msgctxt "message_list"
+msgid "updated"
+msgstr "päivitetty"
+
+#: includes/class-mla-settings.php:4469 includes/class-mla-settings.php:4485
+msgctxt "message_list"
+msgid "unchanged"
+msgstr "ei muutettu"
+
+#. translators: 1: number of option settings updated 2: number of option
+#. settings unchanged
+#: includes/class-mla-settings.php:4490
+msgid "Settings imported; %1$s updated, %2$s unchanged."
+msgstr "Asetukset tuotu; %1$s päivitetty, %2$s ei muutettu."
+
+#: includes/class-mla-shortcode-support.php:363
+#: includes/class-mla-shortcode-support.php:1644
+#: includes/class-mla-shortcode-support.php:3615
+#: includes/class-mla-shortcode-support.php:3901
+msgid "Previous"
+msgstr "Edellinen"
+
+#: includes/class-mla-shortcode-support.php:364
+#: includes/class-mla-shortcode-support.php:1645
+#: includes/class-mla-shortcode-support.php:3664
+#: includes/class-mla-shortcode-support.php:3907
+msgid "Next"
+msgstr "Seuraava"
+
+#: includes/class-mla-shortcode-support.php:498
+msgid "mla_debug empty gallery"
+msgstr "mla_debug tyhjä galleria"
+
+#: includes/class-mla-shortcode-support.php:573
+msgid "<strong>Photonic-enhanced [mla_gallery]</strong> type must be <strong>default</strong>, query = "
+msgstr "<strong>Fotonisesti kohennettu [mla_gallery]</strong> täytyy olla <strong>oletuksena</strong>, haku = "
+
+#: includes/class-mla-shortcode-support.php:964
+msgid "unknown"
+msgstr "tuntematon"
+
+#: includes/class-mla-shortcode-support.php:1799
+#: includes/class-mla-shortcode-support.php:3101
+msgid "mla_debug attributes"
+msgstr "mla_debug attribuutit"
+
+#: includes/class-mla-shortcode-support.php:1800
+#: includes/class-mla-shortcode-support.php:3102
+msgid "mla_debug arguments"
+msgstr "mla_debug argumentit"
+
+#: includes/class-mla-shortcode-support.php:1921
+msgid "mla_debug empty cloud"
+msgstr "mla_debug tyhjennä pilvi"
+
+#: includes/class-mla-shortcode-support.php:4262
+#: includes/class-mla-shortcode-support.php:4597
+#: includes/class-mla-shortcode-support.php:4628
+msgid "Invalid mla_gallery"
+msgstr "Väärä mla_gallery"
+
+#: includes/class-mla-shortcode-support.php:4890
+msgid "mla_debug query"
+msgstr "mla_debug haku"
+
+#: includes/class-mla-shortcode-support.php:4891
+msgid "mla_debug request"
+msgstr "mla_debug kutsu"
+
+#: includes/class-mla-shortcode-support.php:4892
+msgid "mla_debug query_vars"
+msgstr "mla_debug query_vars"
+
+#: includes/class-mla-shortcode-support.php:4893
+msgid "mla_debug post_count"
+msgstr "mla_debug post_count"
+
+#: includes/class-mla-shortcode-support.php:4961
+msgid "mla_debug WHERE filter"
+msgstr "mla_debug WHERE-suodatin"
+
+#: includes/class-mla-shortcode-support.php:4980
+msgid "mla_debug modified WHERE filter"
+msgstr "mla_debug muokattu WHERE-suodatin"
+
+#: includes/class-mla-shortcode-support.php:5003
+msgid "mla_debug ORDER BY filter, incoming"
+msgstr "mla_debug sisääntuleva ORDER BY -suodatin"
+
+#: includes/class-mla-shortcode-support.php:5003
+msgid "Replacement ORDER BY clause"
+msgstr "Korvaava ORDER BY -lauseke"
+
+#: includes/class-mla-shortcode-support.php:5026
+msgid "mla_debug posts_clauses filter"
+msgstr "mla_debug posts_clauses suodatin"
+
+#: includes/class-mla-shortcode-support.php:5044
+msgid "mla_debug posts_clauses_request filter"
+msgstr "mla_debug posts_clauses_request suodatin"
+
+#: includes/class-mla-shortcode-support.php:5237
+msgid "Invalid taxonomy"
+msgstr "Väärä luokittelu"
+
+#: includes/class-mla-shortcode-support.php:5443
+msgid "mla_debug query arguments"
+msgstr "mla_debug haun argumentit"
+
+#: includes/class-mla-shortcode-support.php:5444
+msgid "mla_debug last_query"
+msgstr "mla_debug last_query"
+
+#: includes/class-mla-shortcode-support.php:5445
+msgid "mla_debug last_error"
+msgstr "mla_debug last_error"
+
+#: includes/class-mla-shortcode-support.php:5446
+msgid "mla_debug num_rows"
+msgstr "mla_debug num_rows"
+
+#: includes/class-mla-shortcode-support.php:5447
+msgid "mla_debug found_rows"
+msgstr "mla_debug found_rows"
+
+#: includes/class-mla-thumbnail-generation.php:95
+msgid "Error while saving the thumbnails."
+msgstr "Virhe tallennettaessa pikkukuvia."
+
+#: includes/class-mla-thumbnail-generation.php:96
+msgid "Remove From"
+msgstr "Poista kohteesta"
+
+#: includes/class-mla-thumbnail-generation.php:96
+#: includes/class-mla-thumbnail-generation.php:98
+#: includes/class-mla-thumbnail-generation.php:428
+msgid "Generate Thumbnails"
+msgstr "Luo pikkukuvat"
+
+#. translators: 1: post ID
+#: includes/class-mla-thumbnail-generation.php:218
+msgid "Item %1$d"
+msgstr "Viesti %1$d"
+
+#: includes/class-mla-thumbnail-generation.php:225
+msgid "has native thumbnail."
+msgstr "Kohteella on oma pikkukuva"
+
+#: includes/class-mla-thumbnail-generation.php:246
+msgid "Featured Image retained."
+msgstr "Esittelyssä oleva kuva säilytetty."
+
+#. translators: 1: ERROR tag 2: Item post ID
+#: includes/class-mla-thumbnail-generation.php:256
+msgid "%1$s: %2$sno attached file."
+msgstr "%1$s: ID %2$s liitetiedostojen määrä."
+
+#: includes/class-mla-thumbnail-generation.php:260
+msgid "unsupported file type."
+msgstr "tiedostotyyppiä ei tueta."
+
+#. translators: 1: ERROR tag 2: Item post ID
+#: includes/class-mla-thumbnail-generation.php:270
+msgid "%1$s: %2$sthumbnail generation failed"
+msgstr "%1$s: %2$s pikkukuvan luonti epäonnistui"
+
+#. translators: 1: ERROR tag 2: Item post ID
+#: includes/class-mla-thumbnail-generation.php:316
+msgid "%1$s: %2$swp_insert_attachment failed."
+msgstr "%1$s: %2$swp_insert_attachment epäonnistui."
+
+#. translators: 1: Item post ID, 2: new thumbnail item ID
+#: includes/class-mla-thumbnail-generation.php:333
+msgid "%1$sthumbnail generated as new item %2$s."
+msgstr "%1$s pikkukuva luotiin uudeksi kohteeksi, ID %2$s."
+
+#: includes/class-mla-thumbnail-generation.php:377
+msgid "Generated Thumbnails"
+msgstr "Luodut pikkukuvat"
+
+#: includes/class-mla-thumbnail-generation.php:429
+msgid "Pull down the Help menu and select Thumbnail Generation for setting details"
+msgstr "Kun avaat tukivalikon ja valitset Pikkukuvien luonti voit tehdä valintoja asetuksiin"
+
+#: includes/class-mla-thumbnail-generation.php:430
+msgid "Width"
+msgstr "Leveys"
+
+#: includes/class-mla-thumbnail-generation.php:431
+msgid "Height"
+msgstr "Korkeus"
+
+#: includes/class-mla-thumbnail-generation.php:432
+msgid "Best Fit"
+msgstr "Parhaiten sopiva"
+
+#: includes/class-mla-thumbnail-generation.php:433
+msgid "Page"
+msgstr "Sivu"
+
+#: includes/class-mla-thumbnail-generation.php:434
+msgid "Resolution"
+msgstr "Resoluutio"
+
+#: includes/class-mla-thumbnail-generation.php:435
+msgid "Quality"
+msgstr "Laatu"
+
+#: includes/class-mla-thumbnail-generation.php:437
+msgid "Existing Items"
+msgstr "Olemassa olevat kohteet"
+
+#: includes/class-mla-thumbnail-generation.php:439
+msgid "Ignore"
+msgstr "Ohita"
+
+#: includes/class-mla-thumbnail-generation.php:441
+msgid "Delete"
+msgstr "Poista"
+
+#: includes/class-mla-thumbnail-generation.php:442
+msgid "Suffix"
+msgstr "Loppuliite"
+
+#: includes/class-mla-upload-list-table.php:184
+#: includes/class-mla-upload-optional-list-table.php:167
+msgctxt "list_table_column"
+msgid "Extension"
+msgstr "Tiedostopääte"
+
+#: includes/class-mla-upload-list-table.php:186
+msgctxt "list_table_column"
+msgid "Icon Type"
+msgstr "Kuvakelaji"
+
+#: includes/class-mla-upload-list-table.php:187
+msgctxt "list_table_column"
+msgid "Source"
+msgstr "Lähde"
+
+#: includes/class-mla-upload-list-table.php:188
+msgctxt "list_table_column"
+msgid "Status"
+msgstr "Tila"
+
+#: includes/class-mla-upload-list-table.php:189
+#: includes/class-mla-upload-optional-list-table.php:169
+msgctxt "list_table_column"
+msgid "WordPress Type"
+msgstr "WordPress-laji"
+
+#: includes/class-mla-upload-list-table.php:190
+#: includes/class-mla-upload-optional-list-table.php:170
+msgctxt "list_table_column"
+msgid "MLA Type"
+msgstr "MLA-laji"
+
+#: includes/class-mla-upload-list-table.php:191
+msgctxt "list_table_column"
+msgid "Std. Source"
+msgstr "Standardilähde"
+
+#: includes/class-mla-upload-list-table.php:192
+msgctxt "list_table_column"
+msgid "Std. Icon Type"
+msgstr "Standardi kuvakelaji"
+
+#: includes/class-mla-upload-list-table.php:412
+#: includes/class-mla-view-list-table.php:357
+msgid "Revert to standard item"
+msgstr "Palauta oletuskohde"
+
+#: includes/class-mla-upload-list-table.php:412
+#: includes/class-mla-view-list-table.php:357
+msgid "Revert to Standard"
+msgstr "Palaa oletukseen"
+
+#: includes/class-mla-upload-list-table.php:711
+msgid "Delete/Revert Custom"
+msgstr "Poista/Kumoa mukautus"
+
+#: includes/class-mla-upload-optional-list-table.php:281
+msgid "Select this entry"
+msgstr "Valitse tämä merkintä"
+
+#: includes/class-mla-upload-optional-list-table.php:414
+msgid "Select these entries"
+msgstr "Valitse merkinnät"
+
+#: includes/class-mla-view-list-table.php:173
+msgctxt "list_table_column"
+msgid "Specification"
+msgstr "Määritys"
+
+#: includes/class-mla-view-list-table.php:174
+msgctxt "list_table_column"
+msgid "Post Mime"
+msgstr "Viestin MIME"
+
+#: includes/class-mla-view-list-table.php:175
+msgctxt "list_table_column"
+msgid "Table View"
+msgstr "Taulukkonäkymä"
+
+#: includes/class-mla-view-list-table.php:176
+msgctxt "list_table_column"
+msgid "Singular Name"
+msgstr "Nimi yksikössä"
+
+#: includes/class-mla-view-list-table.php:177
+msgctxt "list_table_column"
+msgid "Plural Name"
+msgstr "Nimi monikossa"
+
+#: includes/class-mla-view-list-table.php:178
+msgctxt "list_table_column"
+msgid "Order"
+msgstr "Järjestys"
+
+#: includes/class-mla-wpml-support.php:479
+msgid "Duplicate translation created; update as desired."
+msgstr "Käännökselle luotu kaksoiskappale; päivitä jos tarvetta."
+
+#. translators: 1: - 4: page subheader values
+#: includes/class-mla-wpml-support.php:1755
+msgid "In this tab you can find a number of options for controlling WPML-specific operations. Scroll down to find options for %1$s and %2$s. Be sure to click \"Save Changes\" at the bottom of the tab to save any changes you make."
+msgstr "Tästä välilehdestä löydät asetuksia, jotka ohjaavat WPML-liittyviä toimintoja. Vieritä alaspäin muuttaaksesi kohteita %1$s ja %2$s. Muista klikata painiketta \"Tallenna muutokset\" sivun alaosasta."
+
+#: includes/class-mla-wpml-support.php:2259
+#: includes/class-mla-wpml-support.php:2265
+msgid "Edit the %s translation"
+msgstr "Muokkaa kohteen %s käännöstä"
+
+#: includes/class-mla-wpml-support.php:2271
+msgid "Add translation to %s"
+msgstr "Lisää käännös kohteeseen %s"
+
+#: includes/mla-main-search-box-template.php:42
+#: includes/mla-main-search-box-template.php:44
+#: includes/mla-media-modal-js-template.php:25
+msgid "Search Media"
+msgstr "Hae mediaa"
+
+#: includes/mla-plugin-loader.php:43
+msgid "The Media Library Assistant cannot load."
+msgstr "Media Library Assistant -lisäosa ei voi käynnistyä."
+
+#: includes/mla-plugin-loader.php:45
+msgid "You must resolve these conflicts before this plugin can safely load."
+msgstr "Sinun on selvitettävä nämä konfliktit ennen kuin lisäosa voi toimia oikein."
+
+#. Plugin URI of the plugin/theme
+msgid "http://fairtradejudaica.org/media-library-assistant-a-wordpress-plugin/"
+msgstr "http://fairtradejudaica.org/media-library-assistant-a-wordpress-plugin/"
+
+#. #-#-#-#-#  tmp-media-library-assistant.pot (Media Library Assistant 2.31) 
+#. #-#-#-#-#
+#. translators: Description of the plugin/theme
+#. #-#-#-#-#  tmp-media-library-assistant.pot (Media Library Assistant 2.31) 
+#. #-#-#-#-#
+#. Description of the plugin/theme
+#: index.php:46
+msgid "Enhances the Media Library; powerful [mla_gallery], taxonomy support, IPTC/EXIF processing, bulk & quick edit actions and where-used reporting."
+msgstr "Kohentaa mediakirjastoa. Lisää tehokkaan [mla_gallery] -gallerian, tuen luokitteluille,  IPTC/EXIF-käsittelyn, massamuokkauksen ja median käytön raportoinnin."
+
+#. Author of the plugin/theme
+msgid "David Lingren, Fair Trade Judaica"
+msgstr "David Lingren, Fair Trade Judaica"
+
+#: includes/class-mla-core-options.php:965
+msgid "Enable thumbnail substitution"
+msgstr "Ota pikkukuvien korvaaminen käyttöön"
+
+#: includes/class-mla-core-options.php:968
+msgid "Check this option to allow the \"mla_viewer\" to generate thumbnail images for PDF  documents. Thumbnails are generated dynamically, each time the item appears in an [mla_gallery] display.<br>&nbsp;&nbsp;<strong>IMPORTANT: both Ghostscript and Imagick/ImageMagick must be installed for this feature.</strong>"
+msgstr "Valitse tämä salliaksesi \"mla_viewer\":in luoda pikkukatselukuvia PDF-asiakirjoille. Pikkukatselukuvat luodaan dynaamisesti joka kerta, kun kohde näkyy [mla_gallery] -näkymässä. <br>&nbsp;&nbsp;<strong>TÄRKEÄÄ: sekä Ghostscript, että Imagick/ImageMagick on oltava asennettuna tätä ominaisuutta varten.</strong>"
+
+#: includes/class-mla-core-options.php:972
+msgid "Enable Featured Images"
+msgstr "Ota käyttöön Esittelyssä oleva kuva -ominaisuus"
+
+#: includes/class-mla-core-options.php:975
+msgid "Check this option to extend Featured Image support to all Media Library items. The Featured Image can be used as a thumbnail image for the item in an [mla_gallery] display."
+msgstr "Valitse tämä ottaaksesi Esittelyssä oleva kuva -ominaisuus käyttöön koko mediakirjaston sisällössä.esittelykuvaa voidaan käyttää pikkukuvana [mla_gallery] -galleriassa."
+
+#: includes/class-mla-core-options.php:979
+msgid "Enable Featured Image Generation"
+msgstr "Ota käyttöön Esittelyssä oleva kuvan luominen"
+
+#: includes/class-mla-core-options.php:982
+msgid "Check this option to enable the \"Thumbnail\" generation action in the Media/Assistant submenu Bulk Actions dropdown."
+msgstr "Valitse tämä ottaaksesi pikkukuvien luominen käyttöön Media/Assistentin massatoiminnoissa."
+
+#: includes/class-mla-core-options.php:986
+msgid "Enable explicit Ghostscript check"
+msgstr "Ota käyttöön erillinen Ghostscript -tarkistus."
+
+#: includes/class-mla-core-options.php:989
+msgid "Check this option to enable the explicit check for Ghostscript support required for thumbnail generation. If your Ghostscript software is in a non-standard location, unchecking this option bypasses the check. Bad things can happen if Ghostscript is missing but Imagick/ImageMagick is present, so leave this option checked unless you know it is safe to turn it off."
+msgstr "Ota käyttöön pikkukuvien luonnissa tarvittavan Ghostscriptin erillinen toiminnan tarkistus. Mikäli Ghostscript ei sijaitse standardisijainnissa, jätä tämä valitsematta ohittaaksesi tarkastus. Pahoja asioita tapahtuu, mikäli Ghostscript ei ole asennettuna mutta ImageMagic on, joten jätä tämä valituksi, paitsi jos tiedät, että valitsematta jättäminen on turvallista. "
+
+#: includes/class-mla-core-options.php:993
+msgid "Ghostscript path"
+msgstr "Ghostscript-polku"
+
+#: includes/class-mla-core-options.php:997
+msgid "If your &ldquo;gs&rdquo; executable is in a non-standard location, enter the full path and filename here, e.g., &ldquo;/usr/bin/gs&rdquo;. It will override the search for Ghostscript in other places."
+msgstr "Jos &ldquo;gs&rdquo; -sovellus on asennettu epästandardiin sijaintiin, syötä tähän täysi polku ja tiedostonimi, ts. &ldquo;/usr/bin/gs&rdquo;. Tämä ohittaa Ghostscript:in normaalin hakupolun."
+
+#: includes/class-mla-core-options.php:1017
+msgid "Enable custom field mapping when adding new media"
+msgstr "Ota käyttöön mukautettujen kenttien järjestely uutta mediaa lisättäessä."
+
+#: includes/class-mla-core-options.php:1020
+msgid "Check this option to enable mapping when uploading new media (attachments).<br>&nbsp;&nbsp;Click Save Changes at the bottom of the screen if you change this option.<br>&nbsp;&nbsp;Does NOT affect the operation of the \"Map\" buttons on the bulk edit, single edit and settings screens."
+msgstr "Valitse tämä ottaaksesi käyttöön kartoitus uutta mediaa lisättäessä <br>&nbsp;&nbsp; Klikkaa \"Tallenna asetukset\" -painiketta sivun alalaidassa, mikäli muutat tätä asetusta.<br>&nbsp;&nbsp;Ei vaikuta \"Kartoita\" -painikkeen toimintaan massamuokkauksessa, yksittäismuokkauksessa ja asetusikkunoissa."
+
+#: includes/class-mla-core-options.php:1024
+msgid "Enable custom field mapping when updating media metadata"
+msgstr "Ota käyttöön mukautettu kenttien kartoitus mediametadataa päivitettäessä"
+
+#: includes/class-mla-core-options.php:1027
+#: includes/class-mla-core-options.php:1051
+msgid "Check this option to enable mapping when media (attachments) metadata is regenerated,<br>&nbsp;&nbsp;e.g., when the Media/Edit Media \"Edit Image\" functions are used."
+msgstr "Valitse ottaaksesi kartoitus käyttöön, kun median (liitteiden) metatiedot luodaan uudelleen<br>&nbsp;&nbsp; ts. silloin, kun käytetään Media/Muokkaa \"Muokkaa kuvaa\"  -toimintoa."
+
+#: includes/class-mla-core-options.php:1031
+msgid "Update the custom field mapping values above, then click Save Changes to make the updates permanent.<br>You can also make temporary updates and click a Map All Attachments button to apply the rule(s) to all attachments without saving any rule changes."
+msgstr "Päivitä mukautettujen kenttien arvo yllä, sen jälkeen klikkaa \"Tallenna muutokset\" tehdäksesi asetuksmuutoksista pysyviä.<br>Voit myös tehdä väliaikaisia päivityksiä ja sitten klikata \"Kartoita kaikki liitteet\" -painiketta ottaaksesi muutokset käyttöön kaikissa liitteissä tallentamatta muutoksia pysyvästi."
+
+#: includes/class-mla-core-options.php:1041
+msgid "Enable IPTC/EXIF Mapping when adding new media"
+msgstr "Ota käyttöön IPTC/EXIF -kartoitus uutta mediaa lisättäessä"
+
+#: includes/class-mla-core-options.php:1044
+msgid "Check this option to enable mapping when uploading new media (attachments).<br>&nbsp;&nbsp;Does NOT affect the operation of the \"Map\" buttons on the bulk edit, single edit and settings screens."
+msgstr "Valitse tämä ottaaksesi kartoitus käyttöön uutta mediaa (liitteitä) ladattaessa.<br>&nbsp;&nbsp;Ei vaikuta \"Kartoita\" -painikkeen toimintaan massamuokkauksessa, yksittäismuokkauksessa ja asetusikkunoissa."
+
+#: includes/class-mla-core-options.php:1048
+msgid "Enable IPTC/EXIF Mapping when updating media metadata"
+msgstr "Ota käyttöön IPTC/EXIF -kartoitus median metatietoja päivitettäessä."
+
+#: includes/class-mla-core-options.php:1055
+msgid "Update the standard field mapping values above, then click <strong>Save Changes</strong> to make the updates permanent.<br>You can also make temporary updates and click <strong>Map All Attachments, Standard Fields Now</strong> to apply the updates to all attachments without saving the rule changes."
+msgstr "Päivitä standardeja kenttienkartoitusarvoja yllä, sen jälkeen klikkaa <strong>Tallenna muutokset</strong> tehdäksesi  muutoksista pysyviä. <br>Voit tehdä myös väliaikaisia muutoksia klikkaamalla <strong>Kartoita kaikki liitteet, standardikentät</strong> asettaaksesi kaikki muutokset voimaan tallentamatta niitä kuitenkaan pysyvästi."
+
+#: includes/class-mla-core-options.php:1065
+msgid "Update the taxonomy term mapping values above, then click <strong>Save Changes</strong> or <strong>Map All Attachments, Taxonomy Terms Now</strong>."
+msgstr "Päivitä luokittelutermien kartoitusta yllä ja paina sen jälkeen  <strong>Tallenna muutokset-</strong> tai <strong>Kartoita kaikki liitteet, luokittelutermit nyt</strong> -painiketta."
+
+#: includes/class-mla-core-options.php:1075
+msgid "<strong>Update</strong> individual custom field mapping values above, or make several updates and click <strong>Save Changes</strong> below to apply them all at once.<br>You can also <strong>add a new rule</strong> for an existing field or <strong>add a new field</strong> and rule.<br>You can make temporary updates and click <strong>Map All Attachments, Custom Fields Now</strong> to apply the updates to all attachments without saving the rule changes."
+msgstr "<strong>Päivitä</strong>  yksittäisten mukautettujen kenttien kartoitus yllä, tai tee päivityksiä ja klikkaa alla olevaa <strong>Tallenna muutokset</strong> asettaaksesi ne kaikki kerralla voimaan. <br>Pystyt <strong>lisäämään uuden säännön</strong>  kenttään tai <strong>uuden kentän</strong> ja säännön.<br>Voit myös tehdä väliaikaisia muutoksia ja sitten klikata <strong>Kartoita kaikki liitteet nyt, mukautetut kentät</strong> ottaaksesi asetukset väliaikaisesti käyttöön tallentamatta muutoksia."
+
+#: includes/class-mla-core-options.php:1085
+msgid "IPTC/EXIF Mapping help"
+msgstr "IPTC/EXIF kartoitusapu"
+
+#: includes/class-mla-core-options.php:1137
+msgid "Enable View and Post MIME Type Support"
+msgstr "Ota näkymän ja viestin MIME-lajituki käyttöön"
+
+#: includes/class-mla-core-options.php:1140
+msgid "Check/uncheck this option to enable/disable Post MIME Type Support, then click <strong>Save Changes</strong> to record the new setting."
+msgstr "Valitse tämä ottaaksesi viestin MIME-lajituen käyttöön, klikkaa sen jälkeen <strong>Tallenna asetukset</strong>."
+
+#: includes/class-mla-core-options.php:1149
+msgid "Post MIME Types help."
+msgstr "Viestien MIME-lajiapu"
+
+#: includes/class-mla-core-options.php:1158
+#: includes/class-mla-core-options.php:1212
+#: includes/class-mla-core-options.php:1221
+#: includes/class-mla-core-options.php:1230
+msgctxt "post_mime_types_description"
+msgid "Built-in view"
+msgstr "Sisäänrakennetut näkymät"
+
+#: includes/class-mla-core-options.php:1161
+msgctxt "table_view_singular"
+msgid "Image"
+msgstr "Kuva"
+
+#: includes/class-mla-core-options.php:1162
+msgctxt "table_view_plural"
+msgid "Images"
+msgstr "Kuvat"
+
+#: includes/class-mla-core-options.php:1167
+msgctxt "post_mime_types_description"
+msgid "All image subtypes"
+msgstr "Kaikki kuvien alalajit"
+
+#: includes/class-mla-core-options.php:1170
+msgctxt "table_view_singular"
+msgid "Audio"
+msgstr "Ääni"
+
+#: includes/class-mla-core-options.php:1171
+msgctxt "table_view_plural"
+msgid "Audio"
+msgstr "Ääni"
+
+#: includes/class-mla-core-options.php:1176
+msgctxt "post_mime_types_description"
+msgid "All audio subtypes"
+msgstr "Kaikki äänen alalajit"
+
+#: includes/class-mla-core-options.php:1179
+msgctxt "table_view_singular"
+msgid "Video"
+msgstr "Video"
+
+#: includes/class-mla-core-options.php:1180
+msgctxt "table_view_plural"
+msgid "Video"
+msgstr "Video"
+
+#: includes/class-mla-core-options.php:1185
+msgctxt "post_mime_types_description"
+msgid "All video subtypes"
+msgstr "Kaikki videon alalajit"
+
+#: includes/class-mla-core-options.php:1188
+msgctxt "table_view_singular"
+msgid "Text"
+msgstr "Teksti"
+
+#: includes/class-mla-core-options.php:1189
+msgctxt "table_view_plural"
+msgid "Text"
+msgstr "Tekstit"
+
+#: includes/class-mla-core-options.php:1194
+msgctxt "post_mime_types_description"
+msgid "All text subtypes"
+msgstr "Kaikki tekstin alalajit"
+
+#: includes/class-mla-core-options.php:1197
+msgctxt "table_view_singular"
+msgid "Application"
+msgstr "Sovellus"
+
+#: includes/class-mla-core-options.php:1198
+msgctxt "table_view_plural"
+msgid "Applications"
+msgstr "Sovellukset"
+
+#: includes/class-mla-core-options.php:1203
+msgctxt "post_mime_types_description"
+msgid "All application subtypes"
+msgstr "Kaikki sovellusten alalajit"
+
+#: includes/class-mla-core-options.php:1207
+msgctxt "table_view_plural"
+msgid "Unattached"
+msgstr "Irrotettu"
+
+#: includes/class-mla-core-options.php:1215
+msgctxt "table_view_singular"
+msgid "Attached"
+msgstr "Kiinnitetty"
+
+#: includes/class-mla-core-options.php:1216
+msgctxt "table_view_plural"
+msgid "Attached"
+msgstr "Kiinnitetty"
+
+#: includes/class-mla-core-options.php:1224
+msgctxt "table_view_singular"
+msgid "Trash"
+msgstr "Roska"
+
+#: includes/class-mla-core-options.php:1225
+msgctxt "table_view_plural"
+msgid "Trash"
+msgstr "Roskat"
+
+#: includes/class-mla-core-options.php:1236
+msgid "Enable Upload MIME Type Support"
+msgstr "Ota käyttöön palvelimelle siirtämisen MIME-lajituki"
+
+#: includes/class-mla-core-options.php:1239
+msgid "Check/uncheck this option to enable/disable Upload MIME Type Support, then click <strong>Save Changes</strong> to record the new setting."
+msgstr "Valitse tämä ottaaksesi käyttöön palvelimelle siirtämisen MIME-lajituen, muista tämän jälkeen klikata <strong>Tallenna muutokset</strong>."
+
+#: includes/class-mla-core-options.php:1248
+msgid "Upload MIME Types help."
+msgstr "Palvelimelle siirtämisen MIME-lajituen tuki."
+
+#: includes/class-mla-core-options.php:1253
+msgid "Enable MLA File Type Icons Support"
+msgstr "Ota käyttöön MLA-gallerian tiedostolajikuvaketuki"
+
+#: includes/class-mla-core-options.php:1256
+msgid "Check/uncheck this option to enable/disable MLA File Type Icons Support, then click <strong>Save Changes</strong> to record the new setting."
+msgstr "Valitse tämä ottaaksesi käyttöön MLA-tiedostolajikuvatuen, muista sen jällkeen klikata <strong>Tallenna muutokset</strong>."
+
+#: includes/class-mla-core-options.php:1260
+msgid "Display Limit"
+msgstr "Näytön rajat"
+
+#: includes/class-mla-core-options.php:1264
+msgid "Enter the maximum number of debug log characters to display; enter zero or leave blank for no limit."
+msgstr "Kirjoita testauslokissa näytettävien merkkien maksimimäärä; syötä nolla tai jätä kenttä tyhjäksi ollaksesi asettamatta mitään rajoja."
+
+#: includes/class-mla-core-options.php:1268
+msgid "Debug File"
+msgstr "Debuggaustiedosto"
+
+#: includes/class-mla-core-options.php:1272
+msgid "Enter the name of an alternate, MLA-specific debug log file; leave blank to use the PHP error_log."
+msgstr "Kirjoita vaihtoehtoisen, MLA-liittyvän lokitiedoston nimi; jätä tyhjäksi käyttääksesi PHP:n oletusta (error_log)."
+
+#: includes/class-mla-template-support.php:478
+#: includes/class-mla-template-support.php:516
+#: includes/class-mla-template-support.php:564
+msgid "no templates exist"
+msgstr "malleja ei ole"
+
+#: includes/class-mla-template-support.php:501
+msgid "not found"
+msgstr "ei löytynyt"
+
+#. translators: 1: ERROR tag 2: option name 3: action, e.g., update, delete,
+#. reset
+#: includes/class-mla-options.php:484 includes/class-mla-options.php:661
+#: includes/class-mla-options.php:737 includes/class-mla-options.php:1694
+#: includes/class-mla-options.php:3170
+msgid "%1$s: Custom %2$s unknown action \"%3$s\""
+msgstr "%1$s: mukautettu %2$s, tuntematon toiminto: \"%3$s\""
+
+#: includes/class-mla-options.php:575
+msgid "Support"
+msgstr "Tuki"
+
+#: includes/class-mla-options.php:576
+msgid "Inline Edit"
+msgstr "Upotettu (rivin sisällä) muokkaus"
+
+#: includes/class-mla-options.php:577
+msgid "Term Search"
+msgstr "Sanahaku"
+
+#: includes/class-mla-options.php:578
+msgid "Checklist"
+msgstr "Valintalista"
+
+#: includes/class-mla-options.php:579
+msgid "Checked On Top"
+msgstr "Valitut päällimmäisenä"
+
+#: includes/class-mla-options.php:580
+msgid "List Filter"
+msgstr "Listasuodatin"
+
+#: includes/class-mla-options.php:581
+msgid "Taxonomy"
+msgstr "Luokittelu"
+
+#. translators: 1: taxonomy name
+#: includes/class-mla-options.php:600
+msgid "List Filter ignored; %1$s not supported."
+msgstr "Listasuodatin sivuutettu,  %1$s ei ole tuettu."
+
+#. translators: 1: taxonomy name
+#: includes/class-mla-options.php:607
+msgid "Inline Edit ignored; %1$s not supported."
+msgstr "Upotettu (rivin sisällä) muokkaus sivuutettu; %1$s ei ole tuettu."
+
+#. translators: 1: taxonomy name
+#: includes/class-mla-options.php:615
+msgid "Term Search ignored; %1$s not supported."
+msgstr "Sanahaku sivuutettu, %1$s ei ole tuettu."
+
+#. translators: 1: taxonomy name
+#: includes/class-mla-options.php:625
+msgid "Checklist ignored; %1$s not supported."
+msgstr "Valintalista sivuutettu, %1$s ei ole tuettu."
+
+#. translators: 1: taxonomy name
+#: includes/class-mla-options.php:633
+msgid "Checked On Top ignored; %1$s not supported."
+msgstr "Valitut päällimmäisenä sivuutettu, %1$s ei ole tuettu."
+
+#. translators: 1: option name, e.g., taxonomy_support
+#: includes/class-mla-options.php:651 includes/class-mla-options.php:727
+msgid "Update custom %1$s"
+msgstr "Päivitä mukautettu %1$s "
+
+#. translators: 1: option name, e.g., taxonomy_support
+#: includes/class-mla-options.php:658 includes/class-mla-options.php:734
+#: includes/class-mla-options.php:3163
+msgid "Reset custom %1$s"
+msgstr "Palauta mukautettu %1$s"
+
+#: includes/class-mla-options.php:687
+#: includes/mla-main-search-box-template.php:46
+#: includes/mla-media-modal-js-template.php:32
+msgid "and"
+msgstr "ja"
+
+#: includes/class-mla-options.php:689
+#: includes/mla-main-search-box-template.php:48
+#: includes/mla-media-modal-js-template.php:36
+msgid "or"
+msgstr "tai"
+
+#: includes/class-mla-options.php:694 includes/class-mla-settings.php:2462
+#: includes/class-mla-settings.php:2495 includes/class-mla-settings.php:2521
+#: includes/class-mla-settings.php:2599 includes/class-mla-settings.php:2645
+#: includes/class-mla-settings.php:2684
+#: includes/mla-main-search-box-template.php:51
+#: includes/mla-media-modal-js-template.php:44
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/class-mla-options.php:706
+#: includes/mla-main-search-box-template.php:55
+#: includes/mla-media-modal-js-template.php:62
+msgid "Terms"
+msgstr "Hakusanat"
+
+#: includes/class-mla-options.php:1108 includes/class-mla-options.php:1154
+#: includes/class-mla-options.php:2192 includes/class-mla-options.php:2223
+#: includes/class-mla-settings.php:1884
+msgid "None (select a value)"
+msgstr "Ei mitään (valitse arvo)"
+
+#: includes/class-mla-options.php:1161
+msgid "Metadata (see below)"
+msgstr "Metatiedot (katso alta)"
+
+#: includes/class-mla-options.php:1168
+msgid "Template (see below)"
+msgstr "Malli (katso alta)"
+
+#. translators: 1: ERROR tag 2: custom field name
+#: includes/class-mla-options.php:1240 includes/class-mla-options.php:2500
+msgid "%1$s: New field %2$s already exists."
+msgstr "%1$s: uusi kenttä %2$s on jo olemassa."
+
+#. translators: 1: custom field name
+#: includes/class-mla-options.php:1245 includes/class-mla-options.php:2505
+msgid "Adding new field %1$s."
+msgstr "Lisätään uusi kenttä %1$s."
+
+#. translators: 1: custom field name
+#: includes/class-mla-options.php:1253 includes/class-mla-options.php:2513
+msgid "Adding new rule for %1$s."
+msgstr "Lisätään uusi sääntö kentälle %1$s."
+
+#. translators: 1: custom field name
+#: includes/class-mla-options.php:1279 includes/class-mla-options.php:2374
+#: includes/class-mla-options.php:2539
+msgid "Deleting rule for %1$s."
+msgstr "Poistetaan sääntö kentältä %1$s."
+
+#. translators: 1: custom field name 2: attribute 3: old value 4: new value
+#: includes/class-mla-options.php:1302 includes/class-mla-options.php:1323
+#: includes/class-mla-options.php:1373 includes/class-mla-options.php:1380
+#: includes/class-mla-options.php:2290 includes/class-mla-options.php:2297
+#: includes/class-mla-options.php:2304 includes/class-mla-options.php:2399
+#: includes/class-mla-options.php:2406 includes/class-mla-options.php:2441
+#: includes/class-mla-options.php:2448 includes/class-mla-options.php:2549
+#: includes/class-mla-options.php:2556 includes/class-mla-options.php:2591
+#: includes/class-mla-options.php:2598
+msgid "%1$s changing %2$s from %3$s to %4$s."
+msgstr "%1$s muutetaan %2$s arvosta %3$s arvoon %4$s."
+
+#: includes/class-mla-options.php:1302 includes/class-mla-options.php:1651
+msgid "Data Source"
+msgstr "Tiedonlähde"
+
+#: includes/class-mla-options.php:1308 includes/class-mla-options.php:2324
+#: includes/class-mla-options.php:2426 includes/class-mla-options.php:2576
+msgid "Replace to Keep"
+msgstr "Korvaa säilyttääksesi"
+
+#: includes/class-mla-options.php:1311 includes/class-mla-options.php:2327
+#: includes/class-mla-options.php:2429 includes/class-mla-options.php:2579
+msgid "Keep to Replace"
+msgstr "Säilytä korvataksesi"
+
+#. translators: 1: custom field name 2: attribute 3: old value 'to' new value
+#: includes/class-mla-options.php:1316 includes/class-mla-options.php:1337
+#: includes/class-mla-options.php:1351 includes/class-mla-options.php:1365
+#: includes/class-mla-options.php:1394 includes/class-mla-options.php:2318
+#: includes/class-mla-options.php:2332 includes/class-mla-options.php:2420
+#: includes/class-mla-options.php:2434 includes/class-mla-options.php:2570
+#: includes/class-mla-options.php:2584 includes/class-mla-options.php:2612
+msgid "%1$s changing %2$s value from %3$s."
+msgstr "%1$s: muutetaan arvosta %2$s arvoon %3$s."
+
+#: includes/class-mla-options.php:1316 includes/class-mla-options.php:1652
+#: includes/class-mla-options.php:2332 includes/class-mla-options.php:2434
+#: includes/class-mla-options.php:2584 includes/class-mla-options.php:2738
+#: includes/class-mla-options.php:2828 includes/class-mla-options.php:3061
+msgid "Existing Text"
+msgstr "Nykyinen teksti"
+
+#: includes/class-mla-options.php:1323 includes/class-mla-options.php:1653
+#: includes/class-mla-options.php:2591 includes/class-mla-options.php:2890
+#: includes/class-mla-options.php:2985 includes/class-mla-options.php:3031
+msgid "Format"
+msgstr "Muoto"
+
+#: includes/class-mla-options.php:1329 includes/class-mla-options.php:1343
+#: includes/class-mla-options.php:1357 includes/class-mla-options.php:1386
+#: includes/class-mla-options.php:2604
+msgid "unchecked to checked"
+msgstr "valitsemattomasta valituksi"
+
+#: includes/class-mla-options.php:1332 includes/class-mla-options.php:1346
+#: includes/class-mla-options.php:1360 includes/class-mla-options.php:1389
+#: includes/class-mla-options.php:2607
+msgid "checked to unchecked"
+msgstr "valitusta valitsemattomaksi"
+
+#: includes/class-mla-options.php:1337 includes/class-mla-options.php:1654
+msgid "MLA Column"
+msgstr "MLA-sarake"
+
+#: includes/class-mla-options.php:1373
+msgid "Metavalue name"
+msgstr "Meta-arvon nimi"
+
+#: includes/class-mla-options.php:1380 includes/class-mla-options.php:1488
+#: includes/class-mla-options.php:1587 includes/class-mla-options.php:1631
+#: includes/class-mla-options.php:2598 includes/class-mla-options.php:2897
+#: includes/class-mla-options.php:2992 includes/class-mla-options.php:3038
+msgid "Option"
+msgstr "Valinta"
+
+#: includes/class-mla-options.php:1394 includes/class-mla-options.php:1500
+#: includes/class-mla-options.php:1599 includes/class-mla-options.php:1643
+#: includes/class-mla-options.php:2612 includes/class-mla-options.php:2909
+#: includes/class-mla-options.php:3004 includes/class-mla-options.php:3050
+msgid "Delete NULL values"
+msgstr "Poista NULL-arvot"
+
+#: includes/class-mla-options.php:1433 includes/class-mla-options.php:2840
+msgid "No Custom Field Mapping Rules Defined"
+msgstr "Mukautettujen kenttien järjestelysääntöjä ei määritetty"
+
+#: includes/class-mla-options.php:1474 includes/class-mla-options.php:1573
+#: includes/class-mla-options.php:1617 includes/class-mla-options.php:2713
+#: includes/class-mla-options.php:2767 includes/class-mla-options.php:2887
+#: includes/class-mla-options.php:2982 includes/class-mla-options.php:3028
+#: includes/class-mla-thumbnail-generation.php:438
+msgid "Keep"
+msgstr "Säilytä"
+
+#: includes/class-mla-options.php:1478 includes/class-mla-options.php:1577
+#: includes/class-mla-options.php:1621 includes/class-mla-options.php:2892
+#: includes/class-mla-options.php:2987 includes/class-mla-options.php:3033
+msgid "Native"
+msgstr "Muuttamaton"
+
+#: includes/class-mla-options.php:1480 includes/class-mla-options.php:1579
+#: includes/class-mla-options.php:1623 includes/class-mla-options.php:2894
+#: includes/class-mla-options.php:2989 includes/class-mla-options.php:3035
+msgid "Commas"
+msgstr "Pilkut"
+
+#: includes/class-mla-options.php:1482 includes/class-mla-options.php:1581
+#: includes/class-mla-options.php:1625 includes/class-mla-options.php:2896
+#: includes/class-mla-options.php:2991 includes/class-mla-options.php:3037
+msgid "Raw"
+msgstr "Raaka"
+
+#: includes/class-mla-options.php:1490 includes/class-mla-options.php:1589
+#: includes/class-mla-options.php:1633 includes/class-mla-options.php:2899
+#: includes/class-mla-options.php:2994 includes/class-mla-options.php:3040
+msgid "Text"
+msgstr "Teksti"
+
+#: includes/class-mla-options.php:1492 includes/class-mla-options.php:1591
+#: includes/class-mla-options.php:1635 includes/class-mla-options.php:2901
+#: includes/class-mla-options.php:2996 includes/class-mla-options.php:3042
+msgid "Single"
+msgstr "Yksinkertainen"
+
+#: includes/class-mla-options.php:1494 includes/class-mla-options.php:1593
+#: includes/class-mla-options.php:1637 includes/class-mla-options.php:2903
+#: includes/class-mla-options.php:2998 includes/class-mla-options.php:3044
+msgid "Export"
+msgstr "Vienti"
+
+#: includes/class-mla-options.php:1496 includes/class-mla-options.php:1595
+#: includes/class-mla-options.php:1639 includes/class-mla-options.php:2905
+#: includes/class-mla-options.php:3000 includes/class-mla-options.php:3046
+msgid "Array"
+msgstr "Taulukko (matriisi)"
+
+#: includes/class-mla-options.php:1498 includes/class-mla-options.php:1597
+#: includes/class-mla-options.php:1641 includes/class-mla-options.php:2907
+#: includes/class-mla-options.php:3002 includes/class-mla-options.php:3048
+msgid "Multi"
+msgstr "Moni"
+
+#: includes/class-mla-options.php:1501 includes/class-mla-options.php:2910
+msgid "Delete Rule"
+msgstr "Poista sääntö"
+
+#: includes/class-mla-options.php:1502 includes/class-mla-options.php:2911
+msgid "Delete Rule AND Field"
+msgstr "Poista sääntö JA kenttä"
+
+#: includes/class-mla-options.php:1503 includes/class-mla-options.php:2912
+msgid "Update Rule"
+msgstr "Päivitä sääntöä"
+
+#: includes/class-mla-options.php:1504 includes/class-mla-options.php:2913
+#: includes/class-mla-settings.php:745 includes/class-mla-settings.php:878
+msgid "Map All Attachments"
+msgstr "Kartoita kaikki liitteet"
+
+#: includes/class-mla-options.php:1568 includes/class-mla-options.php:2971
+msgid "Add a new Mapping Rule"
+msgstr "Lisää uusi kartoitussääntö"
+
+#: includes/class-mla-options.php:1600 includes/class-mla-options.php:3005
+msgid "Add Rule"
+msgstr "Lisää sääntö"
+
+#: includes/class-mla-options.php:1601 includes/class-mla-options.php:3006
+msgid "Add Rule and Map All Attachments"
+msgstr "Lisää sääntö ja kartoita kaikki liitteet"
+
+#: includes/class-mla-options.php:1612 includes/class-mla-options.php:3017
+msgid "Add a new Field and Mapping Rule"
+msgstr "Lisää uusi kenttä ja kartoitussääntö"
+
+#: includes/class-mla-options.php:1644 includes/class-mla-options.php:3051
+msgid "Add Field"
+msgstr "Lisää kenttä"
+
+#: includes/class-mla-options.php:1645 includes/class-mla-options.php:3052
+msgid "Add Field and Map All Attachments"
+msgstr "Lisää kenttä ja kartoita kaikki liitteet"
+
+#: includes/class-mla-options.php:1650 includes/class-mla-options.php:2290
+#: includes/class-mla-options.php:2734 includes/class-mla-options.php:2824
+#: includes/class-mla-options.php:3057
+msgid "Field Title"
+msgstr "Kentän otsikko"
+
+#: includes/class-mla-options.php:1675
+msgid "Custom field mapping rules updated."
+msgstr "Mukautettujen kenttien kartoitussäännöt päivitetty."
+
+#: includes/class-mla-options.php:1677
+msgid "Custom field mapping rules update failed."
+msgstr "Mukautettujen kenttien kartoitussääntöjen päivitys epäonnistui."
+
+#: includes/class-mla-options.php:1680 includes/class-mla-settings.php:790
+#: includes/class-mla-settings.php:796
+msgid "Custom field no mapping rule changes detected."
+msgstr "Mukautetun kentän kartoitussääntöjen muutosta ei havaittu."
+
+#: includes/class-mla-options.php:1688
+msgid "Custom field mapping settings saved."
+msgstr "Mukautetun kentän kartoitusasetukset tallennettu."
+
+#: includes/class-mla-options.php:1690
+msgid "Custom field mapping settings reset failed."
+msgstr "Mukautetun kentän kartoitusasetusten palautus perustilaan epäonnistui."
+
+#. translators: 1: ERROR tag 2: custom field name
+#: includes/class-mla-options.php:2278
+msgid "%1$s: No old values for %2$s."
+msgstr "%1$s: ei vanhoja arvoja kentälle %2$s."
+
+#: includes/class-mla-options.php:2297 includes/class-mla-options.php:2399
+#: includes/class-mla-options.php:2549 includes/class-mla-options.php:2735
+#: includes/class-mla-options.php:2825 includes/class-mla-options.php:3058
+msgid "IPTC Value"
+msgstr "IPTC-arvo"
+
+#: includes/class-mla-options.php:2304 includes/class-mla-options.php:2406
+#: includes/class-mla-options.php:2556
+msgid "EXIF Value"
+msgstr "EXIF-arvo"
+
+#: includes/class-mla-options.php:2310 includes/class-mla-options.php:2412
+#: includes/class-mla-options.php:2562
+msgid "EXIF to IPTC"
+msgstr "EXIF IPTC:hen"
+
+#: includes/class-mla-options.php:2313 includes/class-mla-options.php:2415
+#: includes/class-mla-options.php:2565
+msgid "IPTC to EXIF"
+msgstr "IPTC EXIF:ään"
+
+#: includes/class-mla-options.php:2318 includes/class-mla-options.php:2420
+#: includes/class-mla-options.php:2570 includes/class-mla-options.php:2737
+#: includes/class-mla-options.php:2827 includes/class-mla-options.php:3060
+msgid "Priority"
+msgstr "Tärkeysjärjestys"
+
+#: includes/class-mla-options.php:2441 includes/class-mla-options.php:2829
+msgid "Delimiter(s)"
+msgstr "Erotin/erottimet"
+
+#: includes/class-mla-options.php:2709 includes/class-mla-options.php:2763
+#: includes/class-mla-options.php:2883 includes/class-mla-options.php:2978
+#: includes/class-mla-options.php:3024
+msgid "IPTC"
+msgstr "IPTC"
+
+#: includes/class-mla-options.php:2711 includes/class-mla-options.php:2765
+#: includes/class-mla-options.php:2885 includes/class-mla-options.php:2980
+#: includes/class-mla-options.php:3026
+msgid "EXIF"
+msgstr "EXIF"
+
+#: includes/class-mla-options.php:2736 includes/class-mla-options.php:2826
+#: includes/class-mla-options.php:3059
+msgid "EXIF/Template Value"
+msgstr "EXIF/malline -arvo"
+
+#. translators: 1: ERROR tag 2: option name
+#: includes/class-mla-options.php:3069
+msgid "%1$s: Render unknown custom %2$s."
+msgstr "%1$s: renderöitäessä tuntematonta kustomoitua optiota %2$s."
+
+#. translators: 1: ERROR tag 2: option name
+#: includes/class-mla-options.php:3113
+msgid "%1$s: Update/delete unknown custom %2$s."
+msgstr "%1$s: päivitettäessä/poistettaessa tuntematonta mukautettua valintaa %2$s."
+
+#: includes/class-mla-options.php:3119
+msgid "IPTC/EXIF mapping settings updated."
+msgstr "IPTC/EXIF -kartoituksen asetukset päivitetty."
+
+#: includes/class-mla-options.php:3121
+msgid "IPTC/EXIF settings update failed."
+msgstr "IPTC/EXIF -asetusten päivitys epäonnistui."
+
+#: includes/class-mla-options.php:3124 includes/class-mla-settings.php:926
+#: includes/class-mla-settings.php:932
+msgid "IPTC/EXIF no mapping changes detected."
+msgstr "IPTC/EXIF -kartoitusmuutoksia ei havaittu."
+
+#. translators: 1: field type
+#: includes/class-mla-options.php:3135 includes/class-mla-options.php:3145
+#: includes/class-mla-options.php:3155 includes/class-mla-settings.php:3594
+msgid "%1$s settings saved."
+msgstr "%1$s asetukset tallennettu."
+
+#: includes/class-mla-options.php:3135 includes/class-mla-options.php:3138
+#: includes/class-mla-settings.php:3842 includes/class-mla-settings.php:3884
+#: includes/class-mla-settings.php:3887
+msgid "Standard field"
+msgstr "Standardikenttä"
+
+#. translators: 1: ERROR tag 2: field type
+#: includes/class-mla-options.php:3138 includes/class-mla-options.php:3148
+#: includes/class-mla-options.php:3158
+msgid "%1$s: IPTC/EXIF %2$s settings update failed."
+msgstr "%1$s: IPTC/EXIF %2$s asetusten tallennus epäonnistui."
+
+#: includes/class-mla-options.php:3145 includes/class-mla-options.php:3148
+#: includes/class-mla-settings.php:3916 includes/class-mla-settings.php:3958
+#: includes/class-mla-settings.php:3961
+msgid "Taxonomy term"
+msgstr "Luokittelun termi"
+
+#: includes/class-mla-options.php:3155 includes/class-mla-options.php:3158
+#: includes/class-mla-settings.php:3742 includes/class-mla-settings.php:3745
+#: includes/class-mla-settings.php:4005 includes/class-mla-settings.php:4047
+#: includes/class-mla-settings.php:4050
+msgid "Custom field"
+msgstr "Mukautettu kenttä"
+
+#. translators: 1: ERROR tag 2: option name, e.g., taxonomy_support
+#: includes/class-mla-options.php:3166
+msgid "%1$s: Reset unknown custom %2$s"
+msgstr "%1$s: tyhjennettässä tuntematonta kustomoitua optiota  %2$s"
+
+#: includes/class-mla-polylang-support.php:319
+msgid "ERROR: No post ID found"
+msgstr "VIRHE: viestin tunnusta/ID ei löytynyt"
+
+#: includes/class-mla-polylang-support.php:427
+msgid "Error while saving the translations."
+msgstr "Virhe käännöstä tallennettaessa."
+
+#: includes/class-mla-polylang-support.php:428
+msgid "Remove From Bulk Translate"
+msgstr "Poista massakäännöksestä"
+
+#: includes/class-mla-polylang-support.php:430
+msgid "Bulk Translate items"
+msgstr "Massakäännöksen kohteet"
+
+#: includes/class-mla-polylang-support.php:431
+msgid "Add new"
+msgstr "Lisää uusi"
+
+#: includes/class-mla-polylang-support.php:1799
+#: includes/class-mla-polylang-support.php:2151
+#: includes/class-mla-thumbnail-generation.php:473
+msgid "Bulk Translations"
+msgstr "Massakäännökset"
+
+#: includes/class-mla-polylang-support.php:1823
+msgid "Translate"
+msgstr "Käännös"
+
+#: includes/class-mla-polylang-support.php:1947
+msgid "All Languages"
+msgstr "Kaikki kielet"
+
+#: includes/class-mla-polylang-support.php:1954
+#: includes/class-mla-polylang-support.php:2216
+#: includes/class-mla-polylang-support.php:2367
+msgid "Quick Translate"
+msgstr "Pikakäännös"
+
+#: includes/class-mla-polylang-support.php:1958
+msgid "Set Language"
+msgstr "Asetettu kieli"
+
+#: includes/class-mla-polylang-support.php:1959
+#: includes/class-mla-polylang-support.php:2374
+msgid "Bulk Translate"
+msgstr "Massakäännös"
+
+#: includes/class-mla-polylang-support.php:1960
+msgid "Add or Modify Translation"
+msgstr "Lisää tai muuta käännöstä"
+
+#: includes/class-mla-polylang-support.php:1961
+#: includes/class-mla-polylang-support.php:2012
+#: includes/class-mla-polylang-support.php:2311
+#: includes/class-mla-polylang-support.php:2426
+#: includes/class-mla-wpml-support.php:1617
+#: includes/class-mla-wpml-support.php:1707
+#: includes/class-mla-wpml-support.php:2152
+msgid "Language"
+msgstr "Kieli"
+
+#: includes/class-mla-polylang-support.php:1963
+#: includes/class-mla-thumbnail-generation.php:444
+msgid "Options"
+msgstr "Asetukset"
+
+#: includes/class-mla-polylang-support.php:2216
+msgid "Translate this item inline"
+msgstr "Käännä kohde upotettuna (rivin sisällä)"
+
+#: includes/class-mla-polylang-support.php:2348
+#: includes/class-mla-polylang-support.php:2453
+#: includes/class-mla-wpml-support.php:1652
+#: includes/class-mla-wpml-support.php:1755
+msgid "Media/Assistant submenu table"
+msgstr "Media/assistentti alivalikon taulukko"
+
+#: includes/class-mla-polylang-support.php:2353
+#: includes/class-mla-wpml-support.php:1657
+msgid "Language Column"
+msgstr "Kieli-sarake"
+
+#: includes/class-mla-polylang-support.php:2356
+#: includes/class-mla-wpml-support.php:1660
+msgid "Check this option to add a Language column to the Media/Assistant submenu table."
+msgstr "Valitse tämä lisätäksesi kielisarake Media/assistentin alivalikkoon"
+
+#: includes/class-mla-polylang-support.php:2360
+#: includes/class-mla-wpml-support.php:1664
+msgid "Translations Column"
+msgstr "Käännökset -sarake"
+
+#: includes/class-mla-polylang-support.php:2363
+#: includes/class-mla-wpml-support.php:1667
+msgid "Check this option to add a Translation Status column to the Media/Assistant submenu table."
+msgstr "Valitse tämä lisätäksesi kännöksen tila -sarake Media/assistentin alivalikkoon."
+
+#: includes/class-mla-polylang-support.php:2370
+msgid "Check this option to add a Quick Translate rollover action to the Media/Assistant submenu table."
+msgstr "Valitse tämä lisätäksesi nopea käännöksen siirto Media/assistentin alivalikkoon."
+
+#: includes/class-mla-polylang-support.php:2377
+msgid "Check this option to add \"Translate\" to the \"Bulk Actions\" control on the Media/Assistant submenu table."
+msgstr "Valitse tämä lisätäksesi \"Käännös\" Media/assistentin massatoimintojen alivalikkoon."
+
+#: includes/class-mla-polylang-support.php:2381
+#: includes/class-mla-polylang-support.php:2453
+#: includes/class-mla-wpml-support.php:1671
+#: includes/class-mla-wpml-support.php:1755
+msgid "Term Management"
+msgstr "Termien hallinta"
+
+#: includes/class-mla-polylang-support.php:2386
+#: includes/class-mla-wpml-support.php:1676
+msgid "Term Assignment"
+msgstr "Aseta termejä"
+
+#: includes/class-mla-polylang-support.php:2389
+#: includes/class-mla-wpml-support.php:1679
+msgid "Check this option to assign language-specific terms when items are updated."
+msgstr "Valitse tämä lisätäksesi kieleen liittyviä termejä päivitettäviin kohteisiin."
+
+#: includes/class-mla-polylang-support.php:2393
+#: includes/class-mla-wpml-support.php:1683
+msgid "Term Synchronization"
+msgstr "Termien synkronointi"
+
+#: includes/class-mla-polylang-support.php:2396
+#: includes/class-mla-wpml-support.php:1686
+msgid "Check this option to synchronize common terms among all item translations."
+msgstr "Valitse tämä synkronoidaksesi kaikille kohteen käännökselle yhteiset terminit."
+
+#: includes/class-mla-polylang-support.php:2451
+#: includes/class-mla-wpml-support.php:1753
+msgid "Language Options"
+msgstr "Kieliasetukset"
+
+#. translators: 1: - 4: page subheader values
+#: includes/class-mla-polylang-support.php:2453
+msgid "In this tab you can find a number of options for controlling Polylang-specific operations. Scroll down to find options for %1$s and %2$s. Be sure to click \"Save Changes\" at the bottom of the tab to save any changes you make."
+msgstr "Tästä välilehdestä löydät lukuisia asetuksia jotka vaikuttavat Polylang-lisäosan toimintaan.  Vieritä alaspäin löytääksesi asetukset  %1$s ja %2$s. Muista klikata \"Tallenna asetukset\" -painiketta sivun alalaissa."
+
+#. translators: 1: Documentation hyperlink
+#: includes/class-mla-polylang-support.php:2455
+#: includes/class-mla-wpml-support.php:1757
+msgid "You can find more information about multilingual features in the %1$s section of the Documentation."
+msgstr "Löydät lisätietoja monikielisyydestä ohjeiden kohdasta %1$s."
+
+#: includes/class-mla-polylang-support.php:2455
+#: includes/class-mla-wpml-support.php:1757
+msgid "Language Options documentation"
+msgstr "Kieliasetusten ohjeet"
+
+#: includes/class-mla-polylang-support.php:2455
+#: includes/class-mla-wpml-support.php:1757
+msgid "WPML &amp; Polylang Multilingual Support; the MLA Language Tab"
+msgstr "WPML &amp; Polylang monikielisyystuki; MLA-kieli -välilehti"
+
+#: includes/class-mla-polylang-support.php:2458
+#: includes/class-mla-settings.php:1405 includes/class-mla-settings.php:1763
+#: includes/class-mla-settings.php:1816 includes/class-mla-settings.php:2232
+#: includes/class-mla-settings.php:2282 includes/class-mla-settings.php:2382
+#: includes/class-mla-settings.php:2827 includes/class-mla-settings.php:2830
+#: includes/class-mla-settings.php:2969 includes/class-mla-settings.php:2971
+#: includes/class-mla-settings.php:3255 includes/class-mla-settings.php:3257
+#: includes/class-mla-wpml-support.php:1760
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: includes/class-mla-polylang-support.php:2459
+#: includes/class-mla-wpml-support.php:1761
+msgid "Delete Language options and restore default settings"
+msgstr "Tunnista kieliasetukset ja palauta oletusasetukset"
+
+#: includes/class-mla-polylang-support.php:2462
+#: includes/class-mla-settings.php:1143 includes/class-mla-settings.php:1410
+#: includes/class-mla-settings.php:2378 includes/class-mla-settings.php:2543
+#: includes/class-mla-settings.php:2701
+#: includes/class-mla-wpml-support.php:1764
+msgid "Go to Top"
+msgstr "Palaa ylös"
+
+#: includes/class-mla-polylang-support.php:2499
+#: includes/class-mla-wpml-support.php:1801
+msgid "Language settings saved."
+msgstr "Kieliasetukset tallennettu."
+
+#. translators: 1: option name
+#: includes/class-mla-polylang-support.php:2530
+#: includes/class-mla-settings.php:4227
+#: includes/class-mla-wpml-support.php:1832
+msgctxt "message_list"
+msgid "delete_option \"%1$s\""
+msgstr "delete_option \"%1$s\""
+
+#: includes/class-mla-polylang-support.php:2538
+#: includes/class-mla-wpml-support.php:1840
+msgid "Language settings reset to default values."
+msgstr "Kieliasetukset palautettu oletuksiin."
+
+#: includes/class-mla-settings.php:363
+msgid "no slug"
+msgstr "ei polkutunnusta"
+
+#: includes/class-mla-settings.php:376
+msgid "Running"
+msgstr "Käynnissä"
+
+#: includes/class-mla-settings.php:381
+msgid "Skipped"
+msgstr "Ohitettu"
+
+#: includes/class-mla-settings.php:382
+msgid "Reprocessed"
+msgstr "Uudelleenkäsitelty"
+
+#: includes/class-mla-settings.php:480 includes/class-mla-settings.php:997
+#: includes/class-mla-settings.php:3296
+msgid "Settings"
+msgstr "Asetukset"
+
+#: includes/class-mla-settings.php:499
+msgid "Views per page"
+msgstr "Katselukertoja per sivu"
+
+#: includes/class-mla-settings.php:510
+msgid "Types per page"
+msgstr "Lajeja per sivu"
+
+#: includes/class-mla-settings.php:521
+msgid "Upload types per page"
+msgstr "Palvelimelle siirrettyjä lajeja per sivu"
+
+#: includes/class-mla-settings.php:657
+msgid "No view slug found"
+msgstr "Katselu-polkutunnusta ei löytynyt"
+
+#: includes/class-mla-settings.php:700
+msgid "No upload slug found"
+msgstr "Siirron polkutunnusta ei löytynyt"
+
+#: includes/class-mla-settings.php:741 includes/class-mla-settings.php:2828
+#: includes/class-mla-settings.php:2832
+msgid "Map All Rules, All Attachments Now"
+msgstr "Järjestä nyt kaikki säännöt, kaikki liitteet"
+
+#: includes/class-mla-settings.php:867 includes/class-mla-settings.php:2961
+msgid "Map All Attachments, Standard Fields Now"
+msgstr "Järjestä nyt kaikki liitteet, kaikki standardikentät"
+
+#: includes/class-mla-settings.php:870 includes/class-mla-settings.php:2964
+msgid "Map All Attachments, Taxonomy Terms Now"
+msgstr "Järjestä nyt kaikki liitteet, luokittelun termit"
+
+#: includes/class-mla-settings.php:873 includes/class-mla-settings.php:2967
+msgid "Map All Attachments, Custom Fields Now"
+msgstr "Järjestä nyt kaikki liitteet, mukautetut kentät"
+
+#. translators: 1: ERROR tag 2: function name 3: option type, e.g., radio,
+#. select, text
+#: includes/class-mla-settings.php:1069 includes/class-mla-settings.php:1106
+#: includes/class-mla-settings.php:1246
+msgctxt "error_log"
+msgid "%1$s: %2$s unknown type = \"%3$s\""
+msgstr "%1$s: %2$s tuntematon laji = \"%3$s\""
+
+#: includes/class-mla-settings.php:1295
+msgid "General"
+msgstr "Yleiset"
+
+#: includes/class-mla-settings.php:1296
+msgid "Views"
+msgstr "Katselut"
+
+#: includes/class-mla-settings.php:1297
+msgid "Uploads"
+msgstr "Siirrot palvelimelle"
+
+#: includes/class-mla-settings.php:1299
+msgid "Custom Fields"
+msgstr "Mukautetut kentät"
+
+#: includes/class-mla-settings.php:1301
+msgid "Documentation"
+msgstr "Ohjeet"
+
+#: includes/class-mla-settings.php:1302
+msgid "Debug"
+msgstr "Testaustila"
+
+#: includes/class-mla-settings.php:1402
+msgid "General Processing Options"
+msgstr "Yleiset käsittelyn valinnat"
+
+#. translators: 1: - 4: page subheader values
+#: includes/class-mla-settings.php:1404
+msgid "In this tab you can find a number of options for controlling the plugin&rsquo;s operation. Scroll down to find options for %1$s, %2$s, %3$s and %4$s. Be sure to click \"Save Changes\" at the bottom of the tab to save any changes you make."
+msgstr "Tässä välilehdessä on useita liitännäisen toimintaa ohjaavia asetuksia. Vieritä alas asettaaksesi optiot  %1$s, %2$s, %3$s ja %4$s. Muista painaa \"Tallenna muutokset\" -painiketta sivun alalaidassa."
+
+#: includes/class-mla-settings.php:1404
+msgid "Media/Assistant Table Defaults"
+msgstr "Media/assistentin taulukon oletusasetukset"
+
+#: includes/class-mla-settings.php:1404
+msgid "Media Manager Enhancements"
+msgstr "Mediamanagerin parannukset"
+
+#: includes/class-mla-core-options.php:856 includes/class-mla-settings.php:1406
+msgid "Export ALL Settings"
+msgstr "Vie KAIKKI asetukset"
+
+#: includes/class-mla-settings.php:1407
+msgid "Delete General options and restore default settings"
+msgstr "Poista yleiset valinnat ja palauta oletusasetukset"
+
+#: includes/class-mla-settings.php:1412 includes/class-mla-settings.php:3288
+msgid "Support Our Work"
+msgstr "Tue työtämme"
+
+#: includes/class-mla-settings.php:1413 includes/class-mla-settings.php:1416
+msgid "Donate to FTJ"
+msgstr "Lahjoita FTJ:lle"
+
+#: includes/class-mla-settings.php:1414 includes/class-mla-settings.php:3289
+msgid "Donate"
+msgstr "Lahjoita"
+
+#. translators: 1: donation hyperlink
+#: includes/class-mla-settings.php:1416
+msgid "This plugin was inspired by my work on the WordPress web site for our nonprofit, Fair Trade Judaica. If you find the Media Library Assistant plugin useful and would like to support a great cause, consider a %1$s to our work. Thank you!"
+msgstr "Tämän lisäosan inspiraationa toimi hyväntekeväisyysjärjestömme WordPress-pohjainen web-sivu Trade Judaica. Jos pidät Media Library Assistant:ia hyödyllisenä ja halua tukea hyvää tarkoitusta, harkitse työmme tukemista osoitteessa %1$s. Kiitos."
+
+#: includes/class-mla-settings.php:1416
+msgid "tax-deductible donation"
+msgstr "verovähennettävä lahjoitus"
+
+#: includes/class-mla-settings.php:1435
+msgid "enhanced version of the WordPress [gallery] shortcode."
+msgstr "parannettu versio WordPress:in [gallery] -gallerialyhytkoodista."
+
+#: includes/class-mla-settings.php:1436
+msgid "enhanced version of the WordPress Tag Cloud."
+msgstr "Parannettu versio WordPress tagi-pilvestä"
+
+#: includes/class-mla-settings.php:1449
+msgid "Shortcodes made available by this plugin"
+msgstr "Tämän lisäosan tarjoamat lyhytkoodit"
+
+#: includes/class-mla-settings.php:1557
+msgid "Edit View"
+msgstr "Muokkaa näkymää"
+
+#: includes/class-mla-settings.php:1563 includes/class-mla-settings.php:1820
+msgid "The &#8220;slug&#8221; is the URL-friendly, unique key for the view. It must be all lowercase and contain only letters, numbers, periods (.), slashes (/) and hyphens (-). For &#8220;<strong>Post MIME Type</strong>&#8221; views, the slug is also the MIME type specification and <strong>must be a valid MIME</strong> type, e.g., &#8220;image&#8221; or &#8220;image/jpeg&#8221;."
+msgstr "&#8220;Polkutunnus&#8221; on verkko-osoite ystävällinen, ainutkertainen avain, jolla voi upottaa lisäosan luomaa sisältöä WordPress-sivuille. Polkutunnus saa sisältää vain latinalaisia aakkosia A-Z, numeroita, pisteitä (.), kenoviivoja (/) ja lyhyitä väliviivoja (-). &#8220;<strong>Viestin MIME-lajia tarkasteltaessa</strong>&#8221; polkutunnus määrittää myös MIME-lajin, joten sen on oltava <strong>kelvollinen MIME</strong>-laji, esim. &#8220;image&#8221; tai &#8220;image/jpeg&#8221;."
+
+#: includes/class-mla-settings.php:1564 includes/class-mla-settings.php:1821
+msgid "Singular Label"
+msgstr "Tunnus yksikössä"
+
+#: includes/class-mla-main.php:460 includes/class-mla-settings.php:380
+msgid "Failed"
+msgstr "Epäonnistui"
+
+#: includes/class-mla-main.php:461 includes/class-mla-settings.php:383
+msgid "CANCELED"
+msgstr "PERUUTETTU"
+
+#: includes/class-mla-main.php:572
+msgid "Item permanently deleted."
+msgid_plural "%d items permanently deleted."
+msgstr[0] "Kohde poistettu pysyvästi."
+msgstr[1] "%d kohdetta poistettu pysyvästi."
+
+#. translators: 1: post ID
+#: includes/class-mla-main.php:577 includes/class-mla-main.php:2244
+msgid "Item %1$d moved to Trash."
+msgstr "Kohde %1$d siirretty roskakoriin."
+
+#: includes/class-mla-main.php:596
+msgid "Entries per page"
+msgstr "Kohteita sivulla"
+
+#: includes/class-mla-main.php:1153
+msgid "You are not allowed to edit Attachment: "
+msgstr "Sinulla ei ole oikeutta muokata liitteitä:"
+
+#. translators: 1: ERROR tag 2: bulk action
+#: includes/class-mla-main.php:1209
+msgid "%1$s: Unknown bulk action %2$s"
+msgstr "%1$s: tuntematon massamuokkaustoiminto %2$s"
+
+#: includes/class-mla-main.php:1231
+msgid "no changes detected"
+msgstr "muutoksia ei havaittu"
+
+#. translators: 1: action name, e.g., edit
+#: includes/class-mla-main.php:1278 includes/class-mla-settings.php:1697
+#: includes/class-mla-settings.php:2164
+msgid "Bulk Action %1$s - no items selected."
+msgstr "Massamuokkaustoiminto %1$s - kohteita ei valittu."
+
+#: includes/class-mla-main.php:1362
+msgid "You do not have permission to manage attachments."
+msgstr "Et voi hallita liitteitä. Tarvitset laajemmat oikeudet"
+
+#. translators: 1: number of items
+#: includes/class-mla-main.php:1422
+msgctxt "deleted items"
+msgid "%s item deleted."
+msgid_plural "%s items deleted."
+msgstr[0] "%s kohde poistettu."
+msgstr[1] "%s kohdetta poistettu,"
+
+#: includes/class-mla-main.php:1478
+msgid "Empty Terms Search; ignored"
+msgstr "Tyhjä hakumerkkijono, sivuutettiin"
+
+#. translators: 1: row-level action, e.g., single_item_delete, single_item_edit
+#. translators: 1: bulk_action, e.g., single_item_delete, single_item_edit
+#: includes/class-mla-main.php:1490 includes/class-mla-settings.php:1734
+#: includes/class-mla-settings.php:2203
+msgid "Unknown mla_admin_action - \"%1$s\""
+msgstr "Tuntematon mla_admin_action - \"%1$s\""
+
+#: includes/class-mla-main.php:1523
+msgid "term search results for"
+msgstr "Tulokset haulle"
+
+#: includes/class-mla-main.php:1526
+msgid "post/parent results for"
+msgstr "viennin/ylemmän tason tulokset haulle"
+
+#: includes/class-mla-main.php:1528
+msgid "search results for"
+msgstr "tulokset haulle"
+
+#: includes/class-mla-ajax.php:162 includes/class-mla-main.php:1849
+#: includes/class-mla-thumbnail-generation.php:436
+msgid "Type"
+msgstr "Laji"
+
+#: includes/class-mla-ajax.php:162 includes/class-mla-main.php:1850
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: includes/class-mla-ajax.php:162 includes/class-mla-main.php:1851
+#: includes/class-mla-settings.php:2304
+msgid "Status"
+msgstr "Tila"
+
+#: includes/class-mla-ajax.php:172
+msgid "Published"
+msgstr "Julkaistu"
+
+#: includes/class-mla-ajax.php:178
+msgid "Pending Review"
+msgstr "Arvostelu avoimena"
+
+#: includes/class-mla-ajax.php:220 includes/class-mla-main.php:1671
+msgid "No post ID found"
+msgstr "Viestin tunnusta/ID ei löydy"
+
+#: includes/class-mla-ajax.php:227 includes/class-mla-main.php:1678
+#: includes/class-mla-polylang-support.php:326
+msgid "You are not allowed to edit this Attachment."
+msgstr "Et voi muokata tätä liitteitä. Tarvitset laajemmat oikeudet"
+
+#: includes/class-mla-main.php:1645 includes/class-mla-main.php:1861
+#: includes/class-mla-main.php:2052 includes/class-mla-settings.php:1577
+#: includes/class-mla-settings.php:1838 includes/class-mla-settings.php:1932
+#: includes/class-mla-settings.php:2302
+msgid "Update"
+msgstr "Päivitä"
+
+#: includes/class-mla-main.php:1796
+msgid "All Post Types"
+msgstr "Kaikki viestityypit"
+
+#: includes/class-mla-main.php:1842
+msgid "For"
+msgstr "Varten"
+
+#: includes/class-mla-main.php:1852
+#: includes/class-mla-shortcode-support.php:929
+msgid "Unattached"
+msgstr "Irrallaan"
+
+#: includes/class-mla-main.php:1857 includes/class-mla-main.php:2050
+#: includes/class-mla-polylang-support.php:1957
+#: includes/class-mla-settings.php:1578 includes/class-mla-settings.php:1837
+#: includes/class-mla-settings.php:1933 includes/class-mla-settings.php:2005
+#: includes/class-mla-settings.php:2301 includes/class-mla-settings.php:2806
+#: includes/class-mla-settings.php:2942
+#: includes/class-mla-thumbnail-generation.php:446
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: includes/class-mla-main.php:2053 includes/class-mla-options.php:1365
+#: includes/class-mla-options.php:1656 includes/class-mla-settings.php:1839
+#: includes/class-mla-settings.php:2303
+msgid "Bulk Edit"
+msgstr "Massamuokkaus"
+
+#: includes/class-mla-main.php:2066
+msgid "In-process"
+msgstr "Työn alla"
+
+#: includes/class-mla-core-options.php:427
+#: includes/class-mla-core-options.php:437 includes/class-mla-main.php:2068
+#: includes/class-mla-settings.php:2809 includes/class-mla-settings.php:2945
+msgid "Refresh"
+msgstr "Päivitä"
+
+#: includes/class-mla-main.php:2157
+msgid "You are not allowed to delete this item."
+msgstr "Et voi poistaa tätä kohdetta. Tarvitset laajemmat oikeudet."
+
+#. translators: 1: ERROR tag 2: post ID
+#: includes/class-mla-main.php:2165
+msgid "%1$s: Item %2$d could NOT be deleted."
+msgstr "%1$s: Kohdetta %2$d EI voitu poistaa."
+
+#. translators: 1: post ID
+#: includes/class-mla-main.php:2172
+msgid "Item %1$d permanently deleted."
+msgstr "Kohde %1$d poistettu pysyvästi."
+
+#: includes/class-mla-main.php:2189
+msgid "You are not allowed to move this item out of the Trash."
+msgstr "Et voi palauttaa tätä kohdetta roskakorista. Tarvitset laajemmat oikeudet."
+
+#. translators: 1: ERROR tag 2: post ID
+#: includes/class-mla-main.php:2197
+msgid "%1$s: Item %2$d could NOT be restored from Trash."
+msgstr "%1$s: kohdetta %2$d EI voitu palauttaa roskakorista."
+
+#. translators: 1: post ID
+#: includes/class-mla-main.php:2212
+msgid "Item %1$d restored from Trash."
+msgstr "Kohde %1$d palautettu roskakorista."
+
+#: includes/class-mla-main.php:2229
+msgid "You are not allowed to move this item to the Trash."
+msgstr "Et voi siirtää tätä kohdetta roskakoriin. Tarvitset laajemmat oikeudet."
+
+#. translators: 1: ERROR tag 2: post ID
+#: includes/class-mla-main.php:2237
+msgid "%1$s: Item %2$d could NOT be moved to Trash."
+msgstr "%1$s: kohdetta %2$d EI voitu siirtää roskakoriin."
+
+#: includes/class-mla-media-modal-ajax.php:299
+#: includes/class-mla-media-modal-ajax.php:305
+#: includes/class-mla-media-modal-ajax.php:404
+#: includes/class-mla-media-modal-ajax.php:439
+#: includes/class-mla-media-modal-ajax.php:484
+msgid "Click to toggle"
+msgstr "Klikkaa vaihtaaksesi arvon tilaa"
+
+#: includes/class-mla-media-modal.php:106
+msgid "Show all dates"
+msgstr "Näytä kaikki päivämäärät"
+
+#. translators: 1: month name, 2: 4-digit year
+#: includes/class-mla-media-modal.php:121
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: includes/class-mla-media-modal.php:357
+msgid "Search Box"
+msgstr "Hakukenttä"
+
+#: includes/class-mla-media-modal.php:358
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: includes/class-mla-media-modal-ajax.php:450
+msgid "Tags"
+msgstr "Tagit"
+
+#. translators: %s: add new taxonomy label
+#. translators: %s: add new View
+#. translators: %s: add new Upload MIME Type
+#: includes/class-mla-media-modal-ajax.php:452
+#: includes/class-mla-objects.php:46 includes/class-mla-objects.php:76
+#: includes/class-mla-settings.php:1818 includes/class-mla-settings.php:2284
+msgid "Add New %1$s"
+msgstr "Lisää uusi %1$s"
+
+#: includes/class-mla-media-modal-ajax.php:468
+msgid "Choose from the most used tags"
+msgstr "Valitse käytetyimmistä tageista"
+
+#: includes/class-mla-media-modal.php:584
+#: includes/class-mla-media-modal.php:600
+msgid "Search Terms"
+msgstr "Hakusanat"
+
+#: includes/class-mla-media-modal.php:585
+msgid "There are no taxonomies to search"
+msgstr "Ei ole luokitteluja, joille haku voitaisiin suorittaa"
+
+#: includes/class-mla-media-modal.php:603
+msgid "All phrases"
+msgstr "Kaikki lausekkeet"
+
+#: includes/class-mla-media-modal.php:605
+msgid "Any phrase"
+msgstr "Mikä tahansa lauseke"
+
+#: includes/class-mla-media-modal.php:607
+msgid "All terms"
+msgstr "Kaikki hakusanat"
+
+#: includes/class-mla-media-modal.php:609
+msgid "Any term"
+msgstr "Mikä tahansa hakusana"
+
+#: includes/class-mla-media-modal.php:611
+msgid "Exact"
+msgstr "Tarkka"
+
+#: includes/class-mla-mime-types.php:364
+msgctxt "post_mime_types"
+msgid "Manage"
+msgstr "Hallitse"
+
+#: includes/class-mla-mime-types.php:758
+msgctxt "post_mime_types_description"
+msgid "Copied from previous filter/plugin"
+msgstr "Kopioitu aiemmasta suodattimesta/lisäosasta"
+
+#. translators: 1: ERROR tag 2: raw_mime_type
+#: includes/class-mla-core.php:1017
+msgid "%1$s: Bad specification part \"%2$s\""
+msgstr "%1$s: huono määritelmä \"%2$s\""
+
+#. translators: 1: ERROR tag 2: option, e.g., any, match, null
+#: includes/class-mla-core.php:1023
+msgid "%1$s: Bad specification option \"%2$s\""
+msgstr "%1$s: huono valinta \"%2$s\""
+
+#. translators: 1: ERROR tag 2: prefix, e.g., custom
+#: includes/class-mla-core.php:1027
+msgid "%1$s: Bad specification prefix \"%2$s\""
+msgstr "%1$s: huono etuliite \"%2$s\""
+
+#: includes/class-mla-mime-types.php:859 includes/class-mla-mime-types.php:976
+msgid "Ignoring specification for Post MIME Type; using slug"
+msgstr "Sivuutetaan viestin MIME-lajin määritelmä, käytetään polkutunnusta"
+
+#: includes/class-mla-mime-types.php:865 includes/class-mla-mime-types.php:953
+#: includes/class-mla-mime-types.php:964 includes/class-mla-settings.php:1562
+#: includes/class-mla-settings.php:1819
+msgid "Slug"
+msgstr "Polkutunnus"
+
+#. translators: 1: ERROR tag 2: slug
+#: includes/class-mla-mime-types.php:873 includes/class-mla-mime-types.php:961
+msgid "%1$s: Could not add Slug \"%2$s\"; value already exists"
+msgstr "%1$s: ei voitu lisätä polkutunnusta \"%2$s\", arvo on jo käytössä"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:908
+msgid "Edit view \"%1$s\"; added"
+msgstr "Muokataan näkymää \"%1$s\", lisätty"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:1006
+msgid "Edit view \"%1$s\"; no changes detected"
+msgstr "Muokataan näkymää \"%1$s\", muutoksia ei havaittu"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:1020
+msgid "Edit view \"%1$s\"; updated"
+msgstr "Muokataan näkymää \"%1$s\", päivitetty"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:1093
+msgid "View \"%1$s\" reverted to standard"
+msgstr "Näkymä \"%1$s\" palautettu oletukseen"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:1099
+msgid "View \"%1$s\" deleted"
+msgstr "Näkymä \"%1$s\" poistettu"
+
+#. translators: 1: ERROR tag 2: slug
+#: includes/class-mla-mime-types.php:1107
+msgid "%1$s: Did not find view \"%2$s\""
+msgstr "%1$s: näkymää \"%2$s\" ei löydy."
+
+#: includes/class-mla-core-options.php:1152
+#: includes/class-mla-mime-types.php:1366
+msgctxt "table_view_singular"
+msgid "All"
+msgstr "Kaikki"
+
+#: includes/class-mla-core-options.php:1153
+#: includes/class-mla-mime-types.php:1367
+msgctxt "table_view_plural"
+msgid "All"
+msgstr "Kaikki"
+
+#: includes/class-mla-mime-types.php:1370
+msgctxt "table_view_singular"
+msgid "Active"
+msgstr "Käytössä"
+
+#: includes/class-mla-mime-types.php:1371
+msgctxt "table_view_plural"
+msgid "Active"
+msgstr "Käytössä"
+
+#: includes/class-mla-mime-types.php:1374
+msgctxt "table_view_singular"
+msgid "Inactive"
+msgstr "Ei käytössä"
+
+#: includes/class-mla-mime-types.php:1375
+msgctxt "table_view_plural"
+msgid "Inactive"
+msgstr "Epäaktiivinen"
+
+#: includes/class-mla-mime-types.php:1378
+msgctxt "table_view_singular"
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-mla-mime-types.php:1379
+msgctxt "table_view_plural"
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-mla-mime-types.php:1382
+msgctxt "table_view_singular"
+msgid "MLA"
+msgstr "MLA-galleria"
+
+#: includes/class-mla-mime-types.php:1383
+msgctxt "table_view_plural"
+msgid "MLA"
+msgstr "MLA-galleria"
+
+#: includes/class-mla-mime-types.php:1386
+msgctxt "table_view_singular"
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: includes/class-mla-mime-types.php:1387
+msgctxt "table_view_plural"
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: includes/class-mla-mime-types.php:1642
+msgid "icon"
+msgstr "kuvake"
+
+#: includes/class-mla-mime-types.php:1941
+#: includes/class-mla-mime-types.php:2040
+msgid "Cannot load Upload MIME Types"
+msgstr "Ei voitu ladata palvelimelle siirtämisen MIME-lajeja"
+
+#: includes/class-mla-mime-types.php:1957
+#: includes/class-mla-mime-types.php:2083
+#: includes/class-mla-mime-types.php:2094 includes/class-mla-settings.php:1921
+#: includes/class-mla-settings.php:2286
+msgid "Extension"
+msgstr "Tiedostopääte"
+
+#. translators: 1: ERROR tag 2: slug
+#: includes/class-mla-mime-types.php:1965
+msgid "%1$s: Could not add extension \"%2$s\"; value already exists"
+msgstr "%1$s: ei voitu lisätä tiedostopäätettä \"%2$s\", nimi on jä käytössä"
+
+#: includes/class-mla-mime-types.php:1973
+msgid "MIME type is required"
+msgstr "MIME-laji on pakollinen"
+
+#. translators: 1: ERROR tag 2: clean_mime_type
+#: includes/class-mla-mime-types.php:1978
+#: includes/class-mla-mime-types.php:2125
+msgid "%1$s: Bad MIME type; try \"%2$s\""
+msgstr "%1$s: virheellinen MIME-laji, kokeile \"%2$s\""
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:2015
+msgid "Upload MIME Type \"%1$s\"; added"
+msgstr "Palvelimelle siirron MIME-laji \"%1$s\" lisätty"
+
+#: includes/class-mla-mime-types.php:2021
+#: includes/class-mla-mime-types.php:2210
+#: includes/class-mla-mime-types.php:2289
+msgid "Cannot update Upload MIME Types"
+msgstr "Ei voitu päivittää palvelimelle siirron MIME-lajeja"
+
+#. translators: 1: ERROR tag 2: slug
+#: includes/class-mla-mime-types.php:2091
+msgid "%1$s: Could not add new extension \"%2$s\"; value already exists"
+msgstr "%1$s: ei voitu lisätä tiedostopäätettä \"%2$s\": arvo on jo käytössä"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:2190
+msgid "Edit type \"%1$s\"; no changes detected"
+msgstr "Lajin \"%1$s\" muokkaus: muutosta ei havaittu"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:2204
+msgid "Edit type \"%1$s\"; updated"
+msgstr "Lajin \"%1$s\" muokkaus; päivitetty"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:2277
+msgid "Upload MIME Type \"%1$s\"; reverted to standard"
+msgstr "Palvelimelle siirron MIME-laji \"%1$s\"; palautettu oletukseen"
+
+#. translators: 1: slug
+#: includes/class-mla-mime-types.php:2283
+msgid "Upload MIME Type \"%1$s\"; deleted"
+msgstr "Palvelimelle siirron MIME-laji \"%1$s\" poistettu"
+
+#. translators: 1: ERROR tag 2: slug
+#: includes/class-mla-mime-types.php:2298
+msgid "%1$s: Did not find Upload type \"%2$s\""
+msgstr "%1$s: palvelimelle siirron lajia \"%2$s\" ei löydy"
+
+#: includes/class-mla-objects.php:37
+msgctxt "taxonomy_name_plural"
+msgid "Att. Categories"
+msgstr "Om. kategoriat"
+
+#: includes/class-mla-objects.php:38
+msgctxt "taxonomy_name_singular"
+msgid "Att. Category"
+msgstr "Om. kategoria"
+
+#: includes/class-mla-objects.php:39
+msgid "Search Att. Categories"
+msgstr "Hae Om. kategorioista"
+
+#: includes/class-mla-objects.php:40
+msgid "All Att. Categories"
+msgstr "Kaikki om. kategoriat"
+
+#: includes/class-mla-objects.php:41 includes/class-mla-objects.php:42
+msgid "Parent Att. Category"
+msgstr "Ylemmän tason Om. kategoriat"
+
+#: includes/class-mla-objects.php:43
+msgid "Edit Att. Category"
+msgstr "Muokkaa om. kategorioita"
+
+#: includes/class-mla-objects.php:44
+msgid "Update Att. Category"
+msgstr "Päivitä om. kategoria"
+
+#: includes/class-mla-objects.php:46 includes/class-mla-objects.php:48
+msgid "Att. Category"
+msgstr "Om. kategoria"
+
+#: includes/class-mla-objects.php:47
+msgid "New Att. Category Name"
+msgstr "Uusi om. kategorian nimi"
+
+#: includes/class-mla-objects.php:67
+msgctxt "taxonomy_name_plural"
+msgid "Att. Tags"
+msgstr "Om. tagit"
+
+#: includes/class-mla-objects.php:68
+msgctxt "taxonomy_name_singular"
+msgid "Att. Tag"
+msgstr "Om. tagi"
+
+#: includes/class-mla-objects.php:69
+msgid "Search Att. Tags"
+msgstr "Hae om. tageja"
+
+#: includes/class-mla-objects.php:70
+msgid "All Att. Tags"
+msgstr "Kaikki om. tagit"
+
+#: includes/class-mla-objects.php:71 includes/class-mla-objects.php:72
+msgid "Parent Att. Tag"
+msgstr "Ylemmän tason om. tagit"
+
+#: includes/class-mla-objects.php:73
+msgid "Edit Att. Tag"
+msgstr "Muokkaa om. tagia"
+
+#: includes/class-mla-objects.php:74
+msgid "Update Att. Tag"
+msgstr "Päivitä om. tagi"
+
+#: includes/class-mla-objects.php:76 includes/class-mla-objects.php:78
+msgid "Att. Tag"
+msgstr "Om. tagi"
+
+#: includes/class-mla-objects.php:77
+msgid "New Att. Tag Name"
+msgstr "Uuden om. tagin nimi"
+
+#: includes/class-mla-objects.php:139
+msgid "Attachments"
+msgstr "Liitteet"
+
+#. translators: 1: ERROR tag 2: taxonomy 3: error message
+#: includes/class-mla-objects.php:238
+msgctxt "error_log"
+msgid "%1$s: mla_taxonomy_column_filter( \"%2$s\" ) - get_term failed: \"%3$s\""
+msgstr "%1$s: mla_taxonomy_column_filter( \"%2$s\" ) - toiminto get_term epäonnistui: \"%3$s\""
+
+#: includes/class-mla-objects.php:243
+msgid "click to search"
+msgstr "klikkaa hakeaksesi"
+
+#: includes/class-mla-objects.php:270
+msgid "Shortcode(s), HTML and/or Plain Text"
+msgstr "Lyhutkoodi(t), HTML ja/tai teksti"
+
+#: includes/class-mla-objects.php:278
+msgid "MLA Text"
+msgstr "MLA-teksti"
+
+#: includes/class-mla-objects.php:320
+msgid "Automatically add paragraphs"
+msgstr "Lisää automaattisesti kappaleita"
+
+#: includes/class-mla-options.php:329
+msgid "error loading tpls/mla-option-templates.tpl"
+msgstr "virhe ladattaessa tpls/mla-option-templates.tpl"
+
+#: includes/class-mla-options.php:332
+msgid "tpls/mla-option-templates.tpl not found"
+msgstr "tpls/mla-option-templates.tpl ei löytynyt"
+
+#: includes/class-mla-core-options.php:368 includes/class-mla-options.php:518
+msgid "Attachment Categories"
+msgstr "Liitekategoriat"
+
+#: includes/class-mla-core-options.php:372
+msgid "Check this option to add support for Attachment Categories."
+msgstr "Valitse tämä ottaaksesi liitekategerioiden tuki käyttöön."
+
+#: includes/class-mla-core-options.php:376 includes/class-mla-options.php:533
+msgid "Attachment Tags"
+msgstr "Liitteiden tagit"
+
+#: includes/class-mla-core-options.php:380
+msgid "Check this option to add support for Attachment Tags."
+msgstr "Valitse tämä lisätäksesi tuki liitetageille."
+
+#: includes/class-mla-core-options.php:384 includes/class-mla-settings.php:1404
+msgid "Where-used Reporting"
+msgstr "Käyttösijainnin raportointi"
+
+#: includes/class-mla-core-options.php:389
+msgid "Exclude Revisions"
+msgstr "Jätä muutokset huomiotta"
+
+#: includes/class-mla-core-options.php:393
+msgid "Check this option to exclude revisions from where-used reporting."
+msgstr "Valitse tämä jättääksesi muutokset huomiotta käyttösijainnin raportoinnissa."
+
+#: includes/class-mla-core-options.php:397
+msgid "Where-used database access tuning"
+msgstr "Käytön sijaintien tietokannan optimointi"
+
+#: includes/class-mla-core-options.php:407
+#: includes/class-mla-core-options.php:417
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: includes/class-mla-core-options.php:408
+msgid "Search database posts and pages for Featured Image attachments."
+msgstr "Hae Esittelyssä oleva kuvan liitettä tietokannan viesteistä ja sivuista."
+
+#: includes/class-mla-core-options.php:417
+msgid "Base"
+msgstr "Kantanimi"
+
+#: includes/class-mla-core-options.php:418
+msgid "Search database posts and pages for attachments embedded in content.<br>&nbsp;&nbsp;Base = ignore intermediate size suffixes; use path, base name and extension only."
+msgstr "Hae sisältöön upotettuja liitteitä tietokannan viesteistä ja sivuista. <br>&nbsp;&nbsp;Pohja = sivuuta väliaikaiset koon loppuliitteet; käytä vain polkua, kantanimeä ja tiedostopäätettä."
+
+#: includes/class-mla-core-options.php:427
+#: includes/class-mla-core-options.php:437
+msgid "Dynamic"
+msgstr "Dynaaminen"
+
+#: includes/class-mla-core-options.php:427
+#: includes/class-mla-core-options.php:437
+msgid "Cached"
+msgstr "Puskuroitu"
+
+#: includes/class-mla-core-options.php:428
+msgid "Search database posts and pages for [ gallery ] shortcode results.<br>&nbsp;&nbsp;Dynamic = once every page load, Cached = once every login, Disabled = never.<br>&nbsp;&nbsp;Refresh = update references, then set to Cached."
+msgstr "Hae [gallery]  -lyhytkoodin tuloksia tietokannan viesteistä ja sivuista.<br>&nbsp;&nbsp;Dynaaminen = kerran jokaisella sivun latauksella, Välimuistitettu = kerran jokaisella kirjautumiskerralla, Ei käytössä = ei koskaan.<br>&nbsp;&nbsp;Päivitä = päivitä viittaukset, siirrä sen jälkeen välimuistiin."
+
+#: includes/class-mla-core-options.php:438
+msgid "Search database posts and pages for [mla_gallery] shortcode results.<br>&nbsp;&nbsp;Dynamic = once every page load, Cached = once every login, Disabled = never.<br>&nbsp;&nbsp;Refresh = update references, then set to Cached."
+msgstr ""
+"Hae [mla_gallery] -lyhytkoodin tuloksia tietokannan viesteistä ja sivuista.<br>&nbsp;&nbsp;\n"
+"Dynaaminen = kerran jokaisella sivun latauksella, puskuroitu = kerran jokaisella kirjautumiskerralla, Ei käytössä = ei koskaan.<br>&nbsp;&nbsp;Päivitä = päivitä referenssit, siirrä sen jälkeen puskuriin. "
+
+#: includes/class-mla-core-options.php:442 includes/class-mla-settings.php:1404
+msgid "Taxonomy Support"
+msgstr "Tuki luokittelulle"
+
+#: includes/class-mla-core-options.php:447
+msgid "Compute Attachments Column"
+msgstr "Käsittele liitteiden sarakkeet"
+
+#: includes/class-mla-core-options.php:451
+msgid "Check this option to calculate attachments per term in the Attachments Column."
+msgstr "Velitse tämä, jos haluat käsitellä liitesarakkeen liitteet termikohtaisesti."
+
+#: includes/class-mla-core-options.php:455
+msgid "Check the \"<strong>Support</strong>\" box to add the taxonomy to the Assistant and the Edit Media screen."
+msgstr "Valitse \"<strong>Tuki</strong>\" -ruutu lisätäksesi luokittelut Assistentti - Muokkaa mediaa -näkymiin."
+
+#: includes/class-mla-core-options.php:456
+msgid "Check the \"<strong>Inline Edit</strong>\" box to display the taxonomy in the Quick Edit and Bulk Edit areas."
+msgstr "Valitse \"<strong>Upotettu (rivin sisällä) muokkaus</strong>\"  -ruutu näyttääksesi luokittelut Pikamuikkaus- ja Massamuokkausalueilla."
+
+#: includes/class-mla-core-options.php:457
+msgid "Check the \"<strong>Term Search</strong>\" box to add the taxonomy to the \"Search Media/Terms\" list."
+msgstr "Valitse \"<strong>Sanahaku</strong>\" -ruutu lisätäksesi taksonomiat \"Hae mediaa/termejä\" -listaan."
+
+#: includes/class-mla-core-options.php:458
+#: includes/class-mla-core-options.php:662 includes/class-mla-settings.php:1435
+#: includes/class-mla-settings.php:1436 includes/class-mla-settings.php:1437
+msgid "For complete documentation"
+msgstr "Täydelliset ohjeet"
+
+#: includes/class-mla-core-options.php:458
+#: includes/class-mla-core-options.php:662 includes/class-mla-settings.php:1435
+#: includes/class-mla-settings.php:1436
+msgid "click here"
+msgstr "klikkaa tästä"
+
+#: includes/class-mla-core-options.php:460
+msgid "Check the \"<strong>Checklist</strong>\" box to enable the checklist-style meta box for a flat taxonomy."
+msgstr "Valitse \"<strong>Valintalista</strong>\" -ruutu ottaaksesi litteille luokitteluille käyttöön valintalista -tyyliset metatietoruudut."
+
+#: includes/class-mla-core-options.php:461
+msgid "You must also check the <strong>\"Enable enhanced checklist taxonomies\"</strong> box below to enable this feature."
+msgstr "Sinun on myös valittava alla oleva <strong>\"Ota käyttöön kohennetut valintalistaluokittelut\"</strong> -ruutu ottaaksesi tämä ominaisuus käyttöön."
+
+#: includes/class-mla-core-options.php:462
+msgid "Check the \"<strong>Checked On Top</strong>\" box to moved checked terms to the top of the checklist-style meta box."
+msgstr "Valitse \"<strong>Valittu päällimmäisenä</strong>\" -ruutu siirtääksesi valitut termit valintalista-tyylisen listan yläosaan."
+
+#: includes/class-mla-core-options.php:463
+msgid "Use the \"<strong>List Filter</strong>\" option to select the taxonomy on which to filter the Assistant table listing."
+msgstr "Käytä \"<strong>Listasuodatin</strong>\" -asetusta valitaksesi luokittelu, josta Assistentti-taulukon listaus suodatetaan."
+
+#: includes/class-mla-core-options.php:489
+msgid "Media/Assistant Screen Options"
+msgstr "Media/avustajan asetukset"
+
+#: includes/class-mla-core-options.php:494
+msgid "Admin Menu Options"
+msgstr "Adminvalikon asetukset"
+
+#: includes/class-mla-core-options.php:499
+msgid "Page Title"
+msgstr "Sivun otsikko"
+
+#. #-#-#-#-#  tmp-media-library-assistant.pot (Media Library Assistant 2.31) 
+#. #-#-#-#-#
+#. translators: Name of the plugin/theme
+#. #-#-#-#-#  tmp-media-library-assistant.pot (Media Library Assistant 2.31) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/class-mla-admin-columns-support.php:33
+#: includes/class-mla-core-options.php:502 includes/class-mla-settings.php:480
+#: includes/class-mla-settings.php:3275 includes/class-mla-settings.php:3295
+#: index.php:48
+msgid "Media Library Assistant"
+msgstr "Media-avustaja"
+
+#: includes/class-mla-core-options.php:504
+msgid "Enter the title for the Media/Assistant submenu page"
+msgstr "Kirjoita otsikko Media/avustaja alivalikko-sivulle."
+
+#: includes/class-mla-core-options.php:508
+msgid "Menu Title"
+msgstr "Valikon otsikko"
+
+#: includes/class-mla-admin-columns-support.php:34
+#: includes/class-mla-core-options.php:511
+msgid "Assistant"
+msgstr "Avustaja"
+
+#: includes/class-mla-core-options.php:513
+msgid "Enter the title for the Media/Assistant submenu entry"
+msgstr "Kirjoita otsikko Media/Assistentin alivalikoiden kohdille"
+
+#: includes/class-mla-core-options.php:517
+msgid "Submenu Order"
+msgstr "Alivalikon järjestys"
+
+#: includes/class-mla-core-options.php:522
+msgid "Enter the position of the Media/Assistant submenu entry.<br>&nbsp;&nbsp;0 = natural order (at bottom),&nbsp;&nbsp;&nbsp;&nbsp;1 - 4 = at top<br>&nbsp;&nbsp;6-9 = after \"Library\",&nbsp;&nbsp;&nbsp;&nbsp;11-16 = after \"Add New\""
+msgstr "Kirjoita Media/avustaja -alivalikon rivin paikka.<br>&nbsp;&nbsp;0 = luonnollinen järjestys (pohjalta),&nbsp;&nbsp;&nbsp;&nbsp;1–4 = huipulta<br>&nbsp;&nbsp;6–9 = kohdan \"Kirjasto\" jälkeen,&nbsp;&nbsp;&nbsp;&nbsp;11–16 = kohdan \"Lisää uusi\" jälkeen."
+
+#: includes/class-mla-core-options.php:526
+msgid "Display Media/Library"
+msgstr "Näytä Media/Kirjasto"
+
+#: includes/class-mla-core-options.php:530
+msgid "Check/uncheck this option to display/remove the WordPress Media/Library submenu entry."
+msgstr "Valitsä tämä  näyttääksesi WordPress Media/Kirjasto alivalikon."
+
+#: includes/class-mla-core-options.php:547
+msgid "Order By"
+msgstr "Järjestystapa"
+
+#: includes/class-mla-core-options.php:780
+msgid "Title/Name"
+msgstr "Otsikko/Nimi"
+
+#: includes/class-mla-core-options.php:553
+msgid "Select the column for the sort order of the Assistant table listing."
+msgstr "Valitse avustajan taulukkolistauksesta sarake jonka perusteella järjestetään."
+
+#: includes/class-mla-core-options.php:557
+msgid "Order"
+msgstr "Järjestys"
+
+#: includes/class-mla-core-options.php:562
+msgid "Ascending"
+msgstr "Nouseva"
+
+#: includes/class-mla-core-options.php:562
+msgid "Descending"
+msgstr "Laskeva"
+
+#: includes/class-mla-core-options.php:563
+#: includes/class-mla-core-options.php:790
+msgid "Choose the sort order."
+msgstr "Valitse lajittelujärjestys."
+
+#: includes/class-mla-core-options.php:567
+msgid "Views Width"
+msgstr "Näkymien leveys"
+
+#: includes/class-mla-core-options.php:572
+msgid "Enter the width for the views list, in pixels (px) or percent (%)"
+msgstr "Kirjoita näkymälistojen leveys joko pikseleinä (px) tai prosentteina (%)."
+
+#: includes/class-mla-core-options.php:576
+msgid "Icon Size"
+msgstr "Kuvakkeen koko"
+
+#: includes/class-mla-core-options.php:581
+msgid "Enter the size of the thumbnail/icon images, in pixels"
+msgstr "Kirjoita pikkukuvan/kuvakkeen mitat pikseleinä"
+
+#: includes/class-mla-core-options.php:585
+msgid "Bulk Chunk Size"
+msgstr "Bulkkilohkon (\"chunk\") koko"
+
+#: includes/class-mla-core-options.php:590
+msgid "Enter the size of the Bulk Edit and Map All processing chunks"
+msgstr "Kirjoita massamuokkauksen ja kokonaiskartoituksen prosessointimöhkäleen koko"
+
+#: includes/class-mla-core-options.php:594
+msgid "Taxonomy Filter parameters"
+msgstr "Luokittelusuodattimen parametrit"
+
+#: includes/class-mla-core-options.php:599
+msgid "Maximum Depth"
+msgstr "Maksimisyvyys"
+
+#: includes/class-mla-core-options.php:604
+msgid "Enter the number of levels displayed for hierarchial taxonomies; enter zero for no limit."
+msgstr "Kirjoita näytettävien hierarkisten luokittelujen tasojen maksimimäärä. Arvolla nolla rajaa ei aseteta."
+
+#: includes/class-mla-core-options.php:608
+msgid "Include Children"
+msgstr "Sisällytä alemmat tasot (lapsi-)"
+
+#: includes/class-mla-core-options.php:612
+msgid "Check/uncheck this option to include/exclude children for hierarchical taxonomies."
+msgstr "Valitse tämä valinta kun haluat ottaa käyttöön/poistaa käytöstä alemmat tasot hierarkkisissa luokitteluissa. "
+
+#: includes/class-mla-core-options.php:616
+msgid "Search Media Defaults"
+msgstr "Hae mediaoletuksia"
+
+#: includes/class-mla-core-options.php:621
+msgid "Display Search Controls"
+msgstr "Näytä haun asetukset"
+
+#: includes/class-mla-core-options.php:625
+#: includes/class-mla-core-options.php:751
+msgid "Check/uncheck this option to display/hide the and/or connector and search fields controls."
+msgstr "Valitse/poista valinta kun haluat näyttää/piilottaa hakukenttien ohjaimet ja..."
+
+#: includes/class-mla-core-options.php:629
+msgid "Use these controls to set defaults for the and/or connector and search fields controls.<br>These defaults will be used for the Search Media boxes on both the Media/Assistant submenu<br>and the Media Manager Modal Window."
+msgstr "Käytä näitä ohjaimia asettaaksesi hakukenttien oletusasetukset. <br>Näitä oletuksia käytetään Mediahakukentissä sekä Media/Assistentti -alivalikossa, että <br> mediamanageri-ikkunassa."
+
+#: includes/class-mla-core-options.php:643
+msgid "Media/Edit Media Enhancements"
+msgstr "Media/Muokkaa median lisätietoja"
+
+#: includes/class-mla-core-options.php:648
+msgid "Enable &quot;enhanced checklist&quot; taxonomies"
+msgstr "Ota käyttöön luokittelujen &quot;parannettu listaus&quot;"
+
+#: includes/class-mla-core-options.php:652
+msgid "Check this option to enable the \"? Search\" feature for hierarchical taxonomies, e.g., Att. Categories.<br>&nbsp;&nbsp;This option also enables the \"checklist-style\" support for flat taxonomies, e.g., Att. Tags."
+msgstr "Valitse tämä ottaaksesi käyttöön \"? Haku\" -ominaisuuden hierarkisten luokittelujen (esim. ominaisuuskategorioiden) kanssa.<br>&nbsp;&nbsp; Tämä asetus ottaa myös käyttöön tuen listaustyylisille matalille luokitteluille (esim. Att. tagit)."
+
+#: includes/class-mla-core-options.php:656
+msgid "Enable Edit Media additional meta boxes"
+msgstr "Ota käyttöön mediamuokkauksen lisämetaruudut"
+
+#: includes/class-mla-core-options.php:660
+msgid "Check this option to add \"Parent Info\", \"Menu Order\", \"Attachment Metadata\" and four \"where-used\" meta boxes to the Edit Media screen."
+msgstr "Valitse tämä lisätäksesti mediamuokkausnäkymään \"Tietoa vanhemmasta\", \"Valikkojärjestys\" ja neljä \"Sijainti\" -metaruutuja."
+
+#: includes/class-mla-core-options.php:661
+msgid "You can also use Filters to customize the meta boxes."
+msgstr "Metatietoruutujen muokkauksessa on mahdollista käyttää suodattimia."
+
+#: includes/class-mla-core-options.php:666
+msgid "Media/Add New Enhancements"
+msgstr "Media/Lisää uusia parannuksia"
+
+#: includes/class-mla-core-options.php:671
+msgid "Enable &quot;bulk edit&quot; area"
+msgstr "Ota käyttöön &quot;massamuokkausalue&quot;"
+
+#: includes/class-mla-core-options.php:675
+msgid "Check this option to enable the \"Bulk Edit area\" feature on the Media/Add New screen."
+msgstr "Valitse tämä ottaaksesi Media/Lisää uusi näyttö -valikossa käyttöön \"Massamuokkausalue\" -ominaisuus."
+
+#: includes/class-mla-core-options.php:694
+msgid "Media Manager/Media Grid Enhancements"
+msgstr "Mediamanageri/ruudukkonäkymän parannukset"
+
+#: includes/class-mla-core-options.php:699
+msgid "Enable Media Grid Enhancements"
+msgstr "Mediamanageri/Ruudukkonäkymän parannukset"
+
+#: includes/class-mla-core-options.php:702
+msgid "Check/uncheck this option to enable/disable Media Library Grid View Enhancements."
+msgstr "Valitse tämä ottaaksesi käyttöön Ruudukkonäkymän parannukset."
+
+#: includes/class-mla-core-options.php:706
+msgid "Enable Media Manager Enhancements"
+msgstr "Ota käyttöön Mediamanagerin parannukset"
+
+#: includes/class-mla-core-options.php:709
+msgid "Check/uncheck this option to enable/disable Media Manager Modal Window Enhancements."
+msgstr "Valitse tämä ottaaksesi käyttöön Mediamanageri-ikkunan parannukset."
+
+#: includes/class-mla-core-options.php:713
+msgid "Media Manager Enhanced MIME Type filter"
+msgstr "Mediamanagerin parannettu MIME-lajisuodatin"
+
+#: includes/class-mla-core-options.php:716
+msgid "Check this option to filter by more MIME Types, e.g., text, applications."
+msgstr "Valitse tämä suodattaaksesi useampien MIME-tyyppien perusteella (teksti, sovellus)."
+
+#: includes/class-mla-core-options.php:720
+msgid "Media Manager Month and Year filter"
+msgstr "Mediamanagerin kuukausi- ja vuosisuodatin."
+
+#: includes/class-mla-core-options.php:723
+msgid "Check this option to filter by month and year uploaded."
+msgstr "Valitse tämä suodattaaksesi palvelimelle siirtämiskuukauden- ja vuoden perusteella."
+
+#: includes/class-mla-core-options.php:727
+msgid "Media Manager Category/Tag filter"
+msgstr "Mediamanagerin kategoria-/tagisuodatin"
+
+#: includes/class-mla-core-options.php:730
+msgid "Check this option to filter by taxonomy terms."
+msgstr "Valitse tämä suodattaaksesi tulokset luokittelun perusteella."
+
+#: includes/class-mla-core-options.php:734
+msgid "Media Manager Terms Search popup"
+msgstr "Mediamanagerin sanahaku-ponnahdusikkuna."
+
+#: includes/class-mla-core-options.php:737
+msgid "Check this option to enable the \"Terms Search\" popup window."
+msgstr "Valitse tämä ottaaksesi käyttöön \"Sanahaku\" -ponnahdusikkunan."
+
+#: includes/class-mla-core-options.php:741
+msgid "Media Manager Enhanced Search Media box"
+msgstr "Mediamanagerin parannettu haku -mediaruutu"
+
+#: includes/class-mla-core-options.php:744
+msgid "Check this option to enable search box enhancements."
+msgstr "Valitse tämä ottaaksesi käyttöön hakuboksin parannukset."
+
+#: includes/class-mla-core-options.php:748
+msgid "Media Manager Enhanced Search Media Controls"
+msgstr "Mediamanagerin parannetut haun mediakontrollit"
+
+#: includes/class-mla-core-options.php:755
+msgid "Media Manager Checklist meta boxes"
+msgstr "Mediamanagerin valintalista-metaruudut"
+
+#: includes/class-mla-core-options.php:758
+msgid "Check this option to enable MLA-enhanced meta boxes in the \"ATTACHMENT DETAILS\" pane.<br>&nbsp;&nbsp;This option is for any taxonomy that uses a <strong>\"checklist-style\"</strong> meta box."
+msgstr "Ota käyttöön MLA- parannetut metaruudut \"LIITTEIDEN OMINAISUUDET\" -palkissa. <br>&nbsp;&nbsp;Tämä valinta toimii kaikissa luokitteluissa, jotka käyttävät <strong>\"valintalista\"</strong>-tyylisiä metaruutuja."
+
+#: includes/class-mla-core-options.php:762
+msgid "Media Manager Flat meta boxes"
+msgstr "Mediamanagerin litteät metaruudut"
+
+#: includes/class-mla-core-options.php:765
+msgid "Check this option to enable MLA-enhanced meta boxes in the \"ATTACHMENT DETAILS\" pane.<br>&nbsp;&nbsp;This option is for <strong>flat taxonomies</strong>, e.g., \"Tags\" or \"Att. Tags\", that do not use the \"checklist-style\" meta box."
+msgstr "Valitse tämä ottaaksesi käyttöön MLA-gallerian parannetut metaruudut \"LIITTEIDEN OMINAISUUDET\" -palkissa. <br>&nbsp;&nbsp;Tämä asetus toimii kaikkien <strong>litteiden luokittelujen</strong>, ts. \"tagien\" tai \"Om.tagien\" kanssa, jotka eivät käytä \"valintalista\" -tyylisiä metaruutuja."
+
+#: includes/class-mla-core-options.php:769
+msgid "Media Manager auto-fill meta boxes"
+msgstr "Mediamanagerin itsetäyttyvät metaruudut"
+
+#: includes/class-mla-core-options.php:772
+msgid "Check this option to automatically fill MLA-enhanced meta boxes in the \"ATTACHMENT DETAILS\" pane<br>&nbsp;&nbsp;when the item is selected."
+msgstr "Valitse tämä täyttääksesi \"LIITTEIDEN OMINAISUUDET\" -paneelissa<br>&nbsp;&nbsp; olevat MLA-gallerian parannetut metaruudut automaattisesti kohteen ollessa valittuna."
+
+#: includes/class-mla-core-options.php:776
+msgid "Media Manager Order By"
+msgstr "Mediamanagerin järjestystapa"
+
+#: includes/class-mla-core-options.php:780
+#: includes/class-mla-core-options.php:789
+#: includes/class-mla-core-options.php:811
+#: includes/class-mla-core-options.php:825
+#: includes/class-mla-core-options.php:839 includes/class-mla-settings.php:1486
+msgid "Media Manager Default"
+msgstr "Mediamanagerin oletukset"
+
+#: includes/class-mla-core-options.php:781
+msgid "If you want to override the Media Manager default,<br>&nbsp;&nbsp;select a column for the sort order of the Media Library listing."
+msgstr "Jos haluat ohittaa mediamanagerin oletukset,<br>&nbsp;&nbsp; valitse Mediakirjastolistauksen lajittelujärjestyksen sarake."
+
+#: includes/class-mla-core-options.php:785
+msgid "Media Manager Order"
+msgstr "Mediamanagerin järjestys"
+
+#: includes/class-mla-core-options.php:794
+msgid "Attachment Display Settings"
+msgstr "Liitteiden näyttöasetukset"
+
+#: includes/class-mla-core-options.php:806
+#: includes/class-mla-core-options.php:808
+msgid "Alignment"
+msgstr "Tasaus"
+
+#. translators: 1: option name, e.g., Alignment, Link To or Size
+#: includes/class-mla-core-options.php:808
+#: includes/class-mla-core-options.php:822
+#: includes/class-mla-core-options.php:836
+msgid "Select a value for the default %1$s option in the Attachment Display Settings."
+msgstr "Valitse oletus %1$s -asetuksen arvo Liittenden näyttöasetuksista."
+
+#: includes/class-mla-core-options.php:811
+msgid "Left"
+msgstr "Vasen"
+
+#: includes/class-mla-core-options.php:811
+msgid "Center"
+msgstr "Center"
+
+#: includes/class-mla-core-options.php:811
+msgid "Right"
+msgstr "Oikea"
+
+#: includes/class-mla-core-options.php:820
+#: includes/class-mla-core-options.php:822
+msgid "Link To"
+msgstr "Linkitä kohteeseen"
+
+#: includes/class-mla-core-options.php:825
+msgid "Media File"
+msgstr "Mediatiedosto"
+
+#: includes/class-mla-core-options.php:825
+msgid "Attachment Page"
+msgstr "Liitesivu"
+
+#: includes/class-mla-core-options.php:825
+msgid "Custom URL"
+msgstr "Mukautettu verkko-osoite/URL"
+
+#: includes/class-mla-core-options.php:834
+#: includes/class-mla-core-options.php:836
+msgid "Size"
+msgstr "Koko"
+
+#: includes/class-mla-core-options.php:839
+#: includes/class-mla-thumbnail-generation.php:396
+#: includes/class-mla-thumbnail-generation.php:443
+msgid "Thumbnail"
+msgstr "Pikkukuva"
+
+#: includes/class-mla-core-options.php:839
+msgid "Medium"
+msgstr "Keskikokoinen"
+
+#: includes/class-mla-core-options.php:839
+msgid "Large"
+msgstr "Suuri"
+
+#: includes/class-mla-core-options.php:839
+msgid "Full Size"
+msgstr "Alkuperäinen koko"
+
+#: includes/class-mla-core-options.php:867
+msgid "Default [mla_gallery] Templates and Settings"
+msgstr "[mla_gallery] oletusmallit ja asetukset"
+
+#: includes/class-mla-core-options.php:872
+#: includes/class-mla-core-options.php:878
+#: includes/class-mla-core-options.php:916
+#: includes/class-mla-core-options.php:922 includes/class-mla-settings.php:3408
+#: includes/class-mla-settings.php:3419 includes/class-mla-settings.php:3425
+#: includes/class-mla-settings.php:3429 includes/class-mla-settings.php:3461
+#: includes/class-mla-settings.php:3476
+msgid "Style Template"
+msgstr "Tyylimalli"
+
+#. translators: 1: template type 2: shortcode
+#: includes/class-mla-core-options.php:878
+#: includes/class-mla-core-options.php:888
+#: includes/class-mla-core-options.php:922
+#: includes/class-mla-core-options.php:932
+msgid "Select the default %1$s for your %2$s shortcodes."
+msgstr "Valitse oletuslaji %1$s %2$s -lyhytkoodeillesi."
+
+#: includes/class-mla-core-options.php:882
+#: includes/class-mla-core-options.php:926
+msgid "Markup Template"
+msgstr "Koodimalli"
+
+#: includes/class-mla-core-options.php:888
+#: includes/class-mla-core-options.php:932 includes/class-mla-settings.php:3503
+#: includes/class-mla-settings.php:3516 includes/class-mla-settings.php:3522
+#: includes/class-mla-settings.php:3526 includes/class-mla-settings.php:3588
+msgid "markup template"
+msgstr "koodimalli"
+
+#: includes/class-mla-core-options.php:892
+#: includes/class-mla-core-options.php:936
+msgid "Default columns"
+msgstr "Oletussarakkeet"
+
+#: includes/class-mla-core-options.php:896
+msgid "Enter the number of [mla_tag_cloud] columns; must be a positive integer."
+msgstr "Syötä [mla_tag_cloud] -oletussarakkeiden määrä. Luvun on oltava positiivinen."
+
+#: includes/class-mla-core-options.php:900
+#: includes/class-mla-core-options.php:944
+msgid "Default mla_margin"
+msgstr "Oletus mla_margin"
+
+#: includes/class-mla-core-options.php:904
+#: includes/class-mla-core-options.php:948
+msgid "Enter the CSS \"margin\" property value, in length (px, em, pt, etc.), percent (%), \"auto\" or \"inherit\".<br>&nbsp;&nbsp;Enter \"none\" to remove the property entirely."
+msgstr "Kirjoita CSS:n \"margin\"-säännön (sisempi marginaali) arvo. Sallitut yksiköt ovat px, em, pt, jne, prosentti (%), \"auto\" tai \"inherit\".<br>&nbsp;&nbsp;Syötä \"none\" jättäksesi sääntö huomiotta."
+
+#: includes/class-mla-core-options.php:908
+#: includes/class-mla-core-options.php:952
+msgid "Default mla_itemwidth"
+msgstr "Oletus mla_itemwidth"
+
+#: includes/class-mla-core-options.php:912
+#: includes/class-mla-core-options.php:956
+msgid "Enter the CSS \"width\" property value, in length (px, em, pt, etc.), percent (%), \"auto\" or \"inherit\".<br>&nbsp;&nbsp;Enter \"calculate\" (the default) to calculate the value taking the \"margin\" value into account.<br>&nbsp;&nbsp;Enter \"exact\" to calculate the value without considering the \"margin\" value.<br>&nbsp;&nbsp;Enter \"none\" to remove the property entirely."
+msgstr "Kirjoita CSS \"width\" -säännön (leveys) arvo. Sallitut yksiköt ovat px, em, pt, jne, prosentti (%), \"auto\" tai \"inherit\".<br>&nbsp;&nbsp; Oletusarvolla \"calculate\" pituuteen lasketaan mukaan \"margin\" -kentän (marginaali) arvo. <br>&nbsp;&nbsp;Arvolla \"exact\" leveys lasketaan ottamatta huomioon marginaalia. <br>&nbsp;&nbsp;Syötä \"none\" jättäksesi sääntö huomiotta. "
+
+#: includes/class-mla-core-options.php:940
+msgid "Enter the number of [mla_gallery] columns; must be a positive integer."
+msgstr "Kirjoita [mla_gallery] -gallerian sarakkeiden määrä. Arvon on oltava positiivinen kokonaisluku."
+
+#: includes/class-mla-core-options.php:960
+msgid "Thumbnail Substitution Support, mla_viewer"
+msgstr "Tuki pikkukuvien korvaamiselle, mla_viewer"
+
+#: examples/twentytwelve-mla/content-category-listing.php:42
+#: examples/twentytwelve-mla/image.php:110
+msgid "Pages:"
+msgstr "Sivut:"
+
+#: examples/twentytwelve-mla/content-category-listing.php:45
+#: examples/twentytwelve-mla/content-jkeast-dropdown-simple.php:121
+#: examples/twentytwelve-mla/content-jkeast-dropdown.php:145
+#: examples/twentytwelve-mla/content-latest-images.php:61
+#: examples/twentytwelve-mla/content-media.php:36
+#: examples/twentytwelve-mla/content-single-image.php:29
+#: examples/twentytwelve-mla/content-tag-gallery.php:82
+#: examples/twentytwelve-mla/content-tosca30-dropdown.php:116
+#: examples/twentytwelve-mla/image.php:38 includes/class-mla-list-table.php:540
+#: includes/class-mla-list-table.php:666 includes/class-mla-list-table.php:1042
+#: includes/class-mla-list-table.php:1091
+#: includes/class-mla-list-table.php:1137
+#: includes/class-mla-list-table.php:1182
+#: includes/class-mla-list-table.php:1390
+#: includes/class-mla-list-table.php:1707
+#: includes/class-mla-polylang-support.php:432
+#: includes/class-mla-upload-list-table.php:404
+#: includes/class-mla-upload-list-table.php:710
+#: includes/class-mla-view-list-table.php:351
+#: includes/class-mla-view-list-table.php:566
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: examples/twentytwelve-mla/content-media.php:23
+#: examples/twentytwelve-mla/content-single-image.php:41
+#: examples/twentytwelve-mla/content-single-image.php:50
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Jatka lukemista <span class=\"meta-nav\">&rarr;</span>"
+
+#: examples/twentytwelve-mla/content-media.php:33
+msgid "Leave a reply"
+msgstr "Jätä vastaus"
+
+#: examples/twentytwelve-mla/content-media.php:33
+msgid "1 Reply"
+msgstr "1 vastaus"
+
+#: examples/twentytwelve-mla/content-media.php:33
+msgid "% Replies"
+msgstr "% vastausta"
+
+#: examples/twentytwelve-mla/content-single-image.php:60
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> ."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Julkaistu </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> kohteessa <a href=\"%3$s\" title=\"Linkki täysikokoiseen kuvaan\">%4$s &times; %5$s</a> ."
+
+#: examples/twentytwelve-mla/functions.php:120
+#: examples/twentytwelve-mla/functions.php:174
+msgid "Taxonomy does not exist."
+msgstr "Luokittelua ei ole olemassa."
+
+#: examples/twentytwelve-mla/functions.php:123
+#: examples/twentytwelve-mla/functions.php:178
+msgid "Term does not exist."
+msgstr "Hakusanaa ei löydy."
+
+#. translators: 1: term name, 2: taxonomy label
+#: examples/twentytwelve-mla/functions.php:127
+#: examples/twentytwelve-mla/functions.php:201
+msgid "Gallery for term \"%1$s\" in taxonomy \"%2$s\""
+msgstr "Galleria hakusanalle \"%1$s\" luokittelussa \"%2$s\""
+
+#. translators: 1: taxonomy slug
+#: examples/twentytwelve-mla/functions.php:246
+#: examples/twentytwelve-mla/functions.php:288
+msgid "Terms list for taxonomy: %1$s"
+msgstr "Luokittelun hakutermilista: %1$s"
+
+#. translators: 1: term name
+#: examples/twentytwelve-mla/functions.php:248
+msgid "Gallery for %1$s"
+msgstr "Galleria termille %1$s"
+
+#: examples/twentytwelve-mla/functions.php:284
+msgid "There are no non-empty taxonomy values"
+msgstr "Kaikissa luokitteluissa on arvo (tyhjiä ei ole)"
+
+#: examples/twentytwelve-mla/functions.php:290
+msgid "No items found"
+msgstr "Kohteita ei löytynyt"
+
+#: examples/twentytwelve-mla/header.php:61
+msgid "Menu"
+msgstr "Valikko"
+
+#: examples/twentytwelve-mla/header.php:62
+msgid "Skip to content"
+msgstr "Siirry sisältöön"
+
+#: examples/twentytwelve-mla/image.php:27
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Julkaistu </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> kohteessa <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> kohteessa <a href=\"%6$s\" title=\"Palaa kohteeseen %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: examples/twentytwelve-mla/image.php:49
+msgid "Next &rarr;"
+msgstr "Seuraava &rarr;"
+
+#: examples/twentytwelve-mla/taxonomy.php:40
+msgid "Daily Archives: %s"
+msgstr "Päivittäisarkistot: %s"
+
+#: examples/twentytwelve-mla/taxonomy.php:42
+msgid "Monthly Archives: %s"
+msgstr "Kuukausittaisarkistot: %s"
+
+#: examples/twentytwelve-mla/taxonomy.php:42
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: examples/twentytwelve-mla/taxonomy.php:44
+msgid "Yearly Archives: %s"
+msgstr "Vuoisittaisarkistot: %s"
+
+#: examples/twentytwelve-mla/taxonomy.php:44
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: examples/twentytwelve-mla/taxonomy.php:46
+msgid "Media Archives"
+msgstr "Media-arkistot"
+
+#: examples/twentytwelve-mla/taxonomy.php:48
+msgid "Archives"
+msgstr "Arkistot"
+
+#. translators: 1: ERROR tag 2: index
+#: includes/class-mla-data-pdf.php:216
+msgctxt "error_log"
+msgid "%1$s: _build_pdf_indirect_objects bad value at $index = \"%2$d\"."
+msgstr "%1$s: _build_pdf_indirect_objects virheellinen arvo kohdassa $index = \"%2$d\"."
+
+#: includes/class-mla-ajax.php:220 includes/class-mla-ajax.php:227
+#: includes/class-mla-ajax.php:236 includes/class-mla-core.php:622
+#: includes/class-mla-core.php:640 includes/class-mla-core.php:1017
+#: includes/class-mla-core.php:1023 includes/class-mla-core.php:1027
+#: includes/class-mla-data-pdf.php:216 includes/class-mla-data-pdf.php:517
+#: includes/class-mla-data-pdf.php:519 includes/class-mla-data-pdf.php:565
+#: includes/class-mla-data-pdf.php:749 includes/class-mla-data-query.php:666
+#: includes/class-mla-data.php:50 includes/class-mla-data.php:109
+#: includes/class-mla-data.php:197 includes/class-mla-data.php:241
+#: includes/class-mla-data.php:344 includes/class-mla-data.php:500
+#: includes/class-mla-data.php:563 includes/class-mla-data.php:1196
+#: includes/class-mla-data.php:1418 includes/class-mla-data.php:1424
+#: includes/class-mla-data.php:1820 includes/class-mla-data.php:1824
+#: includes/class-mla-data.php:2988 includes/class-mla-data.php:3015
+#: includes/class-mla-data.php:3347 includes/class-mla-data.php:3360
+#: includes/class-mla-data.php:3382 includes/class-mla-data.php:3577
+#: includes/class-mla-data.php:3623 includes/class-mla-data.php:3655
+#: includes/class-mla-data.php:3671 includes/class-mla-data.php:3861
+#: includes/class-mla-edit-media.php:316 includes/class-mla-edit-media.php:731
+#: includes/class-mla-edit-media.php:771 includes/class-mla-main.php:683
+#: includes/class-mla-main.php:812 includes/class-mla-main.php:1153
+#: includes/class-mla-main.php:1209 includes/class-mla-main.php:1234
+#: includes/class-mla-main.php:1361 includes/class-mla-main.php:1413
+#: includes/class-mla-main.php:1504 includes/class-mla-main.php:1535
+#: includes/class-mla-main.php:1671 includes/class-mla-main.php:1678
+#: includes/class-mla-main.php:1834 includes/class-mla-main.php:1909
+#: includes/class-mla-main.php:2157 includes/class-mla-main.php:2165
+#: includes/class-mla-main.php:2189 includes/class-mla-main.php:2197
+#: includes/class-mla-main.php:2229 includes/class-mla-main.php:2237
+#: includes/class-mla-media-modal.php:571 includes/class-mla-mime-types.php:477
+#: includes/class-mla-mime-types.php:873 includes/class-mla-mime-types.php:961
+#: includes/class-mla-mime-types.php:1107
+#: includes/class-mla-mime-types.php:1130
+#: includes/class-mla-mime-types.php:1941
+#: includes/class-mla-mime-types.php:1952
+#: includes/class-mla-mime-types.php:1965
+#: includes/class-mla-mime-types.php:1973
+#: includes/class-mla-mime-types.php:1978
+#: includes/class-mla-mime-types.php:2021
+#: includes/class-mla-mime-types.php:2040
+#: includes/class-mla-mime-types.php:2091
+#: includes/class-mla-mime-types.php:2125
+#: includes/class-mla-mime-types.php:2210
+#: includes/class-mla-mime-types.php:2289
+#: includes/class-mla-mime-types.php:2298
+#: includes/class-mla-mime-types.php:2330 includes/class-mla-objects.php:238
+#: includes/class-mla-options.php:484 includes/class-mla-options.php:661
+#: includes/class-mla-options.php:737 includes/class-mla-options.php:1240
+#: includes/class-mla-options.php:1677 includes/class-mla-options.php:1690
+#: includes/class-mla-options.php:1694 includes/class-mla-options.php:2278
+#: includes/class-mla-options.php:2500 includes/class-mla-options.php:3069
+#: includes/class-mla-options.php:3113 includes/class-mla-options.php:3121
+#: includes/class-mla-options.php:3138 includes/class-mla-options.php:3148
+#: includes/class-mla-options.php:3158 includes/class-mla-options.php:3166
+#: includes/class-mla-options.php:3170 includes/class-mla-settings.php:593
+#: includes/class-mla-settings.php:657 includes/class-mla-settings.php:671
+#: includes/class-mla-settings.php:700 includes/class-mla-settings.php:711
+#: includes/class-mla-settings.php:802 includes/class-mla-settings.php:938
+#: includes/class-mla-settings.php:1069 includes/class-mla-settings.php:1106
+#: includes/class-mla-settings.php:1246 includes/class-mla-settings.php:1609
+#: includes/class-mla-settings.php:1641 includes/class-mla-settings.php:1718
+#: includes/class-mla-settings.php:2055 includes/class-mla-settings.php:2106
+#: includes/class-mla-settings.php:2185 includes/class-mla-settings.php:2773
+#: includes/class-mla-settings.php:2915 includes/class-mla-settings.php:3138
+#: includes/class-mla-settings.php:3189 includes/class-mla-settings.php:3275
+#: includes/class-mla-settings.php:3307 includes/class-mla-settings.php:3310
+#: includes/class-mla-settings.php:3314 includes/class-mla-settings.php:3419
+#: includes/class-mla-settings.php:3425 includes/class-mla-settings.php:3439
+#: includes/class-mla-settings.php:3446 includes/class-mla-settings.php:3450
+#: includes/class-mla-settings.php:3476 includes/class-mla-settings.php:3516
+#: includes/class-mla-settings.php:3522 includes/class-mla-settings.php:3536
+#: includes/class-mla-settings.php:3543 includes/class-mla-settings.php:3547
+#: includes/class-mla-settings.php:3588 includes/class-mla-settings.php:3709
+#: includes/class-mla-settings.php:3842 includes/class-mla-settings.php:3916
+#: includes/class-mla-settings.php:4005 includes/class-mla-settings.php:4362
+#: includes/class-mla-settings.php:4366 includes/class-mla-settings.php:4377
+#: includes/class-mla-settings.php:4384 includes/class-mla-settings.php:4393
+#: includes/class-mla-settings.php:4430 includes/class-mla-settings.php:4438
+#: includes/class-mla-settings.php:4447
+#: includes/class-mla-shortcode-support.php:1895
+#: includes/class-mla-shortcode-support.php:1986
+#: includes/class-mla-shortcode-support.php:3212
+#: includes/class-mla-shortcode-support.php:3305
+#: includes/class-mla-shortcode-support.php:3337
+#: includes/class-mla-shortcode-support.php:4262
+#: includes/class-mla-shortcode-support.php:4597
+#: includes/class-mla-shortcode-support.php:4628
+#: includes/class-mla-thumbnail-generation.php:256
+#: includes/class-mla-thumbnail-generation.php:270
+#: includes/class-mla-thumbnail-generation.php:316
+msgid "ERROR"
+msgstr "VIRHE"
+
+#. translators: 1: ERROR tag 2: source offset 3: nest level
+#: includes/class-mla-data-pdf.php:517
+msgctxt "error_log"
+msgid "%1$s: _parse_pdf_dictionary offset = %2$d, nest = %3$d."
+msgstr "%1$s: _parse_pdf_dictionary offset = %2$d, nest = %3$d."
+
+#. translators: 1: ERROR tag 2: dictionary excerpt
+#: includes/class-mla-data-pdf.php:519
+msgctxt "error_log"
+msgid "%1$s: _parse_pdf_dictionary no end delimiter dump = %2$s."
+msgstr "%1$s: _parse_pdf_dictionary ei loppumäärettä dump = %2$s."
+
+#. translators: 1: ERROR tag 2: entry name 3: value excerpt
+#: includes/class-mla-data-pdf.php:565
+msgctxt "error_log"
+msgid "%1$s: _parse_pdf_dictionary bad value [ %2$s ] dump = %3$s"
+msgstr "%1$s: _parse_pdf_dictionary virheellinen arvo [ %2$s ] dump = %3$s"
+
+#. translators: 1: ERROR tag 2: path and file
+#: includes/class-mla-data-pdf.php:749
+msgctxt "error_log"
+msgid "%1$s: File \"%2$s\", startxref not found."
+msgstr "%1$s: tiedosto \"%2$s\", startxref ei löydy."
+
+#. translators: 1: ERROR tag 2: path and file name
+#: includes/class-mla-core.php:622
+msgctxt "error_log"
+msgid "%1$s: mla_load_template file \"%2$s\" not found."
+msgstr "%1$s: mla_load_template tiedosto \"%2$s\" ei löydy."
+
+#. translators: 1: ERROR tag 2: path and file name 3: source type, e.g., file,
+#. option, string
+#: includes/class-mla-core.php:640
+msgctxt "error_log"
+msgid "%1$s: mla_load_template file \"%2$s\" bad source type \"%3$s\"."
+msgstr "%1$s: mla_load_template tiedosto \"%2$s\" virheellinen lähdelaji \"%3$s\"."
+
+#. translators: 1: ERROR tag 2: template excerpt
+#: includes/class-mla-data.php:50
+msgctxt "error_log"
+msgid "%1$s: _find_template_substring no template end delimiter, tail = \"%2$s\"."
+msgstr "%1$s: _find_template_substring mallin loppumääre puuttuu, tail = \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: template excerpt
+#: includes/class-mla-data.php:109
+msgctxt "error_log"
+msgid "%1$s: mla_parse_array_template no template end delimiter, tail = \"%2$s\"."
+msgstr "%1$s: mla_parse_array_template mallin loppumääre puuttuu, tail = \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: template excerpt
+#: includes/class-mla-data.php:197
+msgctxt "error_log"
+msgid "%1$s: mla_parse_template no end delimiter, tail = \"%2$s\"."
+msgstr "%1$s: mla_parse_template ei loppumäärettä, tail = \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: template string
+#: includes/class-mla-data.php:241
+msgctxt "error_log"
+msgid "%1$s: _find_test_substring no end delimiter, tail = \"%2$s\"."
+msgstr "%1$s: _find_test_substring ei loppumäärettä, tail = \"%2$s\"."
+
+#: includes/class-mla-data.php:344
+msgid "Test; no closing parenthesis "
+msgstr "Testi: jälkimmäinen sulkumerkki \")\" puuttuu"
+
+#. translators: 1: ERROR tag 2: node type, e.g., template
+#: includes/class-mla-data.php:500
+msgctxt "error_log"
+msgid "%1$s: _evaluate_template_array_node unknown type \"%2$s\"."
+msgstr "%1$s: _evaluate_template_array_node tuntematon laji \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: node type, e.g., template
+#: includes/class-mla-data.php:563
+msgctxt "error_log"
+msgid "%1$s: _evaluate_template_node unknown type \"%2$s\"."
+msgstr "%1$s: _evaluate_template_node tuntematon laji\"%2$s\"."
+
+#. translators: 1: ERROR tag 2: template excerpt
+#: includes/class-mla-data.php:1196
+msgctxt "error_log"
+msgid "%1$s: mla_get_template_placeholders no template-end delimiter dump = \"%2$s\"."
+msgstr "%1$s: mla_get_template_placeholders mallin loppumääre puuttuu dump = \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: function name 3: non-array value
+#: includes/class-mla-data-query.php:666 includes/class-mla-edit-media.php:316
+#: includes/class-mla-main.php:1834 includes/class-mla-main.php:1909
+#: includes/class-mla-media-modal.php:571 includes/class-mla-mime-types.php:477
+#: includes/class-mla-mime-types.php:1130
+#: includes/class-mla-mime-types.php:2330 includes/class-mla-settings.php:1609
+#: includes/class-mla-settings.php:2055
+msgctxt "error_log"
+msgid "%1$s: %2$s non-array \"%3$s\""
+msgstr "%1$s: %2$s ei ole taulukko \"%3$s\""
+
+#. translators: 1: DEBUG tag 2: query filter details
+#: includes/class-mla-data-query.php:1115
+msgctxt "error_log"
+msgid "%1$s: _execute_list_table_query $wp_filter = \"%2$s\"."
+msgstr "%1$s: _execute_list_table_query $wp_filter = \"%2$s\"."
+
+#: includes/class-mla-data-query.php:1115
+#: includes/class-mla-data-query.php:1130
+#: includes/class-mla-data-query.php:1132
+#: includes/class-mla-data-query.php:1567
+#: includes/class-mla-data-query.php:1639
+#: includes/class-mla-data-query.php:1711
+#: includes/class-mla-data-query.php:1808
+#: includes/class-mla-data-query.php:1900
+#: includes/class-mla-data-query.php:1919
+msgid "DEBUG"
+msgstr "DEBUG"
+
+#. translators: 1: DEBUG tag 2: query details
+#: includes/class-mla-data-query.php:1130
+msgctxt "error_log"
+msgid "%1$s: _execute_list_table_query WP_Query = \"%2$s\"."
+msgstr "%1$s: _execute_list_table_query WP_Query = \"%2$s\"."
+
+#. translators: 1: DEBUG tag 2: SQL statement
+#: includes/class-mla-data-query.php:1132
+msgctxt "error_log"
+msgid "%1$s: _execute_list_table_query SQL_request = \"%2$s\"."
+msgstr "%1$s: _execute_list_table_query SQL_request = \"%2$s\"."
+
+#. translators: 1: DEBUG tag 2: search filter details
+#: includes/class-mla-data-query.php:1567
+msgctxt "error_log"
+msgid "%1$s: mla_query_posts_search_filter = \"%2$s\"."
+msgstr "%1$s: mla_query_posts_search_filter = \"%2$s\"."
+
+#. translators: 1: DEBUG tag 2: where filter details
+#: includes/class-mla-data-query.php:1639
+msgctxt "error_log"
+msgid "%1$s: mla_query_posts_where_filter = \"%2$s\"."
+msgstr "%1$s: mla_query_posts_where_filter = \"%2$s\"."
+
+#. translators: 1: DEBUG tag 2: join filter details
+#: includes/class-mla-data-query.php:1711
+msgctxt "error_log"
+msgid "%1$s: mla_query_posts_join_filter = \"%2$s\"."
+msgstr "%1$s: mla_query_posts_join_filter = \"%2$s\"."
+
+#. translators: 1: DEBUG tag 2: orderby details details
+#: includes/class-mla-data-query.php:1808
+msgctxt "error_log"
+msgid "%1$s: mla_query_posts_orderby_filter = \"%2$s\"."
+msgstr "%1$s: mla_query_posts_orderby_filter = \"%2$s\"."
+
+#. translators: 1: DEBUG tag 2: SQL clauses
+#: includes/class-mla-data-query.php:1900
+msgctxt "error_log"
+msgid "%1$s: mla_query_posts_clauses_filter = \"%2$s\"."
+msgstr "%1$s: mla_query_posts_clauses_filter = \"%2$s\"."
+
+#. translators: 1: DEBUG tag 2: SQL clauses
+#: includes/class-mla-data-query.php:1919
+msgctxt "error_log"
+msgid "%1$s: mla_query_posts_clauses_request_filter = \"%2$s\"."
+msgstr "%1$s: mla_query_posts_clauses_request_filter = \"%2$s\"."
+
+#. translators: 1: ERROR tag 2: post ID
+#: includes/class-mla-data.php:1418
+msgctxt "error_log"
+msgid "%1$s: mla_get_attachment_by_id(%2$d) not found."
+msgstr "%1$s: mla_get_attachment_by_id(%2$d) ei löydy."
+
+#. translators: 1: ERROR tag 2: post ID 3: post_type
+#: includes/class-mla-data.php:1424
+msgctxt "error_log"
+msgid "%1$s: mla_get_attachment_by_id(%2$d) wrong post_type \"%3$s\"."
+msgstr "%1$s: mla_get_attachment_by_id(%2$d) väärä post_type \"%3$s\"."
+
+#: includes/class-mla-data-references.php:321
+#: includes/class-mla-data-references.php:664
+#: includes/class-mla-list-table.php:939
+msgid "NO REFERENCE TESTS"
+msgstr "EI REFERENSSITESTEJÄ"
+
+#: includes/class-mla-data-references.php:327
+#: includes/class-mla-data-references.php:670
+#: includes/class-mla-data-source.php:688
+#: includes/class-mla-data-source.php:689
+msgid "ORPHAN"
+msgstr "ORPO"
+
+#: includes/class-mla-data-references.php:331
+#: includes/class-mla-data-references.php:674
+msgid "UNUSED"
+msgstr "KÄYTTÄMÄTÖN"
+
+#: includes/class-mla-data-references.php:336
+#: includes/class-mla-data-references.php:679
+msgid "UNATTACHED"
+msgstr "IRRALLINEN"
+
+#: includes/class-mla-data-references.php:338
+#: includes/class-mla-data-references.php:681
+msgid "INVALID PARENT"
+msgstr "VÄÄRÄ YLEMPI TASO"
+
+#. translators: 1: post_type, 2: post_title, 3: post ID, 4: query string, 5:
+#. error message
+#: includes/class-mla-data-references.php:855
+msgid "(%1$s) %2$s (ID %3$d) query \"%4$s\" failed, returning \"%5$s\""
+msgstr "(%1$s) %2$s (ID %3$d) haku \"%4$s\" epäonnistui, paluuarvo \"%5$s\""
+
+#: includes/class-mla-data.php:1820
+msgctxt "error_log"
+msgid "mla_parse_xmp_metadata xml_parse_into_struct failed."
+msgstr "mla_parse_xmp_metadata xml_parse_into_struct epäonnistui."
+
+#: includes/class-mla-data.php:1824
+msgctxt "error_log"
+msgid "mla_parse_xmp_metadata set option failed."
+msgstr "mla_parse_xmp_metatieto asetus epäonnistui."
+
+#: includes/class-mla-data.php:3094 includes/class-mla-settings.php:1842
+#: includes/class-mla-view-list-table.php:430
+#: includes/class-mla-view-list-table.php:446
+#: includes/class-mla-wpml-support.php:1595
+msgid "Yes"
+msgstr "Kyllä"
+
+#: includes/class-mla-data.php:3096 includes/class-mla-list-table.php:166
+#: includes/class-mla-settings.php:1841
+#: includes/class-mla-view-list-table.php:432
+#: includes/class-mla-view-list-table.php:448
+#: includes/class-mla-wpml-support.php:1596
+msgid "No"
+msgstr "Ei"
+
+#. translators: 1: meta_key
+#: includes/class-mla-data.php:3344 includes/class-mla-data.php:3442
+msgid "Deleting %1$s"
+msgstr "Poistetaan %1$s"
+
+#. translators: 1: ERROR tag 2: meta_key
+#: includes/class-mla-data.php:3347
+msgid "%1$s: meta:%2$s not found"
+msgstr "%1$s: meta: %2$s ei löydy"
+
+#. translators: 1: meta_key 2: meta_value
+#. translators: 1: meta_key 2: new_value
+#. translators: 1: meta_key 2: meta_value
+#: includes/class-mla-data.php:3356 includes/class-mla-data.php:3453
+#: includes/class-mla-data.php:3465
+msgid "Adding %1$s = %2$s"
+msgstr "Lisätään %1$s = %2$s"
+
+#. translators: 1: ERROR tag 2: meta_key
+#: includes/class-mla-data.php:3360
+msgid "%1$s: Adding meta:%2$s; not found"
+msgstr "%1$s: lisätään meta:%2$s; ei löytynyt"
+
+#. translators: 1: meta_key
+#: includes/class-mla-data.php:3367
+msgid "Deleting Null meta:%1$s"
+msgstr "Poistetaan tyhjä meta:%1$s"
+
+#. translators: 1: element name 2: old_value 3: new_value
+#: includes/class-mla-data.php:3377 includes/class-mla-data.php:3534
+#: includes/class-mla-data.php:3600 includes/class-mla-data.php:3626
+#: includes/class-mla-data.php:3668 includes/class-mla-data.php:3681
+#: includes/class-mla-data.php:3690 includes/class-mla-data.php:3701
+#: includes/class-mla-data.php:3712 includes/class-mla-data.php:3725
+#: includes/class-mla-data.php:3734 includes/class-mla-data.php:3743
+#: includes/class-mla-mime-types.php:964 includes/class-mla-mime-types.php:2094
+msgid "Changing %1$s from \"%2$s\" to \"%3$s\""
+msgstr "Muutetaan %1$s arvosta \"%2$s\" arvoon \"%3$s\""
+
+#. translators: 1: ERROR tag 2: meta_key
+#: includes/class-mla-data.php:3382
+msgid "%1$s: Changing meta:%2$s; not found"
+msgstr "%1$s: muutettaessa meta:%2$s; ei löytynyt"
+
+#. translators: 1: meta_key
+#: includes/class-mla-data.php:3489
+msgid "Deleting old %1$s values"
+msgstr "Poistetaan  %1$s vanhat arvot"
+
+#. translators: 1: meta_key 2: old_value 3: new_value 4: update count
+#: includes/class-mla-data.php:3519
+msgid "Changing %1$s from \"%2$s\" to \"%3$s\"; %4$d updates"
+msgstr "Muutetaan %1$s arvosta \"%2$s\" arvoon \"%3$s\"; %4$d muutosta"
+
+#: includes/class-mla-data.php:3577
+msgid "Could not retrieve Attachment."
+msgstr "Liitettä ei voitu hakea."
+
+#: includes/class-mla-ajax.php:162 includes/class-mla-core-options.php:1089
+#: includes/class-mla-data.php:3600 includes/class-mla-edit-media.php:426
+#: includes/class-mla-main.php:1848 includes/class-mla-main.php:2038
+#: includes/class-mla-objects.php:315 includes/class-mla-options.php:691
+#: includes/mla-main-search-box-template.php:50
+#: includes/mla-media-modal-js-template.php:40
+msgid "Title"
+msgstr "Otsikko"
+
+#. translators: 1: ERROR tag 2: old_value
+#: includes/class-mla-data.php:3623
+msgid "%1$s: Could not change Name/Slug \"%2$s\"; name already exists"
+msgstr "%1$s: ei voitu muutta nimeä/polkutunnusta \"%2$s\"; nimi on jo käytetty"
+
+#: includes/class-mla-core-options.php:1096 includes/class-mla-data.php:3626
+#: includes/class-mla-edit-media.php:427 includes/class-mla-main.php:2039
+msgid "Name/Slug"
+msgstr "Nimi/polkutunnus"
+
+#. translators: 1: old_value
+#: includes/class-mla-data.php:3652
+msgid "Deleting ALT Text, was \"%1$s\""
+msgstr "Poistetaan ALT-teksti (\"%1$s\")"
+
+#. translators: 1: ERROR tag 2: old_value
+#: includes/class-mla-data.php:3655
+msgid "%1$s: Could not delete ALT Text, remains \"%2$s\""
+msgstr "%1$s: Ei voitu poistaa ALT-tekstiä, säitytetään \"%2$s\""
+
+#: includes/class-mla-core-options.php:1103 includes/class-mla-data.php:3668
+#: includes/class-mla-edit-media.php:430 includes/class-mla-list-table.php:1214
+#: includes/class-mla-main.php:2042 includes/class-mla-options.php:697
+#: includes/mla-main-search-box-template.php:52
+#: includes/mla-media-modal-js-template.php:48
+msgid "ALT Text"
+msgstr "ALT-teksti"
+
+#. translators: 1: ERROR tag 2: old_value 3: new_value
+#: includes/class-mla-data.php:3671
+msgid "%1$s: Could not change ALT Text from \"%2$s\" to \"%3$s\""
+msgstr "%1$s: ei voitu muutta ALT-tekstiä arvosta \"%2$s\" arvoon \"%3$s\""
+
+#: includes/class-mla-core-options.php:1110 includes/class-mla-data.php:3681
+#: includes/class-mla-edit-media.php:428 includes/class-mla-main.php:2040
+#: includes/class-mla-options.php:700
+#: includes/mla-main-search-box-template.php:53
+#: includes/mla-media-modal-js-template.php:53
+msgid "Caption"
+msgstr "Kuvateksti"
+
+#: includes/class-mla-core-options.php:1117 includes/class-mla-data.php:3690
+#: includes/class-mla-edit-media.php:429 includes/class-mla-main.php:2041
+#: includes/class-mla-options.php:703 includes/class-mla-settings.php:1575
+#: includes/class-mla-settings.php:1832 includes/class-mla-settings.php:1930
+#: includes/class-mla-settings.php:2294
+#: includes/mla-main-search-box-template.php:54
+#: includes/mla-media-modal-js-template.php:57
+msgid "Description"
+msgstr "Kuvaus"
+
+#: includes/class-mla-data.php:3701 includes/class-mla-list-table.php:916
+#: includes/class-mla-list-table.php:919 includes/class-mla-list-table.php:922
+#: includes/class-mla-list-table.php:990 includes/class-mla-options.php:2448
+#: includes/class-mla-options.php:2830
+msgid "Parent"
+msgstr "Ylempi taso"
+
+#: includes/class-mla-data.php:3712 includes/class-mla-edit-media.php:655
+#: includes/class-mla-edit-media.php:858 includes/class-mla-main.php:2045
+#: includes/class-mla-settings.php:1573 includes/class-mla-settings.php:1830
+msgid "Menu Order"
+msgstr "Valikkojärjestys"
+
+#: includes/class-mla-data.php:3725 includes/class-mla-edit-media.php:395
+#: includes/class-mla-list-table.php:1370
+#: includes/class-mla-list-table.php:1373 includes/class-mla-main.php:1915
+#: includes/class-mla-main.php:2017
+msgid "Author"
+msgstr "Tekijä"
+
+#: includes/class-mla-data.php:3734 includes/class-mla-edit-media.php:420
+#: includes/class-mla-main.php:2057
+msgid "Comments"
+msgstr "Kommentit"
+
+#: includes/class-mla-data.php:3743 includes/class-mla-edit-media.php:421
+#: includes/class-mla-main.php:2058
+msgid "Pings"
+msgstr "Kaiutukset"
+
+#: includes/class-mla-data.php:3775
+msgid "Adding"
+msgstr "Lisätään"
+
+#: includes/class-mla-data.php:3780
+msgid "Removing"
+msgstr "Poistetaan"
+
+#: includes/class-mla-data.php:3789
+msgid "Replacing"
+msgstr "Korvataan"
+
+#: includes/class-mla-data.php:3797
+msgid "Ignoring"
+msgstr "Sivuutetaan"
+
+#. translators: 1: action_name, 2: taxonomy
+#: includes/class-mla-data.php:3810
+msgid "%1$s \"%2$s\" terms"
+msgstr "%1$s, luokittelun \"%2$s\" termit"
+
+#. translators: 1: taxonomy
+#: includes/class-mla-data.php:3814
+msgid "You cannot assign \"%1$s\" terms"
+msgstr "Et voi asettaa termejä \"%1$s\" luokitteluun"
+
+#. translators: 1: post ID
+#: includes/class-mla-data.php:3826 includes/class-mla-main.php:1219
+msgid "Item %1$d, no changes detected."
+msgstr "Kohteessa %1$d ei havaittu muutoksia."
+
+#. translators: 1: post ID
+#: includes/class-mla-data.php:3847
+msgid "Item %1$d updated."
+msgstr "Kohde %1$d päivitetty."
+
+#. translators: 1: ERROR tag 2: post ID
+#: includes/class-mla-data.php:3861
+msgid "%1$s: Item %2$d update failed."
+msgstr "%1$s: kohteen %2$d päivitys epäonnistui."
+
+#: includes/class-mla-edit-media.php:133 includes/class-mla-edit-media.php:184
+#: includes/class-mla-edit-media.php:237 includes/class-mla-main.php:463
+#: includes/class-mla-main.php:999 includes/class-mla-main.php:1728
+#: includes/class-mla-media-modal.php:233 includes/class-mla-options.php:1961
+#: includes/class-mla-polylang-support.php:433
+#: includes/class-mla-settings.php:364
+#: includes/class-mla-thumbnail-generation.php:99
+msgctxt "tag_delimiter"
+msgid ","
+msgstr ","
+
+#: includes/class-mla-edit-media.php:179
+msgid "Upload New Media items"
+msgstr "Päivitä uusia mediakohteita"
+
+#: includes/class-mla-edit-media.php:185 includes/class-mla-edit-media.php:239
+#: includes/class-mla-main.php:450
+msgid "An ajax.fail error has occurred. Please reload the page and try again."
+msgstr "Tapahtui ajax.fail virhe. Päivitä sivu ja yritä uudelleen."
+
+#: includes/class-mla-edit-media.php:186 includes/class-mla-edit-media.php:240
+#: includes/class-mla-main.php:451
+msgid "An ajax.done error has occurred. Please reload the page and try again."
+msgstr "Tapahtui ajax.done -virhe. Päivitä sivu ja yritä uudelleen."
+
+#: includes/class-mla-edit-media.php:180 includes/class-mla-edit-media.php:415
+msgid "Open Bulk Edit area"
+msgstr "Avaa massamuokkausalue"
+
+#: includes/class-mla-edit-media.php:181
+msgid "Close Bulk Edit area"
+msgstr "Sulje massamuokkausalue"
+
+#: includes/class-mla-edit-media.php:338 includes/class-mla-main.php:1950
+msgid "more"
+msgstr "enemmän"
+
+#: includes/class-mla-edit-media.php:339 includes/class-mla-main.php:1951
+msgid "less"
+msgstr "vähemmän"
+
+#: includes/class-mla-edit-media.php:342 includes/class-mla-edit-media.php:373
+#: includes/class-mla-main.php:1954 includes/class-mla-main.php:1992
+msgid "Add"
+msgstr "Lisää"
+
+#: includes/class-mla-edit-media.php:343 includes/class-mla-edit-media.php:374
+#: includes/class-mla-main.php:1955 includes/class-mla-main.php:1993
+msgid "Remove"
+msgstr "Poista"
+
+#: includes/class-mla-edit-media.php:344 includes/class-mla-edit-media.php:375
+#: includes/class-mla-main.php:1956 includes/class-mla-main.php:1994
+#: includes/class-mla-options.php:1476 includes/class-mla-options.php:1575
+#: includes/class-mla-options.php:1619 includes/class-mla-options.php:2715
+#: includes/class-mla-options.php:2769 includes/class-mla-options.php:2889
+#: includes/class-mla-options.php:2984 includes/class-mla-options.php:3030
+msgid "Replace"
+msgstr "Korvaa"
+
+#: includes/class-mla-edit-media.php:414
+msgid "IMPORTANT: Make your entries BEFORE uploading new items. Pull down the Help menu for more information."
+msgstr "TÄRKEÄÄ: tee merkintäsi ENNEN uuden kohteen siirtoa palvelimelle. Avaa ohje-valikko lisätietoja saadaksesi."
+
+#: includes/class-mla-edit-media.php:422 includes/class-mla-main.php:2059
+#: includes/class-mla-main.php:2105 includes/class-mla-settings.php:1840
+#: includes/class-mla-settings.php:1878 includes/class-mla-settings.php:2305
+msgid "No Change"
+msgstr "Ei muutoksia"
+
+#: includes/class-mla-edit-media.php:423 includes/class-mla-main.php:2060
+msgid "Allow"
+msgstr "Salli"
+
+#: includes/class-mla-edit-media.php:424 includes/class-mla-main.php:2061
+msgid "Do not allow"
+msgstr "Älä salli"
+
+#: includes/class-mla-edit-media.php:431 includes/class-mla-list-table.php:916
+#: includes/class-mla-list-table.php:987 includes/class-mla-main.php:2043
+msgid "Parent ID"
+msgstr "Ylemmän tason tunnus/ID"
+
+#: includes/class-mla-edit-media.php:432 includes/class-mla-edit-media.php:838
+#: includes/class-mla-main.php:2044
+#: includes/class-mla-upload-optional-list-table.php:281
+msgid "Select"
+msgstr "Valitse"
+
+#: includes/class-mla-edit-media.php:512
+msgid "Custom field mapping updated."
+msgstr "Mukautettujen kenttien järjestys päivitetty."
+
+#: includes/class-mla-edit-media.php:513
+msgid "IPTC/EXIF mapping updated."
+msgstr "IPTC/EXIF järjestys päivitetty."
+
+#. translators: date_i18n format for last modified date and time
+#: includes/class-mla-edit-media.php:531
+msgid "M j, Y @ G:i"
+msgstr "j.n.Y @ G:i"
+
+#: includes/class-mla-edit-media.php:533
+msgid "Last modified"
+msgstr "Viimeksi muokattu"
+
+#: includes/class-mla-edit-media.php:554
+msgid "Map Custom Field metadata for this item"
+msgstr "Järjestä kohteen mukautettujen kenttien metatiedot"
+
+#: includes/class-mla-edit-media.php:554 includes/class-mla-main.php:1639
+#: includes/class-mla-main.php:2064
+msgid "Map Custom Field metadata"
+msgstr "Järjestä mukautettujen kenttien metatiedot"
+
+#: includes/class-mla-edit-media.php:556
+msgid "Map IPTC/EXIF metadata for this item"
+msgstr "Järjestä tämän kohteen IPTC/EXIF-metatiedot"
+
+#: includes/class-mla-edit-media.php:556 includes/class-mla-main.php:1642
+#: includes/class-mla-main.php:2063
+msgid "Map IPTC/EXIF metadata"
+msgstr "Järjestä IPTC/EXIF metatiedot"
+
+#: includes/class-mla-edit-media.php:651 includes/class-mla-edit-media.php:839
+msgid "Parent Info"
+msgstr "Ylempi taso tiedot"
+
+#: includes/class-mla-edit-media.php:661 includes/class-mla-edit-media.php:882
+msgid "Attachment Metadata"
+msgstr "Liitteen metatiedot"
+
+#: includes/class-mla-core-options.php:402
+#: includes/class-mla-edit-media.php:666 includes/class-mla-edit-media.php:916
+msgid "Featured in"
+msgstr "Käytetty kohteessa"
+
+#: includes/class-mla-core-options.php:412
+#: includes/class-mla-edit-media.php:670 includes/class-mla-edit-media.php:955
+msgid "Inserted in"
+msgstr "Liitetty koohteeseen"
+
+#: includes/class-mla-core-options.php:422
+#: includes/class-mla-edit-media.php:674 includes/class-mla-edit-media.php:990
+#: includes/class-mla-settings.php:4143
+msgid "Gallery in"
+msgstr "Galleria kohteessa"
+
+#: includes/class-mla-core-options.php:432
+#: includes/class-mla-edit-media.php:678 includes/class-mla-edit-media.php:1025
+#: includes/class-mla-settings.php:4153
+msgid "MLA Gallery in"
+msgstr "MLA-galleria kohteessa"
+
+#. translators: 1: ERROR tag 2: function name 3: template key
+#: includes/class-mla-edit-media.php:731 includes/class-mla-edit-media.php:771
+#: includes/class-mla-main.php:683 includes/class-mla-settings.php:593
+msgctxt "error_log"
+msgid "%1$s: %2$s discarding \"%3$s\"; no title/order"
+msgstr "%1$s: tagi %2$s, funktio \"%3$s\"; ei otsikkoa/järjestystä"
+
+#: includes/class-mla-ajax.php:175 includes/class-mla-edit-media.php:817
+#: includes/class-mla-list-table.php:559
+msgid "Scheduled"
+msgstr "Ajastettu"
+
+#: includes/class-mla-edit-media.php:820 includes/class-mla-list-table.php:562
+msgctxt "post state"
+msgid "Pending"
+msgstr "Odottaa hyväksyntää"
+
+#: includes/class-mla-ajax.php:181 includes/class-mla-edit-media.php:823
+#: includes/class-mla-list-table.php:556
+msgid "Draft"
+msgstr "Luonnos"
+
+#: includes/class-mla-edit-media.php:837
+msgid "Post Parent"
+msgstr "Ylemmän tason artikkeli"
+
+#: includes/class-mla-edit-media.php:838 includes/class-mla-main.php:1839
+msgid "Select Parent"
+msgstr "Valitse ylempi taso"
+
+#: includes/class-mla-edit-media.php:905 includes/class-mla-edit-media.php:943
+#: includes/class-mla-edit-media.php:979 includes/class-mla-edit-media.php:1014
+#: includes/class-mla-list-table.php:1037
+#: includes/class-mla-list-table.php:1086
+#: includes/class-mla-list-table.php:1132
+#: includes/class-mla-list-table.php:1177
+msgid "PARENT"
+msgstr "VANHEMPI"
+
+#: includes/class-mla-core.php:1127
+msgid "Most Used"
+msgstr "Eniten käytetty"
+
+#. translators: %s: add new taxonomy label
+#: includes/class-mla-core.php:1156
+msgid "+ %s"
+msgstr "+ %s"
+
+#: includes/class-mla-core.php:1162 includes/class-mla-main.php:1840
+#: includes/class-mla-media-modal.php:601
+#: includes/mla-media-modal-js-template.php:28
+#: includes/mla-media-modal-js-template.php:71
+msgid "Search"
+msgstr "Haku"
+
+#: includes/class-mla-data-query.php:178
+msgctxt "list_table_column"
+msgid "ID/Parent"
+msgstr "TunnusID/ylempi taso"
+
+#: includes/class-mla-data-query.php:179
+msgctxt "list_table_column"
+msgid "Title/Name"
+msgstr "Otsikko/nimi"
+
+#: includes/class-mla-data-query.php:180
+msgctxt "list_table_column"
+msgid "Title"
+msgstr "Otsikko"
+
+#: includes/class-mla-data-query.php:181
+msgctxt "list_table_column"
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/class-mla-data-query.php:182
+msgctxt "list_table_column"
+msgid "Parent ID"
+msgstr "Ylemmän tason tunnus/ID"
+
+#: includes/class-mla-data-query.php:183
+msgctxt "list_table_column"
+msgid "Menu Order"
+msgstr "Valikon järjestys"
+
+#: includes/class-mla-data-query.php:184
+msgctxt "list_table_column"
+msgid "Featured in"
+msgstr "Käytetty kohteessa"
+
+#: includes/class-mla-data-query.php:185
+msgctxt "list_table_column"
+msgid "Inserted in"
+msgstr "Lisätty kohteeseen"
+
+#: includes/class-mla-data-query.php:186
+msgctxt "list_table_column"
+msgid "Gallery in"
+msgstr "Galleria kohteessa"
+
+#: includes/class-mla-data-query.php:187
+msgctxt "list_table_column"
+msgid "MLA Gallery in"
+msgstr "MLA-galleria kohteessa"
+
+#: includes/class-mla-data-query.php:188
+msgctxt "list_table_column"
+msgid "ALT Text"
+msgstr "alt-teksti"
+
+#: includes/class-mla-data-query.php:189
+msgctxt "list_table_column"
+msgid "Caption"
+msgstr "Kuvateksti"
+
+#: includes/class-mla-data-query.php:190
+#: includes/class-mla-upload-list-table.php:193
+#: includes/class-mla-upload-optional-list-table.php:171
+#: includes/class-mla-view-list-table.php:179
+msgctxt "list_table_column"
+msgid "Description"
+msgstr "Kuvaus"
+
+#: includes/class-mla-data-query.php:191
+#: includes/class-mla-upload-list-table.php:185
+#: includes/class-mla-upload-optional-list-table.php:168
+msgctxt "list_table_column"
+msgid "MIME Type"
+msgstr "MIME-laji"
+
+#: includes/class-mla-data-query.php:192
+msgctxt "list_table_column"
+msgid "File URL"
+msgstr "Tiedoston verkko-osoite"
+
+#: includes/class-mla-data-query.php:193
+msgctxt "list_table_column"
+msgid "Base File"
+msgstr "Juuritiedosto"
+
+#: includes/class-mla-data-query.php:194
+msgctxt "list_table_column"
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: includes/class-mla-data-query.php:195
+msgctxt "list_table_column"
+msgid "Last Modified"
+msgstr "Viimeksi muokattu"
+
+#: includes/class-mla-data-query.php:196
+msgctxt "list_table_column"
+msgid "Author"
+msgstr "Tekijä"
+
+#: includes/class-mla-data-query.php:197
+msgctxt "list_table_column"
+msgid "Attached to"
+msgstr "Liitetty kohteeseen"
+
+#: includes/class-mla-list-table.php:165
+msgid "All"
+msgstr "Kaikki"
+
+#: includes/class-mla-list-table.php:372
+#: includes/class-mla-upload-list-table.php:263
+#: includes/class-mla-view-list-table.php:209
+msgid "List View"
+msgstr "Listanäkymä"
+
+#: includes/class-mla-core-options.php:552
+#: includes/class-mla-core-options.php:780
+#: includes/class-mla-core-options.php:811
+#: includes/class-mla-core-options.php:825
+#: includes/class-mla-list-table.php:433 includes/class-mla-list-table.php:1272
+#: includes/class-mla-settings.php:2391
+msgid "None"
+msgstr "Ei mitään"
+
+#: includes/class-mla-list-table.php:439 includes/class-mla-list-table.php:472
+#: includes/class-mla-list-table.php:916 includes/class-mla-list-table.php:987
+#: includes/class-mla-list-table.php:1210
+#: includes/class-mla-list-table.php:1254
+#: includes/class-mla-list-table.php:1286
+#: includes/class-mla-list-table.php:1370
+msgid "Filter by"
+msgstr "Suodata"
+
+#: includes/class-mla-list-table.php:449
+#: includes/class-mla-media-modal-ajax.php:490
+msgid "Not Supported"
+msgstr "Ei tuettu"
+
+#. translators: 1: column_name 2: column_values
+#: includes/class-mla-list-table.php:492
+#: includes/class-mla-upload-list-table.php:339
+#: includes/class-mla-upload-optional-list-table.php:228
+#: includes/class-mla-view-list-table.php:285
+msgid "column_default: %1$s, %2$s"
+msgstr "column_default: %1$s, %2$s"
+
+#: includes/class-mla-list-table.php:565
+#: includes/class-mla-thumbnail-generation.php:440
+msgid "Trash"
+msgstr "Roskakori"
+
+#: includes/class-mla-list-table.php:655
+msgid "Restore this item from the Trash"
+msgstr "Palaute kohde roskakorista"
+
+#: includes/class-mla-list-table.php:655 includes/class-mla-list-table.php:1704
+msgid "Restore"
+msgstr "Palauta"
+
+#: includes/class-mla-list-table.php:666
+#: includes/class-mla-upload-list-table.php:404
+#: includes/class-mla-view-list-table.php:351
+msgid "Edit this item"
+msgstr "Muokkaa tätä kohdetta"
+
+#: includes/class-mla-list-table.php:667
+#: includes/class-mla-upload-list-table.php:406
+#: includes/class-mla-view-list-table.php:353
+msgid "Edit this item inline"
+msgstr "Muokkaa kohdetta rivin sisällä"
+
+#: includes/class-mla-list-table.php:667 includes/class-mla-main.php:2037
+#: includes/class-mla-options.php:1351 includes/class-mla-options.php:1655
+#: includes/class-mla-upload-list-table.php:406
+#: includes/class-mla-view-list-table.php:353
+msgid "Quick Edit"
+msgstr "Pikamuokkaus"
+
+#: includes/class-mla-list-table.php:673
+msgid "Move this item to the Trash"
+msgstr "Siirrä kohde roskakoriin"
+
+#: includes/class-mla-list-table.php:673 includes/class-mla-list-table.php:1710
+msgid "Move to Trash"
+msgstr "Siirrä roskakoriin"
+
+#: includes/class-mla-list-table.php:678
+#: includes/class-mla-upload-list-table.php:410
+#: includes/class-mla-view-list-table.php:359
+msgid "Delete this item Permanently"
+msgstr "Poista kohde pysyvästi"
+
+#: includes/class-mla-list-table.php:678 includes/class-mla-list-table.php:1705
+#: includes/class-mla-list-table.php:1712
+#: includes/class-mla-upload-list-table.php:410
+#: includes/class-mla-view-list-table.php:359
+#: includes/class-mla-view-list-table.php:567
+msgid "Delete Permanently"
+msgstr "Poista pysyvästi"
+
+#: includes/class-mla-list-table.php:686 includes/class-mla-settings.php:3213
+msgid "Download"
+msgstr "Lataa"
+
+#: includes/class-mla-list-table.php:690 includes/class-mla-settings.php:1818
+msgid "View"
+msgstr "Näytä"
+
+#: includes/class-mla-ajax.php:166 includes/class-mla-list-table.php:792
+#: includes/class-mla-list-table.php:913 includes/class-mla-main.php:454
+#: includes/class-mla-polylang-support.php:429
+#: includes/class-mla-thumbnail-generation.php:97
+msgid "(no title)"
+msgstr "(ei otsikkoa)"
+
+#: includes/class-mla-list-table.php:984
+msgid "(no title: bad ID)"
+msgstr "(ei otsikkoa: väärä ID)"
+
+#: includes/class-mla-core-options.php:407
+#: includes/class-mla-core-options.php:417
+#: includes/class-mla-core-options.php:427
+#: includes/class-mla-core-options.php:437
+#: includes/class-mla-list-table.php:1019
+#: includes/class-mla-list-table.php:1064
+#: includes/class-mla-list-table.php:1114
+#: includes/class-mla-list-table.php:1159
+msgid "Disabled"
+msgstr "Ei käytössä"
+
+#: includes/class-mla-list-table.php:1257 includes/class-mla-settings.php:1923
+#: includes/class-mla-settings.php:2288
+msgid "MIME Type"
+msgstr "MIME-laji"
+
+#: includes/class-mla-list-table.php:1290
+msgid "Base File"
+msgstr "Juuritiedosto"
+
+#: includes/class-mla-list-table.php:1306
+#: includes/class-mla-list-table.php:1339
+msgid "Unpublished"
+msgstr "Julkaisematon"
+
+#. translators: 1: upload/last modified date and time
+#: includes/class-mla-list-table.php:1315
+#: includes/class-mla-list-table.php:1346
+msgid "%1$s from now"
+msgstr "%1$s nykyhetkestä"
+
+#. translators: 1: upload/last modified date and time
+#: includes/class-mla-list-table.php:1318
+#: includes/class-mla-list-table.php:1348
+msgid "%1$s ago"
+msgstr "%1$s sitten"
+
+#. translators: date format in table columns, see http://php.net/date
+#. translators: format for upload/last modified date
+#: includes/class-mla-ajax.php:191 includes/class-mla-list-table.php:1322
+#: includes/class-mla-list-table.php:1351
+#: includes/class-mla-list-table.php:1407
+msgid "Y/m/d"
+msgstr "v/kk/p"
+
+#: includes/class-mla-core-options.php:1206
+#: includes/class-mla-list-table.php:1409
+msgctxt "table_view_singular"
+msgid "Unattached"
+msgstr "Irrallinen"
+
+#: includes/class-mla-list-table.php:1412
+msgid "Set Parent"
+msgstr "Aseta ylempi taso"
+
+#: includes/class-mla-list-table.php:1559
+msgctxt "uploaded files"
+msgid "All"
+msgid_plural "All"
+msgstr[0] "Kaikki"
+msgstr[1] "Kaikki"
+
+#: includes/class-mla-list-table.php:1804
+msgid "Filter"
+msgstr "Suodatin"
+
+#: includes/class-mla-list-table.php:1807
+#: includes/mla-media-modal-js-template.php:68
+msgid "Terms Search"
+msgstr "Sanahaku"
+
+#: includes/class-mla-list-table.php:1812
+#: includes/class-mla-polylang-support.php:1964
+#: includes/class-mla-thumbnail-generation.php:445
+msgid "Clear Filter-by"
+msgstr "Tyhjennä suodatin"
+
+#: includes/class-mla-list-table.php:1815
+msgid "Empty Trash"
+msgstr "Tyhjennä roskakori"
+
+#: includes/class-mla-main.php:452
+msgid "Error while saving the changes."
+msgstr "Virhe tallennettaessa muutoksia."
+
+#: includes/class-mla-main.php:453 includes/class-mla-settings.php:362
+msgid "Remove From Bulk Edit"
+msgstr "Poista massamuokkauksesta"
+
+#: includes/class-mla-main.php:455
+msgid "Bulk Edit items"
+msgstr "Massamuokkauksen kohteet"
+
+#: includes/class-mla-main.php:456 includes/class-mla-main.php:2065
+#: includes/class-mla-settings.php:375
+msgid "Waiting"
+msgstr "Odottaa"
+
+#: includes/class-mla-main.php:457 includes/class-mla-main.php:2067
+#: includes/class-mla-settings.php:377
+msgid "Complete"
+msgstr "Valmis"
+
+#: includes/class-mla-main.php:458 includes/class-mla-settings.php:378
+msgid "Unchanged"
+msgstr "Muuttumaton"
+
+#: includes/class-mla-main.php:459 includes/class-mla-settings.php:379
+msgid "Succeeded"
+msgstr "Onnistui"
