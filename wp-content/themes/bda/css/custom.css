@@ -129,3 +129,59 @@ span.date > span {
     }
 }
 
+
+/* additional styling */
+.large {
+    font-size: 30px;
+}
+.membership-options ul {
+    padding: 0;
+}
+.membership-options li {
+    float: none;
+    width: auto;
+    list-style: disc;
+    margin-left: 20px;
+}
+.membership-options:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.membership-options h2 {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.membership-options p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.membership-options p.intro {
+    font-size: 24px;
+    text-align: center;
+}
+.membership-block .header-block {
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    min-height: 100px;
+}
+.membership-block .header-block p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.membership-block .header-block .large {
+    font-size: 24px;
+    line-height: 30px;
+}
+.membership-options .membership-block .content {
+    min-height: inherit;
+    padding-bottom: 20px;
+    min-height: 200px;
+}
+.membership-options button {
+    margin: 10px auto;
+}

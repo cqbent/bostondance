@@ -32,7 +32,7 @@
                 <div id="primary" class="content-area"><!--primary start-->
                     <main id="main" class="site-main" role="main"><!--site main start-->
                          <?php while (have_posts()) : the_post(); ?>
-                        <h3><?php echo get_the_content( );?></h3>
+                        <h3><?php the_content(); ?></h3>
                         <div class="row custom-row">
                             <?php if(have_rows('membership_plans')): ?>
                             <?php while(have_rows('membership_plans')): the_row(); ?>
@@ -101,4 +101,54 @@
                     </div><!--container end-->
                 <?php get_footer(); ?>
 
-                
+  <h2>Are You Joining Us as A:</h2>
+
+  <div class="membership-wrapper">
+    <div class="membership-block">
+      <div class="header-wrapper">
+        Individual
+      </div>
+      <div class="content">
+        <h3>Are you a:</h3>
+        <div class="panel-group" id="accordian1">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 data-toggle="collapse" data-parent="#accordion1" href="#collapse1" class="panel-title expand">
+                <div class="right-arrow pull-right">+</div>
+                <a href="#">Dance Participant</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+              <div class="panel-body">
+                Dance Participant Membership $35
+                You’ll get:
+                -Discounts on tickets, dancewear, services from our community partners
+                -Discounts on BDA services and programs: Floor, Camera, Gala
+                -Individual listing in the BDA Member Directory OR listing on the BDA Allied Professionals Page
+                -Partnerships/ Networking
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 data-toggle="collapse" data-parent="#accordion1" href="#collapse2" class="panel-title expand">
+                <div class="right-arrow pull-right">+</div>
+                <a href="#">Dance Participant</a>
+              </h4>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse">
+              <div class="panel-body">
+                Dance Lover Membership $50
+                You’ll get:
+                -Discounts on tickets, dancewear, services from our community partners
+                -Discounts on Gala
+                -Individual listing in the BDA Member Directory
+                -Partnerships/ Networking
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
